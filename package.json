@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start-api": "node api/server.js"
+  },
+  "name": "warisanku_be",
+  "description": "This a Fullstack Web App for Warisanku Project",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "Muhammad Riqqi Amru",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2"
+  }
+}
