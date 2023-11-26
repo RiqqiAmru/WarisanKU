@@ -1,0 +1,37 @@
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .pertama h1{
+  font-size: 5rem;
+}
+.pertama p{
+  font-size: 1rem;
+}
+.hero article{
+  height: 450px;
+}
+.caption p{
+  width: 425px;
+}
+}
+
+/* Mobile */
+@media screen and (max-width: 660px) {
+.navbar{
+  display: none;
+}
+.drawer{
+  display: flex;
+}
+.pertama h1{
+  font-size: 2.8rem;
+}
+.pertama p{
+  font-size: 0.7rem;
+}
+.hero article{
+  height: 400px;
+}
+.caption p{
+  width: 320px;
+}
+}
