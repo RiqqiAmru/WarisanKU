@@ -18,5 +18,4 @@ data Budaya
 - Rumah Adat
 - Senjata Tradisional
 - Tarian Tradisional
-- Lagu Daerah
 - Makanan Khas
