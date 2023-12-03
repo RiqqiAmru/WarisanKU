@@ -129,10 +129,10 @@ const budaya = [
       },
     ],
     rumah: {
-      nama: 'Rumah Limas',
-      gambar: 'rumah limas.jpg',
+      nama: 'Rumah Rakit Limas',
+      gambar: 'rumah rakit limas.jpg',
       description:
-          'Rumah limas di Kepulauan Bangka Belitung memiliki atap kerucut khas, terbuat dari kayu dan daun ijuk. Biasanya dua lantai dengan fungsi tempat tinggal dan penyimpanan. Ventilasi baik untuk aliran udara, mencerminkan nilai budaya lokal.',
+          'Rumah adat Rakit Limas banyak dikenal sebagai rumah adat dari Bangka Belitung. Namun secara garis besar, rumah ada di Bangka Belitung terdiri atas tiga jenis yaitu Rumah Rakit, Rumah Limas, dan Rumah Panggung.',
     },
     senjata: [
       {
