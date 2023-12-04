@@ -585,6 +585,396 @@ const budaya = [
       },
     ],
   },
+  {
+    id: 11,
+    provinsi: 'Sumatera Utara',
+    makanan:[ 
+      {
+      nama: 'Bika Ambon',
+      gambar: 'bika-ambon.jpg',
+      },
+    ],
+    tarian: [
+      {
+        nama: 'Tor-tor',
+        gambar: 'Tor-tor.jpg',
+        description:
+            'Sebuah tari dari daerah batak dengan latar belakang falsafah dan ditarikan dalam bentuk khusuk.',
+      },
+    ],
+    upacara: [
+      {
+        nama: 'Mangulosi',
+        gambar: 'mangulosi.jpg',
+        description:
+            ' Budaya Batak memiliki tradisi mangulosi yang berarti proses mengalungkan ulos (kain tenun khas Batak) di pundak orang lain.',
+      },
+    ],
+    pakaian: [
+      {
+        nama: 'Ulos',
+        gambar: 'ulos.jpg',
+        description:
+            'Pakaian ulos yang dianggap oleh masyarakat suku batak sebagai jimat yang memiliki magis tertentu',
+      },
+    ],
+    rumah: {
+      nama: 'Jabu Bolon',
+      gambar: 'jabu-bolon.jpg',
+      description:
+          'Rumah ini ditempati 4 - 6 keluarga dengan bentuk persegi memanjang.',
+    },
+    senjata: [
+      {
+        nama: 'Piso Gaja Dompak',
+        gambar: 'gaja-dompak.jpg',
+        description:
+            'Piso yang berfungsi menusuk atau memotong sedangkan Gaja Dompak sebutan dari ukiran berpenampang gajah ditangkai senjata tersebut.',
+      },
+    ],
+  },
+  {
+    id: 12,
+    provinsi: 'Sumatera Selatan',
+    makanan:[ 
+      {
+      nama: 'Pempek',
+      gambar: 'pempek.jpg',
+      },
+    ],
+    tarian: [
+      {
+        nama: 'Tari Tanggai',
+        gambar: 'tari-tanggai.jpg',
+        description:
+            'Tarian menyambut para tamu disertai kebesaran adat.',
+      },
+    ],
+    upacara: [
+      {
+        nama: 'Sedekeh Rame',
+        gambar: 'sedekeh-rame.jpg',
+        description:
+            'Upacara tradisional Melayu Lahat yang menetap di sumatera selatan.',
+      },
+    ],
+    pakaian: [
+      {
+        nama: 'Aesan Gede',
+        gambar: 'aesan-gede.jpg',
+        description:
+            ' Baju adat tradisional ini terinspirasi dari zaman kerajaan sriwijaya dari dulunya berjaya di sumatera selatan',
+      },
+    ],
+    rumah: {
+      nama: 'Rumah Limas',
+      gambar: 'rumah-limas.jpg',
+      description:
+          'Rumah yang atapnya berbentuk limas dan memiliki lantai bertingkat - tingkat yang disebut bengkilas.',
+    },
+    senjata: [
+      {
+        nama: 'Siwar',
+        gambar: 'siwar-sumsel.jpg',
+        description:
+            'Senjata Keris tanpa lekukan dan sarung/gagang terbuat dari kayu yang keras. Biasanya gagang siwar beronamen bunga atau tumbuhan.',
+      },
+    ],
+  },
+  {
+    id: 13,
+    provinsi: 'Sumatera Barat',
+    makanan:[ 
+      {
+      nama: 'Rendang',
+      gambar: 'rendang.jpg',
+      },
+    ],
+    tarian: [
+      {
+        nama: 'Tari Piring',
+        gambar: 'Tari-piring.jpg',
+        description:
+            'Tarian melambangkan suasana kegotong royongan rakyat dalam menunaikan tugasnya.',
+      },
+    ],
+    upacara: [
+      {
+        nama: 'Upacara Tabuik',
+        gambar: 'tabuik.jpg',
+        description:
+            'Tradisi tahunan yang dilakukan oleh masyarakat sumatera barat dalam rangka memperingati syahidnya Husein Ali bin Ali Thabib.',
+      },
+    ],
+    pakaian: [
+      {
+        nama: 'Bundo Kanduang',
+        gambar: 'bundo-kanduang.jpg',
+        description:
+            'Di bagi menjadi 2 yaitu pakaian penghulu dan pakaian adat bundo kanduang yang terdapat di minangkabau.',
+      },
+      {
+        nama: 'Bundo Kanduang',
+        gambar: 'bundo-kanduang2.jpg',
+        description: 
+            'Digunakan oleh para penghulu yang terdapat di minangkabau.',
+      },
+    ],
+    rumah: {
+      nama: 'Rumah Gadang',
+      gambar: 'rumah-gadang.jpg',
+      description:
+          'Berbentuk empat persegi panjang serta dibagi atas 2 bagian yaitu muka dan belakang.',
+    },
+    senjata: [
+      {
+        nama: 'Kerambit',
+        gambar: 'kerambit.jpg',
+        description:
+            'Pisau gengam kecil berbentuk melengkung yang merupakan senjata khas dari sumatera barat.',
+      },
+    ],
+  },
+  {
+    id: 14,
+    provinsi: 'Bengkulu',
+    makanan:[ 
+      {
+      nama: 'Pendap',
+      gambar: 'pendap.jpg',
+      },
+    ],
+    tarian: [
+      {
+        nama: 'Tari Andun',
+        gambar: 'tari-andun.jpg',
+        description:
+            'Tarian menyambut para tamu yang dihormati.',
+      },
+    ],
+    upacara: [
+      {
+        nama: 'Upacara Tabot',
+        gambar: 'tabot-bengkulu.jpg',
+        description:
+            'upacara tradisional masyarakat Bengkulu untuk mengenang tentang kisah kepahlawanan dan kematian cucu Nabi Muhammad SAW, Hasan dan Husain bin Ali bin Abi Thalib.',
+      },
+    ],
+    pakaian: [
+      {
+        nama: 'Batik Besurek',
+        gambar: 'batik-besurek.jpg',
+        description:
+            'Berlengan panjang, bertabur corak-corak, sulaman emas berbentuk lempengan-lempengan bulat seperti uang logam. Pakaian adat tradisional pria terdiri atas jas, sarung, celana panjang, alas kaki yang dilengkapi dengan tutup kepala dan sebuah keris.',
+      },
+    ],
+    rumah: {
+      nama: 'Bubungan Lima',
+      gambar: 'bubungan-lima.jpg',
+      description:
+          'Bertipe panggung yang dapat digunakan untuk menyimpan gerobak, hasil panen, alat - alat pertanian, kayu api, dan kandang hewan ternak.',
+    },
+    senjata: [
+      {
+        nama: 'Keris Bengkulu',
+        gambar: 'keris-bengkulu.jpg',
+        description:
+            ' Keris adalah senjata tradisional daerah Bengkulu. Keris yang dianggap keramat atau pemberani, panjangnya 13 jari, dan dipakai oleh kepala adat atau hulubalang.',
+      },
+    ],
+  },
+  {
+    id: 15,
+    provinsi: 'Riau',
+    makanan:[ 
+      {
+      nama: 'Gulai Balacan',
+      gambar: 'gulai-balacan.jpg',
+      },
+    ],
+    tarian: [
+      {
+        nama: 'Tari Tandak',
+        gambar: 'tari-tandak.jpg',
+        description:
+            'Merupakan tari pergaulan yang sangat di gemari di daerah Riau.',
+      },
+    ],
+    upacara: [
+      {
+        nama: 'Tepuk Tepung Tawar',
+        gambar: 'tepuk-tepung-tawar.jpg',
+        description:
+            'upacara adat Melayu yang memiliki simbol Islam di dalamnya. Upacara Tepuk Tepung Tawar biasanya dilakukan saat acara pernikahan, kelahiran, khitanan, rumah baru atau hajatan lainnya.',
+      },
+    ],
+    pakaian: [
+      {
+        nama: 'Baju Melayu Cekak Musang ',
+        gambar: 'cekak-musang.jpg',
+        description:
+            'Merupakan pakaian adat Melayu Riau yang dikenakan oleh laki-laki. Pakaian adat ini memiliki bentuk yang mirip dengan busana teluk belanga. ',
+      },
+    ],
+    rumah: {
+      nama: 'Rumah Selaso Jatuh Kembar',
+      gambar: 'rumah-selaso-jatuh-kembar.jpg',
+      description:
+          'Rumah selaso jatuh kembar berbentuk panggung dan persegi panjang. Di puncak atapnya selalu ada hiasan kayu yang mencuat ke atas bersilangan.',
+    },
+    senjata: [
+      {
+        nama: 'Pedang Jenawi',
+        gambar: 'pedang-jenawi.jpg',
+        description:
+            ' Biasanya, pedang ini digunakan oleh panglima perang. Panjang pedang ini bisa mencapai satu meter dan di ujung pegangannya ada tonjolan kecil.',
+      },
+    ],
+  },
+  {
+    id: 16,
+    provinsi: 'Kepulauan Riau',
+    makanan:[ 
+      {
+      nama: 'Otak-otak',
+      gambar: 'otak-otak.jpg',
+      },
+    ],
+    tarian: [
+      {
+        nama: 'Tari Melemang',
+        gambar: 'tari-melemang.jpg',
+        description:
+            'Tari melemang diperkirakan sudah ada sejak abad 12 dan awalnya dikenal sebagai tarian istana Kerajaan Bentan. Tarian yang memadukan unsur tari, musik, dan menyanyi ini mengisahkan tentang kehidupan kerajaan dan dipentaskan oleh 14 orang yang masing-masing memainkan peran.',
+      },
+    ],
+    upacara: [
+      {
+        nama: 'Upacara Makan sirih',
+        gambar: 'makan-sirih.jpg',
+        description:
+            'tradisi saling menyuguhkan sirih dan pinang kemudian dikunyah (dimakan) secara bersama, baik oleh yang menyuguhkan maupun oleh yang disuguhi sirang dan pinang tersebut',
+      },
+    ],
+    pakaian: [
+      {
+        nama: 'Baju Teluk Belanga',
+        gambar: 'belanga.jpg',
+        description:
+            'Busana ini terdiri dari celana, kain sampin, dan songkok atau penutup kepala. Untuk perempuan, pakaian yang dipakai berupa baju kurung, kain, dan selendang. Selendang dipakai dengan cara disampirkan di bahu.',
+      },
+    ],
+    rumah: {
+      nama: 'Belah Bubung',
+      gambar: 'belah-bubung.jpg',
+      description:
+          'Salah satu rumah untuk tempat tinggal masyarakat Kepulauan Riau adalah rumah belah bubung. Nama rumah belah bubung diberikan oleh orang melayu karena atapnya terbelah.',
+    },
+    senjata: [
+      {
+        nama: 'Tumbuk Lada',
+        gambar: 'tumbuk-lada.jpg',
+        description:
+            'digunakan secara menikam, mengiris dan menusuk dalam pertempuran jarak dekat. Ia boleh dipegang dengan dua jenis genggaman yaitu dengan mata keatas ataupun mata ke bawah. Senjata lainnya adalah kelewang, digunakan prajurit tempo dulu.',
+      },
+    ],
+  },
+  {
+    id: 16,
+    provinsi: 'Jambi',
+    makanan:[ 
+      {
+      nama: 'Gulai Ikan Patin',
+      gambar: 'gulai-ikan-patin.jpg',
+      },
+    ],
+    tarian: [
+      {
+        nama: 'Tari Sekapur Sirih',
+        gambar: 'sekapur-sirih.jpg',
+        description:
+            'merupakan tari persembahan. Tari adat jambi ini hanyak persamaannya dengan tari Melayu.',
+      },
+    ],
+    upacara: [
+      {
+        nama: 'Upacara Kenduri Seko',
+        gambar: 'kenduri-seko.jpg',
+        description:
+            'upacara penobatan atau pemberian gelar adat di Enam Lurah, Sungai Penuh, Kabupaten Kerinci.',
+      },
+    ],
+    pakaian: [
+      {
+        nama: 'Baju Kurung',
+        gambar: 'baju-kurung.jpg',
+        description:
+            ' ini biasanya lebih mewah daripada pakaian yang digunakan sehari-hari karena disulam dengan benang emas dan dihiasi dengan berbagai hiasan yang mewah untuk kelengkapannya.',
+      },
+    ],
+    rumah: {
+      nama: 'Panggung Kajang Leko',
+      gambar: 'panggung-kajang-leko.jpg',
+      description:
+          'Bentuk rumah Kajang Leko adalah empat persegi panjang. Keunikannya terletak pada struktur konstruksi dan seni ukiran yang menghiasi bangunan.',
+    },
+    senjata: [
+      {
+        nama: 'Badik Tumbuk Lada',
+        gambar: 'badik-tumbuk-lada.jpg',
+        description:
+            'Senjata adat ini berbentuk menyerupai badik milik masyarakat bugis. Namun memiliki gagang yang lurus. Selain untuk berburu senjata ini juga dipergunakan untuk berperang.',
+      },
+    ],
+  },
+  {
+    id: 16,
+    provinsi: 'Lampung',
+    makanan:[ 
+      {
+      nama: 'Seruit',
+      gambar: 'seruit.jpg',
+      },
+    ],
+    tarian: [
+      {
+        nama: 'Tari Jangget',
+        gambar: 'tari-Jangget.jpg',
+        description:
+            'adalah tarian untuk upacar-upacara peradatan. Tarian ini melambangkan keluhuran budi dan susila rakyat Lampung.',
+      },
+    ],
+    upacara: [
+      {
+        nama: 'Upacara adat Ruwat Bumi',
+        gambar: 'ruwat-bumi.jpg',
+        description:
+            'tradisi turun temurun yang dilakukan oleh masyarakat desa Sumur Kumbang, Kecamatan Kalianda, Kabupaten Lampung Selatan di setiap tahunnya',
+      },
+    ],
+    pakaian: [
+      {
+        nama: 'Tulang Bawang',
+        gambar: 'tulang-bawang.jpg',
+        description:
+            'Pakaian adat tradisional Lampung bila dicermati terdapat perbedaan antara lampung pesisir dengan lampung daratan tetapi pada dasar masih sama yaitu menggunakan kain tapis di hias dengan logam kuningan yang memper indah dan mebuat mewah, sedangkan kain tapis adalah suatu kain yang ditenun secara manual dengan menggunakan tinta mas yang di ukir dengan tangan tangan terampil hingga membuat yang memakai pakaian penganten tersebut terlihat lebih berwibawa',
+      },
+    ],
+    rumah: {
+      nama: 'Nuwou Sesat',
+      gambar: 'nuwou.jpg',
+      description:
+          'Nuwou sesat adalah rumah adat provinsi Lampung. Bagian-bagian yang terdapat dibangunan ini adalah tangga masuk yang dilengkapi atap.',
+    },
+    senjata: [
+      {
+        nama: 'Terapang',
+        gambar: 'terapang.jpg',
+        description:
+            'Bentuk terapang seperti keris namun digagangnya ada yang unik yaitu diukir burung garuda. Makna ukiran tersebut adalah untuk melambangkan keberanian.',
+      },
+    ],
+  },
 ];
 
 export default budaya;
