@@ -1993,56 +1993,6 @@ const budaya = [
     ],
   },
   {
-    id: 29,
-    provinsi: 'Sulawesi Tengah',
-    makanan: [
-      {
-        nama: 'Lalampa',
-        gambar: 'lalampa.jpg',
-      },
-    ],
-    tarian: [
-      {
-        nama: 'Tari Lumense',
-        gambar: 'Tari-Lumense.png',
-        description:
-            'sebuah tarian dari Poso yang merupakan tarian selamat dating untuk menyambut tamu agung.',
-      },
-    ],
-    upacara: [
-      {
-        nama: 'Meaju  ',
-        gambar: 'meaju.jpg',
-        description:
-            'Meaju adalah salah satu ritual atau tradisi adat suku Kaili Sulawesi Tengah dalam menyambut tamu kehormatan, dengan maksud sebagai ungkapan kegembiraan atau suka cita, dan juga untuk mempekenalkan adat budaya Tuan rumah, yang selalu siap siaga memberikan rasa aman dan damai bagi para tamu yang datang.',
-      },
-    ],
-    pakaian: [
-      {
-        nama: 'Baju Adat Sulawesi Tengah',
-        gambar: 'baju adat sulteng.jpg',
-        description:
-            'Baju adat Suku Kaili untuk kaum wanita dinamakan baju Nggembe, sedangkan untuk kaum pria dikenal dengan sebutan Koje dan Puruka Pajana. Baju adat Suku Mori untuk kamu wanita dikenal dengan nama baju Lambu yang memiliki bentuk seperti blus. Sementara itu, kaum pria mengenakan celana panjang yang dikenal Salura.',
-      },
-    ],
-    rumah: [
-      {
-        nama: 'Rumah Tambi',
-        gambar: 'rumah tambi.jpg',
-        description:
-          'Rumah tambi merupakan rumah panggung. Rumah tambi digunakan sebagai rumah kepala adat. Alas rumah tersebut terdiri dari balok-balok yang disusun, sedangkan pondasinya terdiri dari batu.',
-      },
-    ],
-    senjata: [
-      {
-        nama: 'Pasatimpo',
-        gambar: 'pasatimpo.jpg',
-        description:
-            'Pasatimpo adalah sejenis keris yang bentuk hulunya bengkok ke bawah dan sarungnya diberi tali. Senjata ini sering digunakan oleh masyarakat setempat untuk mengusir roh jahat. Kini, pasatimpo lebih sering digunakan dalam tari-tari kepahlawanan.',
-      },
-    ],
-  },
-  {
     id: 31,
     provinsi: 'Sulawesi Utara',
     makanan: [
