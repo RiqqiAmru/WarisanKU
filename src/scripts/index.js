@@ -14,3 +14,10 @@ const app = new App({
   content: document.querySelector('#mainContent'),
   close: document.querySelector('.close'),
 });
+
+window.addEventListener('hashchange', () => {
+  app.renderPage();
+});
+window.addEventListener('load', () => {
+  app.renderPage();
+});
