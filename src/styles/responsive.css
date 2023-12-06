@@ -27,4 +27,13 @@ main section.hero{
 main section.summary article.row{
   gap: 0.6rem;
 }
+section.about article{
+  padding: 0;
+}
+.about article p.summary__about{
+  width: 90%;
+}
+section.about article .cards__about .card__point{
+  width: 290px
+}
 }

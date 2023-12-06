@@ -182,6 +182,7 @@ section.about article{
   padding-bottom: 2rem;
   width: 50%;
   font-weight: 200;
+  font-size: 0.8rem;
 }
 
 section.about article .cards__about{
@@ -190,26 +191,87 @@ section.about article .cards__about{
   gap: 1rem;
   flex-wrap: wrap;
 }
-
+.g1{
+  background: linear-gradient(150deg, #9f7ee9, #6392e2 100%);
+}
+.g2{
+  background: linear-gradient(150deg, #4abbff, #287de7 100%);
+}
+.g3{
+  background: linear-gradient(150deg, #33b9ff, #89e6de 100%);
+}
+.g4{
+  background: linear-gradient(150deg, #f1b26f, #a049b2 100%);
+}
+.g5{
+  background: linear-gradient(150deg, #8151ab, #9992f3 100%);
+}
+.g6{
+  background: linear-gradient(150deg, #51ab98, #92f3c1 100%);
+}
 section.about article .cards__about .card__point{
   height: 250px;
   width: 200px;
-  background-color: var(--primary);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
   padding: 1rem 0.5rem;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
+section.about article .cards__about .card__point img{
+  width: 80px;
+}
 
 section.about article .cards__about .card__point h3{
-  color: black;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 section.about article .cards__about .card__point p{
   font-size: 0.9rem;
   font-weight: 300;
-  color: black;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.list__budaya{
+padding: 3rem 5rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+/* justify-content: center; */
+}
+
+.list__budaya h2{
+  text-align: center;
+}
+
+/* Search */
+.search-container {
+  margin-top: 1rem;
+  display: flex;
+  /* width: 45%; */
+  align-items: center;
+}
+
+#search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+#search-button {
+  font-weight: 500;
+  padding: 8px 12px;
+  background-color: var(--primary);
+  color: var(--bg);
+  border: 1px solid #3498db;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+#search-input::placeholder {
+  color: #aaa;
 }
