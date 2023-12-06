@@ -1,37 +1,30 @@
 /* Tablet */
-@media screen and (max-width: 768px) {
-  .pertama h1{
-  font-size: 5rem;
-}
-.pertama p{
-  font-size: 1rem;
-}
-.hero article{
-  height: 450px;
-}
-.caption p{
-  width: 425px;
-}
+@media screen and (max-width: 840px) {
+  nav{
+  font-size: 0.8rem;
+  }
+  main section.summary article.row{
+    gap: 1rem;
+  }
 }
 
 /* Mobile */
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 768px) {
+
+header nav{
+  padding: 0;
+}  
 .navbar{
   display: none;
 }
 .drawer{
   display: flex;
 }
-.pertama h1{
-  font-size: 2.8rem;
+main section.hero{
+  padding: 8rem 2rem;
+  min-height: 500px;
 }
-.pertama p{
-  font-size: 0.7rem;
-}
-.hero article{
-  height: 400px;
-}
-.caption p{
-  width: 310px;
+main section.summary article.row{
+  gap: 0.6rem;
 }
 }

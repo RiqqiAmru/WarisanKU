@@ -1,19 +1,42 @@
+:root{
+  --primary:#ECB8AA;
+  --bg:#312B6C;
+}
+body{
+  background-color: var(--bg);
+}
 *{
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
 }
-.center{
-  text-align: center;
+.sorotan{
+ color: var(--bg); 
+}
+.sorotan-terang{
+  color: var(--primary);
 }
  .logo__header{
   min-width: 44px;
   max-width: 100px;
 }
-
+nav ul li .ctn{
+  background-color: var(--bg);
+  color: var(--primary);
+  padding: 0 0.8rem;
+  border-radius: 10px;
+  font-weight: 600;
+}
 nav{
-  background-color: #F3EEEA;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 0.6rem;
+  padding: 0 2rem;
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+  /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1); */
 }
 nav ul{
   width: 100%;
@@ -30,15 +53,16 @@ nav li{
 nav a{
   height: 100%;
   text-decoration: none;
-  color: black;
   padding: 0 30px;
   display: flex;
   align-items: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 nav a:hover{
   background-color: #f9e7d8;
   font-weight: bold;
+  color: var(--bg);
 }
 
 nav li:first-child{
@@ -67,181 +91,125 @@ nav li:first-child{
   width: 100%;
 }
 
-/*  Main */
-.hero article{
-  width: 100%;
-  height: 550px;
-  min-height:200px;
-  background-image: url(../public/images/heros/hero-1-tanpa-gradasi.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
+main{
+  height: 2000px;
 }
-.pertama h1{
-  font-size: 6rem;
-  font-weight: 800;
-}
-.pertama p{
-  font-size: 1.5rem;
-  text-align: center;
-}
- .ctn{
-  font-weight: bold;
-  display: block;
-  width: 120px;
-  margin-top: 18px;
-  text-decoration: none;
-  color: white;
-  background-color: #d78628;
-  border-radius: 5px;
-  min-height: 44px;
-  min-width: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.kedua{
-  width: 100%;
-  text-align: center;
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-}
-.caption{
-  margin-bottom: 10px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.caption p{
-  width: 600px;
-}
-.poin-item{
-  width: 80%;
-  display: flex;
-  align-content: center;
-  flex-wrap: wrap;
-  justify-content: center;
-  column-gap: 5px;
-  gap: 10px;
 
-}
-.icon img{
- height: 100px;
-}
-.card-poin h3{
-  font-size: 2em;
-}
-.card-poin p{
-  font-size: 1.2em;
-}
-.card-poin{
-  border: 1px solid #776B5D;
-  border-radius: 5px;
-  height: 250px;
-  width: 265px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.explore{
-  background-color: #F3EEEA;
-  margin-top: 2rem;
-  /* height: 400px; */
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.explore h2{
-  text-align: center
-}
-.explore__culture{
-  min-width: 150px;
-  height: 200px;
-  background-image: url(../public/images/heros/hero-1-tanpa-gradasi.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 5px;
-  margin-top: 1em;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  padding: 4px;
-}
-.explore__culture a{
-  text-decoration: none;
-  color: white;
-  font-weight: 600;
-  margin-bottom: 5px;
- 
-}
-.card-link{
-  margin-top: 5px;
-  width: 70%;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  margin-bottom: 5px;
-}
-.rounded__img{
-  width: 120px;
-  border-radius: 200px;
-}
-.card__team p{
-  font-weight: 300;
-}
-.our__team{
+main section.hero{
   width: 100%;
-  margin-top: 1em;
+  min-height: 800px;
+  background-image: url('../public/images/heros/hero__header.png');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding: 8rem;  
+  text-align: center;
+}
+
+main section .hero-header{
+  width: 100%;
+  height: 120px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
 }
-.list__team{
-  width: 80%;
-  margin-top: 10px;
+
+main section .hero-header h1{
+  font-size: 3rem;
+}
+
+main section .hero-header p{
+display: inline-block;
+color: var(--bg);
+}
+
+main section .hero-header .ctn{
+  background-color: var(--bg);
+  color: var(--primary);
+  padding: 0.9rem 0.5rem;
+  border-radius: 9px;
+  margin-top: 7px;
+  font-weight: 600;
+}
+main section.summary article.row{
   display: flex;
+  gap: 5rem;
   justify-content: center;
-  gap: 20px;
   flex-wrap: wrap;
 }
-.card__team{
+
+main section.summary article.row .card__summary{
+  height: 150px;
+  width: 280px;
+  background-color: var(--bg);
+  padding: 0.9rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+main section.summary article.row .card__summary h5{
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  gap: 7px;
+}
+
+main section.summary article.row .card__summary p{
+ font-size: 0.8rem;
+ font-weight: 100;
+ line-height: 1.3rem;
+}
+
+section.about article{
+  padding: 1rem 5rem;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-footer{
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 20px;
+
+.about article h2{
+  padding-top: 5rem;
+  font-size: 2rem;
 }
-.footer__container{
-  margin-top: 4em;
-  width: 60%;
-  display: flex;
+
+.about article p.summary__about{
+  padding-bottom: 2rem;
+  width: 50%;
+  font-weight: 200;
 }
-.keterangan{
-  flex: 50%;
-  align-items: center;
+
+section.about article .cards__about{
+  display: flex;
   justify-content: center;
-  justify-items: center;
-  /* text-align: center; */
+  gap: 1rem;
+  flex-wrap: wrap;
 }
-.keterangan article{
-  width: 400px;
+
+section.about article .cards__about .card__point{
+  height: 250px;
+  width: 200px;
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 0.5rem;
+  border-radius: 4px;
 }
-.member{
-  flex: 50%;
-  margin-left: 14em;
+
+
+section.about article .cards__about .card__point h3{
+  color: black;
+}
+section.about article .cards__about .card__point p{
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: black;
 }
