@@ -92,7 +92,7 @@ nav li:first-child{
 }
 
 main{
-  height: 2000px;
+  /* height: 2000px; */
 }
 
 main section.hero{
@@ -274,4 +274,78 @@ align-items: center;
 
 #search-input::placeholder {
   color: #aaa;
+}
+
+.list__budaya .items__budaya{
+  width: 100%;
+}
+
+.list__budaya .items__budaya .swiper{
+  width: 80%;
+}
+
+.swiper {
+  width: 50%;
+  padding-top: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, transparent,#0002, #0004);
+}
+
+main section.our__team{
+  text-align: center;
+  padding: 4rem 5rem;
+}
+
+main section.our__team .row{
+margin-top: 2rem;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 3rem;
+flex-wrap: wrap;
+}
+
+main section.our__team .row .card__member{
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: var(--primary); */
+}
+
+main section.our__team .row .card__member img{
+  width: 8rem;
+  height: 8rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+main section.our__team .row .card__member h4{
+margin-top: 0.4rem;
+font-weight: 500;
+}
+
+main section.our__team .row .card__member p{
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+
+footer{
+  width: 100%;
+  text-align: center;
+  padding: 1.3rem 0;
+  /* background-color: var(--primary); */
+  font-size: 0.7rem;
+  font-weight: 200;
 }
