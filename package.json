@@ -42,7 +42,8 @@
   },
   "dependencies": {
     "@hapi/hapi": "^21.3.2",
-    "regenerator-runtime": "^0.14.0"
+    "regenerator-runtime": "^0.14.0",
+    "swiper": "^11.0.5"
   },
   "prettier": {
     "semi": true,
