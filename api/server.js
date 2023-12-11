@@ -5,6 +5,11 @@ const init = async () => {
   const server = Hapi.server({
     port: 3000,
     host: 'localhost',
+    routes: {
+      cors: {
+        origin: ['*'],
+      },
+    },
   });
 
   // Contoh data budaya Indonesia
@@ -13,12 +18,10 @@ const init = async () => {
   server.route({
     method: 'GET',
     path: '/api/budaya',
-    handler: (request, h) => {
-      return { data: budayaData };
-    },
+    handler: (request, h) => ({ data: budayaData }),
   });
 
-  // Definisikan rute untuk mendapatkan satu budaya berdasarkan ID
+  // Definisikan rute untuk mendapatkan satu budaya berdasarkan ID\
   server.route({
     method: 'GET',
     path: '/api/budaya/{id}',

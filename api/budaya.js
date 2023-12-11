@@ -2338,4 +2338,4 @@ const budaya = [
   },
 ];
 
-export default budaya;
+module.exports = budaya;

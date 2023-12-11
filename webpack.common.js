@@ -23,6 +23,9 @@ module.exports = {
           {
             loader: 'css-loader',
           },
+          {
+            loader: 'postcss-loader', // postcss loader needed for tailwindcss
+          },
         ],
       },
     ],
