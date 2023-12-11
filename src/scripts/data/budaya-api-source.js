@@ -12,6 +12,12 @@ class BudayaApiSource {
     const responseJson = await response.json();
     return responseJson;
   }
+
+  static async budayaImage(imageName) {
+    const response = await fetch(endpoints.BUDAYA_IMAGE(imageName));
+    const responseBlob = await response.blob();
+    return responseBlob;
+  }
 }
 
 export default BudayaApiSource;

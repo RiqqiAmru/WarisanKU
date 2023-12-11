@@ -70,12 +70,14 @@ const budaya = [
           'Meukasah adalah salah satu bagian penting dari baju adat Linta Baro.Baju atasan dengan lengan panjang ini ditenun dari bahan benang sutra.Biasanya, warna yang digunakan untuk Meukasah ini adalah warna hitam, sebab masyarakat setempat meyakini warna hitam adalah simbol kebesaran.Pada bagian kerah Meukasah dibuat tertutup, serta dilengkapi dengan sulaman yang dijahit memakai benang emas sampai ke depan dada.Walaupun budaya Islam dan Melayu cukup dominan dan kental dalam pakaian ini, sentuhan budaya Cina ternyata juga sedikit melekat di dalamnya.Hal ini tidak lepas dari sejarah Aceh, yang dulunya masuk dalam jalur perdagangan Tiongkok.',
       },
     ],
-    rumah: {
-      nama: 'Rumah Adat Aceh',
-      gambar: 'rumah-adat-aceh.jpg',
-      description:
-        'Rumah Adat Aceh – Tak ayal, rumah adat Aceh juga sarat akan makna dan filosofi keislaman yang sangat religius. Negeri Serambi Mekkah adalah julukan untuk Provinsi Nanggroe Aceh Darussalam. Provinsi paling barat di Indonesia ini, memang merupakan Provinsi pertama tempat penyebaran agama Islam. Sehingga budaya Islam sangat kental terasa di provinsi ini.Provinsi Aceh juga memiliki rumah adat yang menjadi simbol budayanya seperti daerah-daerah lain. Setiap adat menyimpan keunikan-keunikan tersendiri. Tidak ada pengecualian termasuk rumah adat di Aceh.Rumah adat Aceh berbentuk rumah panggung yang memiliki tinggi tiang 2,5 hingga 3 meter. Bentuk panggung dipilih agar penghuni rumah terhindar dari serangan binatang buas. Rumah panggung juga dibangun agar air tidak masuk ke dalam rumah apabila terjadi banjir.Hal yang tidak biasa dari rumah adat Aceh adalah pintu yang memiliki tinggi 120 hingga 150 cm. Sehingga, terkadang masyarakat harus menunduk agar dapat masuk ke dalam rumah tersebut. Lalu, bagaimana sejarah, bagian-bagian, dan filosofi yang ada pada rumah adat Aceh',
-    },
+    rumah: [
+      {
+        nama: 'Rumah Adat Aceh',
+        gambar: 'rumah-adat-aceh.jpg',
+        description:
+          'Rumah Adat Aceh – Tak ayal, rumah adat Aceh juga sarat akan makna dan filosofi keislaman yang sangat religius. Negeri Serambi Mekkah adalah julukan untuk Provinsi Nanggroe Aceh Darussalam. Provinsi paling barat di Indonesia ini, memang merupakan Provinsi pertama tempat penyebaran agama Islam. Sehingga budaya Islam sangat kental terasa di provinsi ini.Provinsi Aceh juga memiliki rumah adat yang menjadi simbol budayanya seperti daerah-daerah lain. Setiap adat menyimpan keunikan-keunikan tersendiri. Tidak ada pengecualian termasuk rumah adat di Aceh.Rumah adat Aceh berbentuk rumah panggung yang memiliki tinggi tiang 2,5 hingga 3 meter. Bentuk panggung dipilih agar penghuni rumah terhindar dari serangan binatang buas. Rumah panggung juga dibangun agar air tidak masuk ke dalam rumah apabila terjadi banjir.Hal yang tidak biasa dari rumah adat Aceh adalah pintu yang memiliki tinggi 120 hingga 150 cm. Sehingga, terkadang masyarakat harus menunduk agar dapat masuk ke dalam rumah tersebut. Lalu, bagaimana sejarah, bagian-bagian, dan filosofi yang ada pada rumah adat Aceh',
+      },
+    ],
     senjata: [
       {
         nama: 'Rencong Meupucok',
@@ -128,12 +130,12 @@ const budaya = [
           'Baju Pangsi: Pakaian adat pria lainnya, terdiri dari kemeja putih, celana hitam, dan destar. Baju Kurung: Pakaian adat wanita dengan warna-warna cerah dan kain songket yang indah.',
       },
     ],
-    rumah: {
+    rumah: [{
       nama: 'Rumah Rakit Limas',
       gambar: 'rumah rakit limas.jpg',
       description:
         'Rumah adat Rakit Limas banyak dikenal sebagai rumah adat dari Bangka Belitung. Namun secara garis besar, rumah ada di Bangka Belitung terdiri atas tiga jenis yaitu Rumah Rakit, Rumah Limas, dan Rumah Panggung.',
-    },
+    }],
     senjata: [
       {
         nama: 'Siwar',
@@ -176,12 +178,12 @@ const budaya = [
           'Pakaian adat trasional Kalimantan Barat berbahan kulit kayu yang diproses menjadi kain.',
       },
     ],
-    rumah: {
+    rumah: [{
       nama: 'Rumah Betang',
       gambar: 'rumah betang.jpg',
       description:
         'Rumah Betang merupakan rumah panjang tradisional suku Dayak. Ciri khasnya adalah bentuk panjang dan ramping dengan atap tinggi yang melengkung. Rumah Betang biasanya terbuat dari kayu ulin yang kuat dan tahan lama.',
-    },
+    }],
     senjata: [
       {
         nama: 'Mandau',
@@ -244,12 +246,12 @@ const budaya = [
           'berbahan dasar kain brokat ataupun polosan. Potongannya serupa dengan kebaya berkerah tinggi dengan dibuat tertutup',
       },
     ],
-    rumah: {
+    rumah: [{
       nama: 'Rumah Lamin',
       gambar: 'rumah lamin.jpg',
       description:
         'Rumah Lamin merupakan rumah adat Dayak, khususnya yang berada di Kalimantan Timur. Ciri dari rumah ini adalah berbentuk panggung dengan ketinggian kolong sampai 3 meter. Denahnya berbentuk segi emat memanjang dengan atap pelana.',
-    },
+    }],
     senjata: [
       {
         nama: 'Mandau',
@@ -295,12 +297,12 @@ const budaya = [
           'Pria mengenakan baju berwarna cerah yang disertai dengan celana panjang, kain sarung, dan destar (ikat kepala), Wanita mengenakan kebaya dengan kain sarung dan selendang, seringkali dihiasi dengan payet dan sulam.',
       },
     ],
-    rumah: {
+    rumah: [{
       nama: 'Rumah Banjar',
       gambar: 'rumah banjar.jpg',
       description:
         'Rumah Banjar berbentuk rumah panggung, memiliki atap lancip dan terbuat dari rumbia, serta berbentuk segi empat. Rumah adat ini terbuat dari kayu dan damar. ',
-    },
+    }],
     senjata: [
       {
         nama: 'Mandau',
@@ -347,12 +349,12 @@ const budaya = [
           'Untuk pakaian adat tradisional pengantin pria di Kalimantan Tengah memakai celana panjang sampai lutut, selempit perak atau tali pinggang dan tutup kepala. Perhiasan yang dipakai adalah inuk atau kalung panjang, cekoang atau kalung pendek dan kalung yang terbuat dari gigi binatang.  ',
       },
     ],
-    rumah: {
+    rumah: [{
       nama: 'Rumah Betang',
       gambar: 'Rumah betang.jpg',
       description:
         'Bentuk dan besar rumah betang bervariasi. Ada rumah betang yang mencapai panjang 150 meter dan lebar hinggaa 30 meter. Umumnya, rumah betang dibangundengan bentuk panggung dengan ketinggian 3-5 meter dari tanah.',
-    },
+    }],
     senjata: [
       {
         nama: 'Mandau',
@@ -395,12 +397,12 @@ const budaya = [
           'Pakaian ta’a dikhususkan untuk dipakai oleh kalangan wanita. Bahannya terbuat dari beludru dengan hiasan pernak -pernik pada jahitannya. sapei sapaq hanya digunakan oleh kaum pria berupa kain selendang yang digulung dan dililitkan yang membentuk seperti celana mengenakan rompi, membawa perisai.',
       },
     ],
-    rumah: {
+    rumah: [{
       nama: 'Baloy Mayo',
       gambar: 'baloy mayo.jpg',
       description:
         'baloy mayo terdapat empat ruang utama, yaitu ambir kiri (tempat untuk menerima masyarakat yang mengadukan perkara atau masalah adat), ambir tengah (tempat pemuka adat bersidang), ambir kanan (ruang istirahat), dan lamin dalom (singgasana pemimpin adat). Rumah ini termasuk jenis panggung.',
-    },
+    }],
     senjata: [
       {
         nama: 'Mandau',
@@ -451,12 +453,12 @@ const budaya = [
           'Pria Baduy mengenakan baju lengan panjang dan celana panjang yang terbuat dari kain putih. Wanita mengenakan kebaya dan kain sarung putih, sering kali dengan hiasan kepala.',
       },
     ],
-    rumah: {
+    rumah: [{
       nama: 'Rumah Baduy',
       gambar: 'rumah badui.jpg',
       description:
         'berbentuk rumah panggung yang berbahan kayu. Setiap rumah mempunyai bentuk yang sama, di bagian muka terdapat balai-balai.',
-    },
+    }],
     senjata: [
       {
         nama: 'Golok',
@@ -513,12 +515,12 @@ const budaya = [
           'Pakaian Adat Betawi yang dipengaruhi dari berbagai corak masyarakat Jakarta yang sangat beragam diantaranya dipengaruhi oleh budaya Arab, China, Melayu dan Budaya Barat.',
       },
     ],
-    rumah: {
+    rumah: [{
       nama: 'Rumah Kebaya',
       gambar: 'rumah-betawi.jpg',
       description:
         'Ciri khas rumah ini adalah teras rumahnya luas, hanya dibatasi pagar pendek. Sementara itu depan dan sekeliling rumah adalah halaman yang luas. Bentuk rumahnya sederhana dan terbuat dari kayu dengan ukiran khas betawi',
-    },
+    }],
     senjata: [
       {
         nama: 'Golok',
@@ -568,12 +570,12 @@ const budaya = [
           'Beskap adalah pakaian adat Jawa Barat yang digunakan laki-laki. Umumnya, beskap digunakan ketika acara resmi saja. Beskap digunakan bersamaan dengan kain jarik yang memiliki corak khas Jawa Barat. Kebaya Sunda juga memiliki desain kerah kebaya yang berbentuk U, bagian bawah kebaya didesain lebih panjang untuk menutupi pinggul dan paha, hingga menggunakan warna-warna yang cerah.',
       },
     ],
-    rumah: {
+    rumah: [{
       nama: 'Rumah Sunda',
       gambar: 'rumah sunda.jpg',
       description:
         'memiliki ciri khas atap yang melengkung ke atas dengan ujung yang runcing, disebut "atap genting." Bangunan ini seringkali terdiri dari dua lantai dan memiliki desain yang artistik.',
-    },
+    }],
     senjata: [
       {
         nama: 'Kujang',
@@ -616,12 +618,12 @@ const budaya = [
           'Pakaian ulos yang dianggap oleh masyarakat suku batak sebagai jimat yang memiliki magis tertentu',
       },
     ],
-    rumah: {
+    rumah: [{
       nama: 'Jabu Bolon',
       gambar: 'jabu-bolon.jpg',
       description:
         'Rumah ini ditempati 4 - 6 keluarga dengan bentuk persegi memanjang.',
-    },
+    }],
     senjata: [
       {
         nama: 'Piso Gaja Dompak',
@@ -663,12 +665,12 @@ const budaya = [
           ' Baju adat tradisional ini terinspirasi dari zaman kerajaan sriwijaya dari dulunya berjaya di sumatera selatan',
       },
     ],
-    rumah: {
+    rumah: [{
       nama: 'Rumah Limas',
       gambar: 'rumah-limas.jpg',
       description:
         'Rumah yang atapnya berbentuk limas dan memiliki lantai bertingkat - tingkat yang disebut bengkilas.',
-    },
+    }],
     senjata: [
       {
         nama: 'Siwar',
@@ -714,15 +716,15 @@ const budaya = [
         nama: 'Bundo Kanduang',
         gambar: 'bundo-kanduang2.jpg',
         description:
-            'Digunakan oleh para penghulu yang terdapat di minangkabau.',
+          'Digunakan oleh para penghulu yang terdapat di minangkabau.',
       },
     ],
-    rumah: {
+    rumah: [{
       nama: 'Rumah Gadang',
       gambar: 'rumah-gadang.jpg',
       description:
         'Berbentuk empat persegi panjang serta dibagi atas 2 bagian yaitu muka dan belakang.',
-    },
+    }],
     senjata: [
       {
         nama: 'Kerambit',
@@ -764,12 +766,12 @@ const budaya = [
           'Berlengan panjang, bertabur corak-corak, sulaman emas berbentuk lempengan-lempengan bulat seperti uang logam. Pakaian adat tradisional pria terdiri atas jas, sarung, celana panjang, alas kaki yang dilengkapi dengan tutup kepala dan sebuah keris.',
       },
     ],
-    rumah: {
+    rumah: [{
       nama: 'Bubungan Lima',
       gambar: 'bubungan-lima.jpg',
       description:
         'Bertipe panggung yang dapat digunakan untuk menyimpan gerobak, hasil panen, alat - alat pertanian, kayu api, dan kandang hewan ternak.',
-    },
+    }],
     senjata: [
       {
         nama: 'Keris Bengkulu',
@@ -812,12 +814,12 @@ const budaya = [
           'Merupakan pakaian adat Melayu Riau yang dikenakan oleh laki-laki. Pakaian adat ini memiliki bentuk yang mirip dengan busana teluk belanga. ',
       },
     ],
-    rumah: {
+    rumah: [{
       nama: 'Rumah Selaso Jatuh Kembar',
       gambar: 'rumah-selaso-jatuh-kembar.jpg',
       description:
         'Rumah selaso jatuh kembar berbentuk panggung dan persegi panjang. Di puncak atapnya selalu ada hiasan kayu yang mencuat ke atas bersilangan.',
-    },
+    }],
     senjata: [
       {
         nama: 'Pedang Jenawi',
@@ -860,12 +862,12 @@ const budaya = [
           'Busana ini terdiri dari celana, kain sampin, dan songkok atau penutup kepala. Untuk perempuan, pakaian yang dipakai berupa baju kurung, kain, dan selendang. Selendang dipakai dengan cara disampirkan di bahu.',
       },
     ],
-    rumah: {
+    rumah: [{
       nama: 'Belah Bubung',
       gambar: 'belah-bubung.jpg',
       description:
         'Salah satu rumah untuk tempat tinggal masyarakat Kepulauan Riau adalah rumah belah bubung. Nama rumah belah bubung diberikan oleh orang melayu karena atapnya terbelah.',
-    },
+    }],
     senjata: [
       {
         nama: 'Tumbuk Lada',
@@ -908,12 +910,12 @@ const budaya = [
           ' ini biasanya lebih mewah daripada pakaian yang digunakan sehari-hari karena disulam dengan benang emas dan dihiasi dengan berbagai hiasan yang mewah untuk kelengkapannya.',
       },
     ],
-    rumah: {
+    rumah: [{
       nama: 'Panggung Kajang Leko',
       gambar: 'panggung-kajang-leko.jpg',
       description:
         'Bentuk rumah Kajang Leko adalah empat persegi panjang. Keunikannya terletak pada struktur konstruksi dan seni ukiran yang menghiasi bangunan.',
-    },
+    }],
     senjata: [
       {
         nama: 'Badik Tumbuk Lada',
@@ -956,12 +958,12 @@ const budaya = [
           'Pakaian adat tradisional Lampung bila dicermati terdapat perbedaan antara lampung pesisir dengan lampung daratan tetapi pada dasar masih sama yaitu menggunakan kain tapis di hias dengan logam kuningan yang memper indah dan mebuat mewah, sedangkan kain tapis adalah suatu kain yang ditenun secara manual dengan menggunakan tinta mas yang di ukir dengan tangan tangan terampil hingga membuat yang memakai pakaian penganten tersebut terlihat lebih berwibawa',
       },
     ],
-    rumah: {
+    rumah: [{
       nama: 'Nuwou Sesat',
       gambar: 'nuwou.jpg',
       description:
         'Nuwou sesat adalah rumah adat provinsi Lampung. Bagian-bagian yang terdapat dibangunan ini adalah tangga masuk yang dilengkapi atap.',
-    },
+    }],
     senjata: [
       {
         nama: 'Terapang',
@@ -1001,61 +1003,61 @@ const budaya = [
         nama: 'Tari Balumpa',
         gambar: 'tari-balumpa.jpg',
         description:
-            'Tari Balumpa adalah tari tradisional yang berasal dari Wakatobi, Sulawesi Tenggara, khusunya Binongko dan Buton',
+          'Tari Balumpa adalah tari tradisional yang berasal dari Wakatobi, Sulawesi Tenggara, khusunya Binongko dan Buton',
       },
       {
         nama: 'Tari Mangaru',
         gambar: 'tari-mangaru.jpg',
         description:
-            'Tari Mangaru adalah tari tradisional masyarakat Buton dengan sebilah keris yang dimainkan dengan dua tangan. Penari tari Mangaru adalah dua orang laki-laki yang dianggap mempunyai kemampuan fisik dan batin. Masing-masing penari memagang keris dengan menggunakan pakaian tradisional wolio beserta kopiah. Musik pengiring tari Mangaru adalah gendang.',
+          'Tari Mangaru adalah tari tradisional masyarakat Buton dengan sebilah keris yang dimainkan dengan dua tangan. Penari tari Mangaru adalah dua orang laki-laki yang dianggap mempunyai kemampuan fisik dan batin. Masing-masing penari memagang keris dengan menggunakan pakaian tradisional wolio beserta kopiah. Musik pengiring tari Mangaru adalah gendang.',
       },
       {
         nama: 'Tari Lumense',
         gambar: 'tari-lumense.jpg',
         description:
-            'Lumense merupakan kata yang berasal dari bahasa setempat, yaitu lume yang berarti terbang dan mense yang berarti tinggi. Sehingga Lumense dapat diartikan terbang tinggi.Pada masa lalu tari Lumense dilakukan dalam ritual pe-olia, yakni ritual penyembahan kepada roh-roh halus yang disebut kowonuano (penguasa negeri) dengan sajian berbagai jenis makanan. Fungsi tari Lumense saat ini mulai bergeser tidak lagi menjadi ritual pengusir roh, namun tarian masih dianggap mempunyai nilai spiritual. Masyarakat setempat menganggap tari Lumense adalah tari penyembuhan. Jumlah penari Lumense sebanyak lima orang penari pria dan lima orang penari wanita. Tarian diiringi dengan musik gendang, gong besar, dan gong kecil yang dimainkan secara serentak.',
+          'Lumense merupakan kata yang berasal dari bahasa setempat, yaitu lume yang berarti terbang dan mense yang berarti tinggi. Sehingga Lumense dapat diartikan terbang tinggi.Pada masa lalu tari Lumense dilakukan dalam ritual pe-olia, yakni ritual penyembahan kepada roh-roh halus yang disebut kowonuano (penguasa negeri) dengan sajian berbagai jenis makanan. Fungsi tari Lumense saat ini mulai bergeser tidak lagi menjadi ritual pengusir roh, namun tarian masih dianggap mempunyai nilai spiritual. Masyarakat setempat menganggap tari Lumense adalah tari penyembuhan. Jumlah penari Lumense sebanyak lima orang penari pria dan lima orang penari wanita. Tarian diiringi dengan musik gendang, gong besar, dan gong kecil yang dimainkan secara serentak.',
       },
       {
         nama: 'Tari Kolegoa',
         gambar: 'tari-kolegoa.jpg',
         description:
-            'Nama Kolegoa merupakan nama tarian yang berarti saputangan kebesaran gadis pingitan berbentuk segitiga dengan hiasan khas daerah. Tari kolegoa menggambarkan suka duka gadis-gadis Buton yang melakukan tradisi adat posuo (pingitan). Selama dalam pingitan, mereka mendapatkan nasihat-nasihat dari orang tua untuk menjadi gadis yang dewasa dan matang dalam berumah tangga. Tarian Kolegoa diciptakan oleh Laode Umuri Bolu pada tahun 1972 dan pernah ditampilkan dalam resepsi kenegaraan 17 Agustus 1972 di Istana Negara.',
+          'Nama Kolegoa merupakan nama tarian yang berarti saputangan kebesaran gadis pingitan berbentuk segitiga dengan hiasan khas daerah. Tari kolegoa menggambarkan suka duka gadis-gadis Buton yang melakukan tradisi adat posuo (pingitan). Selama dalam pingitan, mereka mendapatkan nasihat-nasihat dari orang tua untuk menjadi gadis yang dewasa dan matang dalam berumah tangga. Tarian Kolegoa diciptakan oleh Laode Umuri Bolu pada tahun 1972 dan pernah ditampilkan dalam resepsi kenegaraan 17 Agustus 1972 di Istana Negara.',
       },
       {
         nama: 'Tari Galangi',
         gambar: 'tari-galangi.jpg',
         description:
-            'Tari Galangi merupakan tarian perang dalam Kesultanan atau Kerajaan Buton. Tarian tersebut sebagai bentuk ungkapan spontanitas gerakan yang berbentuk tari untuk mewujudkan bagaimana penggunaan gala dalam menghadapi musuh. Tari Galangi ditampilkan untuk mengiringi sultan saat keluar istana dalam suatu tugas atau menyambut dan mengantar tamu kesultanan. Para penari tari galangi dibagi menjadi 11 kelompok, masing-masing kelompok biasanya terdiri dari tujuh orang.',
+          'Tari Galangi merupakan tarian perang dalam Kesultanan atau Kerajaan Buton. Tarian tersebut sebagai bentuk ungkapan spontanitas gerakan yang berbentuk tari untuk mewujudkan bagaimana penggunaan gala dalam menghadapi musuh. Tari Galangi ditampilkan untuk mengiringi sultan saat keluar istana dalam suatu tugas atau menyambut dan mengantar tamu kesultanan. Para penari tari galangi dibagi menjadi 11 kelompok, masing-masing kelompok biasanya terdiri dari tujuh orang.',
       },
       {
         nama: 'Tari Mowindahako',
         gambar: 'tari-mowindahako.jpg',
         description:
-            'Tari Mowindako adalah tarian adat yang hanya dilakukan oleh para bangsawan atau anakia. Tarian tersebut ditampilkan jikan penangan mereka telah diterima sehinggaa tarian sebagai wujud rasa suka cita. Bagian tarian tersebut mirip dengan kegiatan dalam upacara ada perkawinan, yaitu menirukan percakapan juru bicara laki-laki dan perempuan.',
+          'Tari Mowindako adalah tarian adat yang hanya dilakukan oleh para bangsawan atau anakia. Tarian tersebut ditampilkan jikan penangan mereka telah diterima sehinggaa tarian sebagai wujud rasa suka cita. Bagian tarian tersebut mirip dengan kegiatan dalam upacara ada perkawinan, yaitu menirukan percakapan juru bicara laki-laki dan perempuan.',
       },
       {
         nama: 'Tari Lariangi',
         gambar: 'tari-lariangi.jpg',
         description:
-            'Tari Lariangi adalah tari tradisional yang berasal dari Kepulauan Wakatobi. Tarian tersebut diperkirakan telah ada sejak tahunn 1634 pada masa kesultanan Buton. Tari Lariangi ditampilkan di istana raja yang berfungsi sebagai penerangan informasi luas kepada masyarakat luas. Pagelaran tari Lariangi mirip dengan tarian Tayup di Jawa Tengah. Dimana, para penari memberikan selendang kepada tamu pria dan tamu pria yang diberi selendang wajib menari bersama penari.',
+          'Tari Lariangi adalah tari tradisional yang berasal dari Kepulauan Wakatobi. Tarian tersebut diperkirakan telah ada sejak tahunn 1634 pada masa kesultanan Buton. Tari Lariangi ditampilkan di istana raja yang berfungsi sebagai penerangan informasi luas kepada masyarakat luas. Pagelaran tari Lariangi mirip dengan tarian Tayup di Jawa Tengah. Dimana, para penari memberikan selendang kepada tamu pria dan tamu pria yang diberi selendang wajib menari bersama penari.',
       },
       {
         nama: 'Tari Umoara',
         gambar: 'tari-umoara.jpg',
         description:
-            'Tari Umoara adalah tari perang masyarakat Tolaki. Kata Umoara berarti mencoba atau mencoba-coba. Dalam hal ini mencoba ketangkasan memainkan parang, melatih otot dengan menghentakan kaki, ketangkasan mata, dan melatih menangkis memakai tameng. Tari Umoara pada masa lalu dipentaskan setelah para tentara kerajaan Mekongga dan Konawe selesai perang. Sebagai tanda kemenangan, para tentara disambut rakyat melalui tarian tersebut.',
+          'Tari Umoara adalah tari perang masyarakat Tolaki. Kata Umoara berarti mencoba atau mencoba-coba. Dalam hal ini mencoba ketangkasan memainkan parang, melatih otot dengan menghentakan kaki, ketangkasan mata, dan melatih menangkis memakai tameng. Tari Umoara pada masa lalu dipentaskan setelah para tentara kerajaan Mekongga dan Konawe selesai perang. Sebagai tanda kemenangan, para tentara disambut rakyat melalui tarian tersebut.',
       },
       {
         nama: 'Tari Malulo',
         gambar: 'tari-malulo.jpg',
         description:
-            'Tari Malulo berasal dari suku Tolaki dari Kabupaten Konawe.Tari Malulo masih dilestarikan hingga saat ini dan menjadi tari persahabatan. Pada zaman dahlu, tari Malulo ditampilkan dalam acara adat, seperti pesta penen raya, pelantikan raja, dan pernikahan. Filosofi tari Malulo adalah persahabatan yang ditujukan untuk para muda-mudi suku Tolaki sebagai ajanng mencari jodoh, perkenalan, dan mempererat tali persaudaraan.',
+          'Tari Malulo berasal dari suku Tolaki dari Kabupaten Konawe.Tari Malulo masih dilestarikan hingga saat ini dan menjadi tari persahabatan. Pada zaman dahlu, tari Malulo ditampilkan dalam acara adat, seperti pesta penen raya, pelantikan raja, dan pernikahan. Filosofi tari Malulo adalah persahabatan yang ditujukan untuk para muda-mudi suku Tolaki sebagai ajanng mencari jodoh, perkenalan, dan mempererat tali persaudaraan.',
       },
       {
         nama: 'Tari Dinggu',
         gambar: 'tari-dinggu.jpg',
         description:
-            'Tari Dinggu adalah tarian rakyat yang mengisahkan kegiatan masyarakat pada saat musim panen.Para petani sangat bersemangat memanen padi berkat keberadaan Dewi Pagi atau Dewi Sri (Sanggole Mbae), dimana menjaga kesuburan padi. Tarian tersebut juga sebagai bentuk rasa syukur atas limpahan panen yang diterima.',
+          'Tari Dinggu adalah tarian rakyat yang mengisahkan kegiatan masyarakat pada saat musim panen.Para petani sangat bersemangat memanen padi berkat keberadaan Dewi Pagi atau Dewi Sri (Sanggole Mbae), dimana menjaga kesuburan padi. Tarian tersebut juga sebagai bentuk rasa syukur atas limpahan panen yang diterima.',
       },
     ],
     upacara: [
@@ -1063,19 +1065,19 @@ const budaya = [
         nama: 'Posobhaghoo Motonuno',
         gambar: 'posophaghoo.jpg',
         description:
-            'Kata “posobhaghoo” berasal dari kata dasar “sobho,” yang berarti mencampurkan.Sementara itu, “motonuno” berarti yang hancur atau longsor, dan juga menjadi nama sebuah danau kecil di Muna. Upacara ini melibatkan sebuah danau yang memiliki batu yang dikenal sebagai batu “wamata.” Upacara Posobhaghoo Motonuno melibatkan pencampuran air danau Motonuno dengan air dari danau Wulamoni. Menurut kepercayaan masyarakat Muna, upacara ini berkaitan dengan perkawinan antara perempuan bernama Wamata dengan laki-laki bernama Wulamoni atau Latumondu. Upacara ini diyakini membawa hujan lebat.',
+          'Kata “posobhaghoo” berasal dari kata dasar “sobho,” yang berarti mencampurkan.Sementara itu, “motonuno” berarti yang hancur atau longsor, dan juga menjadi nama sebuah danau kecil di Muna. Upacara ini melibatkan sebuah danau yang memiliki batu yang dikenal sebagai batu “wamata.” Upacara Posobhaghoo Motonuno melibatkan pencampuran air danau Motonuno dengan air dari danau Wulamoni. Menurut kepercayaan masyarakat Muna, upacara ini berkaitan dengan perkawinan antara perempuan bernama Wamata dengan laki-laki bernama Wulamoni atau Latumondu. Upacara ini diyakini membawa hujan lebat.',
       },
       {
         nama: 'Okanda',
         gambar: 'okanda.jpg',
         description:
-            'Okanda” bermakna gendang. Upacara adat Okanda adalah ritual tradisional yang dilakukan oleh suku Tolaki di Desa Benua dan sekitarnya setiap tahun menjelang pembukaan ladang baru, biasanya pada bulan September. Upacara ini melibatkan serangkaian kegiatan, termasuk tarian lulo nggada, seni suara moanggo, dan permainan rakyat, yang dilakukan oleh para pemuda dan pemudi. Ritual dimulai dengan penurunan gendang Okanda dari rumah adat, diikuti oleh upacara mendoakan negeri dan mendoakan gendang. Selain itu, ada upacara korban yang melibatkan anjing dan ayam putih.',
+          'Okanda” bermakna gendang. Upacara adat Okanda adalah ritual tradisional yang dilakukan oleh suku Tolaki di Desa Benua dan sekitarnya setiap tahun menjelang pembukaan ladang baru, biasanya pada bulan September. Upacara ini melibatkan serangkaian kegiatan, termasuk tarian lulo nggada, seni suara moanggo, dan permainan rakyat, yang dilakukan oleh para pemuda dan pemudi. Ritual dimulai dengan penurunan gendang Okanda dari rumah adat, diikuti oleh upacara mendoakan negeri dan mendoakan gendang. Selain itu, ada upacara korban yang melibatkan anjing dan ayam putih.',
       },
       {
         nama: 'Paduai Bido',
         gambar: 'paduai-bido.jpg',
         description:
-            'Upacara Paduai Bido Ma Baeasin merupakan upacara penurunan perahu ke laut yang dilakukan oleh masyarakat Bajo. Upacara ini memiliki beberapa tahap, termasuk memanggil dukun perahu, pemasangan papan pertama di lunas perahu, pemasangan tiang perahu, dan penurunan perahu ke laut. Upacara ini bertujuan untuk memohon perlindungan kepada dewa laut dan makhluk halus, serta memohon keselamatan dalam melaut untuk mencari nafkah. Upacara juga mencakup pengorbanan hewan dan sajian sebagai tanda kehormatan kepada dewa-dewa dan arwah nenek moyang, serta sebagai perwujudan kepercayaan lama dan rasa kekeluargaan dalam masyarakat Bajo.',
+          'Upacara Paduai Bido Ma Baeasin merupakan upacara penurunan perahu ke laut yang dilakukan oleh masyarakat Bajo. Upacara ini memiliki beberapa tahap, termasuk memanggil dukun perahu, pemasangan papan pertama di lunas perahu, pemasangan tiang perahu, dan penurunan perahu ke laut. Upacara ini bertujuan untuk memohon perlindungan kepada dewa laut dan makhluk halus, serta memohon keselamatan dalam melaut untuk mencari nafkah. Upacara juga mencakup pengorbanan hewan dan sajian sebagai tanda kehormatan kepada dewa-dewa dan arwah nenek moyang, serta sebagai perwujudan kepercayaan lama dan rasa kekeluargaan dalam masyarakat Bajo.',
       },
     ],
     pakaian: [
@@ -1083,33 +1085,33 @@ const budaya = [
         nama: 'Babu Nggawi',
         gambar: 'babu-nggawi.jpg',
         description:
-            'Pakaian adat Babu Nggawi digunakan oleh mempelai wanita dari suku Tolaki. Atasan untuk pakaian adat ini disebut lipa hinoru, sedangkan bawahannya disebut roo mendaa. Lipa hinoru merupakan atasan baju dengan model bahu yang terputus. Sementara bawahan roo mendaa, merupakan bawahan dengan model rok panjang semata kaki dengan warna yang menyerupai atasannya. Pakaian adat ini dilengkapi dengan manik-manik berwarna emas, yang pada bagian depannya akan dipadukan dengan motif tradisional dari Tolaki. Motif yang digunakan seperti, pinesowi, pineburu mbaku, dan pinetobo.',
+          'Pakaian adat Babu Nggawi digunakan oleh mempelai wanita dari suku Tolaki. Atasan untuk pakaian adat ini disebut lipa hinoru, sedangkan bawahannya disebut roo mendaa. Lipa hinoru merupakan atasan baju dengan model bahu yang terputus. Sementara bawahan roo mendaa, merupakan bawahan dengan model rok panjang semata kaki dengan warna yang menyerupai atasannya. Pakaian adat ini dilengkapi dengan manik-manik berwarna emas, yang pada bagian depannya akan dipadukan dengan motif tradisional dari Tolaki. Motif yang digunakan seperti, pinesowi, pineburu mbaku, dan pinetobo.',
       },
     ],
-    rumah: {
+    rumah: [{
       nama: 'Banua Tada',
       gambar: 'banua-tada.jpg',
       description:
-          'Banua dan Tada. Banua mempunyai arti sebagai rumah, sementara Tanda mempunyai arti siku. Ketika digabungkan, rumah ini memiliki arti sebagai rumah siku.Rumah adat Banua Tada memiliki tiga jenis rumah, yaitu Kamali atau Malige yang merupakan rumah atau istana tempat tinggal bagi raja dan keluarganya. Lalu, ada Banua Tada Tare Pata Pale, rumah siku bertiang empat tempat tinggal para pejabat dan pegawai istana dan Banua Tada Tare Talu Pale yang merupakan tempat tinggal bagi orang biasa.',
-    },
+        'Banua dan Tada. Banua mempunyai arti sebagai rumah, sementara Tanda mempunyai arti siku. Ketika digabungkan, rumah ini memiliki arti sebagai rumah siku.Rumah adat Banua Tada memiliki tiga jenis rumah, yaitu Kamali atau Malige yang merupakan rumah atau istana tempat tinggal bagi raja dan keluarganya. Lalu, ada Banua Tada Tare Pata Pale, rumah siku bertiang empat tempat tinggal para pejabat dan pegawai istana dan Banua Tada Tare Talu Pale yang merupakan tempat tinggal bagi orang biasa.',
+    }],
     senjata: [
       {
         nama: 'Parang Taawu',
         gambar: 'parang-taawu.jpg',
         description:
-            'Parang Taawu merupakan senjata tradisional Sulawesi Tenggara yang bentuk bilah panjang bermata satu.Bilah Parang Taawu berbentuk tipis dan melebar dari pangkal ke ujungnya yang lancip seperti bentuk segitiga siku-siku.',
+          'Parang Taawu merupakan senjata tradisional Sulawesi Tenggara yang bentuk bilah panjang bermata satu.Bilah Parang Taawu berbentuk tipis dan melebar dari pangkal ke ujungnya yang lancip seperti bentuk segitiga siku-siku.',
       },
       {
         nama: 'Keris dan Tombak Meantuu Tiworo',
         gambar: 'meantuu-tiworo.jpg',
         description:
-            'Meantuu Tiworo merupakan seorang pembesar di Kerajaan Liya yang punya tugas untuk mengamankan dan mengatur hasil tani rakyat di wilayah pesisir pantai.',
+          'Meantuu Tiworo merupakan seorang pembesar di Kerajaan Liya yang punya tugas untuk mengamankan dan mengatur hasil tani rakyat di wilayah pesisir pantai.',
       },
       {
         nama: 'Keris Arung Palakka',
         gambar: 'keris-arung-palaka.jpg',
         description:
-            'Keris Arung Palakka bentuknya seperti keris Jawa yang bilah bermata duanya berlekuk-lekuk. Adapun perbedaannya, Keris Arung Palakka dilapisi emas dan dihiasi dengan batu permata. Gagang dan sarung Keris ini dihiasi oleh berbagai ukiran khas Kerajaan Buton.',
+          'Keris Arung Palakka bentuknya seperti keris Jawa yang bilah bermata duanya berlekuk-lekuk. Adapun perbedaannya, Keris Arung Palakka dilapisi emas dan dihiasi dengan batu permata. Gagang dan sarung Keris ini dihiasi oleh berbagai ukiran khas Kerajaan Buton.',
       },
     ],
   },
@@ -1163,19 +1165,19 @@ const budaya = [
         nama: 'Tari Saronde',
         gambar: 'tari-saronde.jpg',
         description:
-            'Tari Saronde berasal dari Gorontalo. Tarian ini terinspirasi dari tradisi pernikahan adat masyarakat Gorontalo. Pada zaman dahulu, tari Saronde digunakan sebagai sarana Molihe Huali, yaitu mengintip calon istri. Hal tersebut terjadi karena  calon pengantin pada saat itu umumnya belum saling mengenal. Pernikahan karena perjodohan orang tua atau keluarga. Tari Saronde ditarikan pada malam pertunangan. Tari Saronde dilakukan oleh mempelai pria bersama kedua orang tuanya atau wali dihadapan mempelai wanita yang berdiam di suatu ruangan.',
+          'Tari Saronde berasal dari Gorontalo. Tarian ini terinspirasi dari tradisi pernikahan adat masyarakat Gorontalo. Pada zaman dahulu, tari Saronde digunakan sebagai sarana Molihe Huali, yaitu mengintip calon istri. Hal tersebut terjadi karena  calon pengantin pada saat itu umumnya belum saling mengenal. Pernikahan karena perjodohan orang tua atau keluarga. Tari Saronde ditarikan pada malam pertunangan. Tari Saronde dilakukan oleh mempelai pria bersama kedua orang tuanya atau wali dihadapan mempelai wanita yang berdiam di suatu ruangan.',
       },
       {
         nama: 'Tari Dana-Dana',
         gambar: 'tari-dana-dana.jpg',
         description:
-            'Tari Dana-Dana berasal dari Arab. Pencipta tari Dana Dana adalah remaja muslim dengan tujuan untuk menghibur, mempererat silaturahmi, dan penyebaran agama Islam. Keberadaan tarian tersebut sejalan dengan penyebaran agama Islam di Gorontalo. Tari Dana Dana mulai terdapat di Gorontalo pada tahun 1500-an Masehi, sejak agama Islam masuk ke Gorontalo.',
+          'Tari Dana-Dana berasal dari Arab. Pencipta tari Dana Dana adalah remaja muslim dengan tujuan untuk menghibur, mempererat silaturahmi, dan penyebaran agama Islam. Keberadaan tarian tersebut sejalan dengan penyebaran agama Islam di Gorontalo. Tari Dana Dana mulai terdapat di Gorontalo pada tahun 1500-an Masehi, sejak agama Islam masuk ke Gorontalo.',
       },
       {
         nama: 'Tari Tidi Lo Polopalo',
         gambar: 'tari-tidi-lo-polopalo.jpg',
         description:
-            'Tari Tidi Lo Polopalo berasal dari dua kata dalam bahasa Gorontalo, yakni tidi dan polopalo. Kata Tidi berarti sebagai tarian khusus keluarga istana. Hal tersebut merujuk dari awal terciptanya tarian tersebut dari lingkungan istana. Kata polopalo adalah nama alat musik tradisional Gorontalo. Alat musik tersebut terbuat dari sepotong bambu atau pelepah daun rumbia. Alat musik tersebut dimainkan dengan cara menggetarkannya (polopalo yang artinya bergetar), sehingga menimbulkan bunyi yang merdu.',
+          'Tari Tidi Lo Polopalo berasal dari dua kata dalam bahasa Gorontalo, yakni tidi dan polopalo. Kata Tidi berarti sebagai tarian khusus keluarga istana. Hal tersebut merujuk dari awal terciptanya tarian tersebut dari lingkungan istana. Kata polopalo adalah nama alat musik tradisional Gorontalo. Alat musik tersebut terbuat dari sepotong bambu atau pelepah daun rumbia. Alat musik tersebut dimainkan dengan cara menggetarkannya (polopalo yang artinya bergetar), sehingga menimbulkan bunyi yang merdu.',
       },
     ],
     upacara: [
@@ -1183,7 +1185,7 @@ const budaya = [
         nama: 'Pohutu Momulanga',
         gambar: 'pahotu-momulanga.jpg',
         description:
-            'suatu upacara yang dilaksanakan dalam rangka penobatkan dan penganugerahan gelar adat kepada pejabat Bupati atau Walikota di Gorontalo.',
+          'suatu upacara yang dilaksanakan dalam rangka penobatkan dan penganugerahan gelar adat kepada pejabat Bupati atau Walikota di Gorontalo.',
       },
     ],
     pakaian: [
@@ -1191,52 +1193,53 @@ const budaya = [
         nama: 'Biliu dan Paluwata',
         gambar: 'biliu-dan-paluwata.jpg',
         description:
-            'Pakaian adat ini digunakan dalam upacara adat bersanding, upacara resmi bagi kedua pengantin akan duduk di atas pelaminan yang sudah disiapkan, dan pada saat khatam Quran oleh calon mempelai wanita. Hal yang paling menonjol pada pakaian ini adalah penggunaan aksesoris yang bisa mencapai delapan jenis, dimana setiap aksesori mengandung filosofi yang membuat baju tampak elegan.',
+          'Pakaian adat ini digunakan dalam upacara adat bersanding, upacara resmi bagi kedua pengantin akan duduk di atas pelaminan yang sudah disiapkan, dan pada saat khatam Quran oleh calon mempelai wanita. Hal yang paling menonjol pada pakaian ini adalah penggunaan aksesoris yang bisa mencapai delapan jenis, dimana setiap aksesori mengandung filosofi yang membuat baju tampak elegan.',
       },
       {
         nama: 'Makuta',
         gambar: 'makuta.jpg',
         description:
-            'Pakaian pengantin pria, pakaian hanya digunakan oleh kaum pria. Biasanya, pakaian adat makuta menggunakan tudung makuta yang memiliki bentuk unik yang mencerminakn daerah Gorontalo. Selain itu, pakaian adat ini dilengkapi dengan kalung berwarna emas yang disebut Bako. Kalung dipercayai sebagai seorang pria dan wanita yang sudah terikat dalam satu pernikahan.',
+          'Pakaian pengantin pria, pakaian hanya digunakan oleh kaum pria. Biasanya, pakaian adat makuta menggunakan tudung makuta yang memiliki bentuk unik yang mencerminakn daerah Gorontalo. Selain itu, pakaian adat ini dilengkapi dengan kalung berwarna emas yang disebut Bako. Kalung dipercayai sebagai seorang pria dan wanita yang sudah terikat dalam satu pernikahan.',
       },
       {
         nama: 'Madipungu',
         gambar: 'madipungu.jpg',
         description:
-            'Pakaian adat yang digunakan pada upacara adat akad nikah atau akaji pernikahan di rumah atau di gedung. Madipungu merupakan pakaian blus lengan panjang dan bagian lehernya berbentuk V, bahan yang digunakan berupa kain satin, brokat, atau berbagai bahan lainnya.',
+          'Pakaian adat yang digunakan pada upacara adat akad nikah atau akaji pernikahan di rumah atau di gedung. Madipungu merupakan pakaian blus lengan panjang dan bagian lehernya berbentuk V, bahan yang digunakan berupa kain satin, brokat, atau berbagai bahan lainnya.',
       },
       {
         nama: 'Walimomo',
         gambar: 'walimomo.jpg',
         description:
-            'Pakaian yang dipakai saat akad nikah lalu bersanding di hauli lo adati (kulambu adat). Pakaian ini menutupi seluruh aurat wanita dalam prosesi acara adat Gorontalo. Dalam adat Gorontalo, pakaian adat walimomo digunakan saat upacara pembaiatan (momiati), antar pinangan (modepita maharu), kehamilan tujuh bulan (molondalo), dan akad nikah (mongakaji) dalam adat Gorontalo. Pakaian walimomo terdiri dari bide atau alumbu, kebaya yang mempunyai lidah, sarung (wuloto) dan sunthi',
+          'Pakaian yang dipakai saat akad nikah lalu bersanding di hauli lo adati (kulambu adat). Pakaian ini menutupi seluruh aurat wanita dalam prosesi acara adat Gorontalo. Dalam adat Gorontalo, pakaian adat walimomo digunakan saat upacara pembaiatan (momiati), antar pinangan (modepita maharu), kehamilan tujuh bulan (molondalo), dan akad nikah (mongakaji) dalam adat Gorontalo. Pakaian walimomo terdiri dari bide atau alumbu, kebaya yang mempunyai lidah, sarung (wuloto) dan sunthi',
       },
     ],
-    rumah: [{
-      nama: 'Bantayo Poboide ',
-      gambar: 'bantayo-poboide.jpg',
-      description:
+    rumah: [
+      {
+        nama: 'Bantayo Poboide ',
+        gambar: 'bantayo-poboide.jpg',
+        description:
           'Rumah adat Gorontalo ini merupakan salah satu tempat yang kerap difungsikan sebagai tempat upacara adat dan bermusyawarah. Ada pun, Bantayo Poboide memiliki dua makna, yakni Bantayo sebagai gedung atau bangunan, juga Poboide yang berarti tempat bermusyawarah.',
-    },
-    {
-      nama: 'Dulohupa',
-      gambar: 'dulohupa.jpg',
-      description:
+      },
+      {
+        nama: 'Dulohupa',
+        gambar: 'dulohupa.jpg',
+        description:
           'Penduduk Gorontalo kerap menyebut Dulohupa dengan nama Yiladia Dulohupa Lo Ulipu Hulondhalo. Rumah adat Gorontalo ini berfungsi sebagai tempat untuk melakukan musyawarah untuk mencapai mufakat. Rumah adat Dulohupa menjadi tempat untuk mengadili individu atau memutuskan berbagai perkara yang terjadi saat masa pemerintahan kerajaan Gorontalo.',
-    },
+      },
     ],
     senjata: [
       {
         nama: 'Totobu`o',
         gambar: 'totobuo.jpg',
         description:
-            'Totobu`o adalah senjata tradisional Gorontalo sejenis tombak yang berbentuk mata besi tebal di tengah, ujungnya runcing, dan dua sisinya tajam. Pada bagian gagangnya terbuat dari kayu hitam sepanjang dua meter. Senjata tradisional totobu`o biasa digunakan oleh para penjaga istana kerajaan',
+          'Totobu`o adalah senjata tradisional Gorontalo sejenis tombak yang berbentuk mata besi tebal di tengah, ujungnya runcing, dan dua sisinya tajam. Pada bagian gagangnya terbuat dari kayu hitam sepanjang dua meter. Senjata tradisional totobu`o biasa digunakan oleh para penjaga istana kerajaan',
       },
       {
         nama: 'Kalumbi',
         gambar: 'kalumbi.jpg',
         description:
-            'Kalumbi adalah senjata tradisional Gorontalo yang bentuknya seperti pemukul bola bisbol. Bahan yang digunakan untuk membuat kalumbi berasal dari kayu langka eboni hitam yang terkenal kuat dan tahan lama. Panjang kalumbi mencapai 50 sentimeter dengan berat sekitar tiga kilogram. Kalumbi hanya dapat digunakan oleh prajurit terlatih dengan cara mengayunkannya untuk memukul.Meantuu Tiworo merupakan seorang pembesar di Kerajaan Liya yang punya tugas untuk mengamankan dan mengatur hasil tani rakyat di wilayah pesisir pantai.',
+          'Kalumbi adalah senjata tradisional Gorontalo yang bentuknya seperti pemukul bola bisbol. Bahan yang digunakan untuk membuat kalumbi berasal dari kayu langka eboni hitam yang terkenal kuat dan tahan lama. Panjang kalumbi mencapai 50 sentimeter dengan berat sekitar tiga kilogram. Kalumbi hanya dapat digunakan oleh prajurit terlatih dengan cara mengayunkannya untuk memukul.Meantuu Tiworo merupakan seorang pembesar di Kerajaan Liya yang punya tugas untuk mengamankan dan mengatur hasil tani rakyat di wilayah pesisir pantai.',
       },
     ],
   },
@@ -1282,49 +1285,49 @@ const budaya = [
         nama: 'Tari Cakalele',
         gambar: 'tari-cakalele.jpg',
         description:
-            'Tari cakalele adalah tarian adat yang melambangkan atau menceritakan peperangan yang dilakukan oleh masyarakat adat dan menjadi tarian yang sangat sakral. Penari cakalele menggunakan gerak dan lagu serta kostum perang, bersenjata tombak dan salawaku.',
+          'Tari cakalele adalah tarian adat yang melambangkan atau menceritakan peperangan yang dilakukan oleh masyarakat adat dan menjadi tarian yang sangat sakral. Penari cakalele menggunakan gerak dan lagu serta kostum perang, bersenjata tombak dan salawaku.',
       },
       {
         nama: 'Tari Maku-Maku',
         gambar: 'tari-maku-maku.jpg',
         description:
-            'Tari maku-maku adalah tari pergaulan yang melambangkan persekutuan anak-anak Maluku. Tarian ini diciptakan konon diciptakan leluhur Maluku ketika tinggal di Nunusaku. Nunusaku merupakan tempat dimana orang Maluku diyakini berasal sebelum berpencar ke wilayah Pulau Seram dan sekitarnya.',
+          'Tari maku-maku adalah tari pergaulan yang melambangkan persekutuan anak-anak Maluku. Tarian ini diciptakan konon diciptakan leluhur Maluku ketika tinggal di Nunusaku. Nunusaku merupakan tempat dimana orang Maluku diyakini berasal sebelum berpencar ke wilayah Pulau Seram dan sekitarnya.',
       },
       {
         nama: 'Tari Katreji',
         gambar: 'tari-katreji.jpg',
         description:
-            'Tari katreji adalah tarian pergaulan masyarakat Maluku yang muncul dari proses akulturasi budaya lokal dengan budaya Eropa. Sebagai jenis tari berpasangan, jumlah penari katreji terdiri dari lima sampai enam pasang penari pria dan wanita. Sementara iringan tari katreji menggunakan alunan alat musik seperti biola, suling bambu, ukulele, tifa, karakas dan lain-lain.',
+          'Tari katreji adalah tarian pergaulan masyarakat Maluku yang muncul dari proses akulturasi budaya lokal dengan budaya Eropa. Sebagai jenis tari berpasangan, jumlah penari katreji terdiri dari lima sampai enam pasang penari pria dan wanita. Sementara iringan tari katreji menggunakan alunan alat musik seperti biola, suling bambu, ukulele, tifa, karakas dan lain-lain.',
       },
       {
         nama: 'Tari Lenso',
         gambar: 'tari-lenso.jpg',
         description:
-            'Tari lenso adalah tari tradisional yang tumbuh dan berkembang di daerah subkultur Maluku Tengah. Tari Lenso juga dikenal sebagai tari sapu tangan, di mana lenso atau sapu tangan dipakai sebagai properti dalam melakukan tarian.',
+          'Tari lenso adalah tari tradisional yang tumbuh dan berkembang di daerah subkultur Maluku Tengah. Tari Lenso juga dikenal sebagai tari sapu tangan, di mana lenso atau sapu tangan dipakai sebagai properti dalam melakukan tarian.',
       },
       {
         nama: 'Tari Orlapei',
         gambar: 'tari-orlapei.jpg',
         description:
-            'Tari orlapei atau tari orlapey adalah jenis tarian rakyat di Maluku yang biasanya digunakan untuk menyambut tamu kehormatan dalam acara-acara resmi khususnya di Maluku Tengah. Sebagai tari penyambutan, tari orlapei menggambarkan suasana hati yang gembira.',
+          'Tari orlapei atau tari orlapey adalah jenis tarian rakyat di Maluku yang biasanya digunakan untuk menyambut tamu kehormatan dalam acara-acara resmi khususnya di Maluku Tengah. Sebagai tari penyambutan, tari orlapei menggambarkan suasana hati yang gembira.',
       },
       {
         nama: 'Tari Saureka-Reka',
         gambar: 'tari-saureka-reka.jpg',
         description:
-            'Tari saureka-reka adalah tarian yang mengekspresikan kegembiraan atas hasil panen yang melimpah. Tari saureka-reka atau toki gaba-gaba juga difungsikan sebagai tarian pergaulan para muda-mudi dalam menjalin persahabatan bahkan sempat dijadikan media untuk mencari jodoh. Saat ini tari saureka-reka telah berkembang menjadi sebuah seni permainan tradisional. Gerak tarinya khas dengan empat orang memegang bilah bambu dan empat lainnya melompat dengan mengikuti irama.',
+          'Tari saureka-reka adalah tarian yang mengekspresikan kegembiraan atas hasil panen yang melimpah. Tari saureka-reka atau toki gaba-gaba juga difungsikan sebagai tarian pergaulan para muda-mudi dalam menjalin persahabatan bahkan sempat dijadikan media untuk mencari jodoh. Saat ini tari saureka-reka telah berkembang menjadi sebuah seni permainan tradisional. Gerak tarinya khas dengan empat orang memegang bilah bambu dan empat lainnya melompat dengan mengikuti irama.',
       },
       {
         nama: 'Tari Nusihat',
         gambar: 'tari-nusihat.jpg',
         description:
-            'Tari nusihat adalah tarian yang menggambarkan kegigihan dan semangat dalam sebuah perjuangan. Pesan tersebut diwujudkan dalam gerak seekor burung garuda raksasa dalam membela dan melindungi rakyatnya dari serangan luar. Tari nusihat ditampilkan pada saat acara khusus seperti penyambutan tamu gereja atau tamu resmi.',
+          'Tari nusihat adalah tarian yang menggambarkan kegigihan dan semangat dalam sebuah perjuangan. Pesan tersebut diwujudkan dalam gerak seekor burung garuda raksasa dalam membela dan melindungi rakyatnya dari serangan luar. Tari nusihat ditampilkan pada saat acara khusus seperti penyambutan tamu gereja atau tamu resmi.',
       },
       {
         nama: 'Tari Temar Rubil',
         gambar: 'tari-temar-rubil.jpg',
         description:
-            'Tari temar rubil adalah jenis tarian perang yang menggambarkan sifat kepahlawanan masyarakat Kei. Masyarakat Kei memang dikenal memperjuangkan serta mempertahankan hak-hak mereka, terutama menyangkut tanah dan wanita. Tarian temar rubil dalam bahasa setempat memiliki arti tarian busur anak panah.',
+          'Tari temar rubil adalah jenis tarian perang yang menggambarkan sifat kepahlawanan masyarakat Kei. Masyarakat Kei memang dikenal memperjuangkan serta mempertahankan hak-hak mereka, terutama menyangkut tanah dan wanita. Tarian temar rubil dalam bahasa setempat memiliki arti tarian busur anak panah.',
       },
     ],
     upacara: [
@@ -1332,25 +1335,25 @@ const budaya = [
         nama: 'Ritual Panggil Kuskus',
         gambar: 'ritual-panggil-kuskus.jpg',
         description:
-            'Salah satu ritual adat yang umum dilakukan oleh masyarakat Maluku terutama yang berhubungan dengan satwa liar. Ritual ini telah dilakukan secara turun-temurun dengan cara menirukan suara kuskus.',
+          'Salah satu ritual adat yang umum dilakukan oleh masyarakat Maluku terutama yang berhubungan dengan satwa liar. Ritual ini telah dilakukan secara turun-temurun dengan cara menirukan suara kuskus.',
       },
       {
         nama: 'Sasi',
         gambar: 'sasi.jpg',
         description:
-            'Upacara ini dilaksanakan untuk menjaga keberlangsungan lingkungan hidup dan diterapkan untuk keberlangsungan hidup di wilayah laut. Dalam tradisi Sasi, ada aturan bahwa siapapun tidak boleh memanen hasil panen sebelum waktunya.',
+          'Upacara ini dilaksanakan untuk menjaga keberlangsungan lingkungan hidup dan diterapkan untuk keberlangsungan hidup di wilayah laut. Dalam tradisi Sasi, ada aturan bahwa siapapun tidak boleh memanen hasil panen sebelum waktunya.',
       },
       {
         nama: 'Obor Pattimura',
         gambar: 'obor-pattimura.jpg',
         description:
-            'Kebiasaan atau upacara ini ditujukan untuk mengenang pahlawan Pattimura yang melakukan perlawanan terhadap penjajah yang datang di kawasan Maluku. Upacara ini biasanya dirayakan setiap tanggal 15 Mei dengan membawa obor dalam pawai.',
+          'Kebiasaan atau upacara ini ditujukan untuk mengenang pahlawan Pattimura yang melakukan perlawanan terhadap penjajah yang datang di kawasan Maluku. Upacara ini biasanya dirayakan setiap tanggal 15 Mei dengan membawa obor dalam pawai.',
       },
       {
         nama: 'Makan Patita',
         gambar: 'makan-patita.jpg',
         description:
-            'Tradisi ini merupakan acara makan bersama yang dilakukan masyarakat Maluku. Adapun acara ini dilakukan saat ada momentum-momentum besar.',
+          'Tradisi ini merupakan acara makan bersama yang dilakukan masyarakat Maluku. Adapun acara ini dilakukan saat ada momentum-momentum besar.',
       },
     ],
     pakaian: [
@@ -1358,58 +1361,59 @@ const budaya = [
         nama: 'Baju Cele',
         gambar: 'baju-cele.jpg',
         description:
-            'Baju cele ini biasanya dipakai dalam upacara-upacara adat di Maluku, seperti acara pelantikan raja, acara cuci negeri, acara pesta negeri, acara panas pela dan lain-lain. Baju cele adalah kain kebaya yang dikombinasikan dengan kain salele di pinggang. Motif baju cele bisa berupa garis-garis geometris atau berkotak-kotak kecil. Umumnya busana ini memiliki corak warna merah yang dengan nilai kecerian, berani, dan cekatan.',
+          'Baju cele ini biasanya dipakai dalam upacara-upacara adat di Maluku, seperti acara pelantikan raja, acara cuci negeri, acara pesta negeri, acara panas pela dan lain-lain. Baju cele adalah kain kebaya yang dikombinasikan dengan kain salele di pinggang. Motif baju cele bisa berupa garis-garis geometris atau berkotak-kotak kecil. Umumnya busana ini memiliki corak warna merah yang dengan nilai kecerian, berani, dan cekatan.',
       },
       {
         nama: 'Kebaya Dansa',
         gambar: 'kebaya-dansa.jpg',
         description:
-            'Pakaian adat kebaya dansa biasanya dipakai pada waktu pesta rakyat oleh lelaki, sedangkan wanita memakai pakaian rok. Bentuknya seperti kemeja leher bundar yang tidak memakai kancing. Baju motif cele leher bundar terbelah pada leher, di bagian tangan kancing dari baju tersebut alam ditutup dengan band tangan variasi manik-manik warna emas.',
+          'Pakaian adat kebaya dansa biasanya dipakai pada waktu pesta rakyat oleh lelaki, sedangkan wanita memakai pakaian rok. Bentuknya seperti kemeja leher bundar yang tidak memakai kancing. Baju motif cele leher bundar terbelah pada leher, di bagian tangan kancing dari baju tersebut alam ditutup dengan band tangan variasi manik-manik warna emas.',
       },
       {
         nama: 'Pakaian Nona Rok',
         gambar: 'pakaian-nona-rok.jpg',
         description:
-            'Pakaian nona rok dari Maluku Tenggara ini berupa kebaya putih tangan panjang dengan lengan kancing dari jenis kain brokat halus dengan motif kembang kecil-kecil warna merah atau oren.Pengikat pinggangnya disebut dengan pending, yang terbuat dari perak. Untuk laki-laki akan dilengkapi dengan pemakaian sepatu pantofel hitam dan kaos kaki putih. Jika, rok maka akan dibuat dan lipit kecil.',
+          'Pakaian nona rok dari Maluku Tenggara ini berupa kebaya putih tangan panjang dengan lengan kancing dari jenis kain brokat halus dengan motif kembang kecil-kecil warna merah atau oren.Pengikat pinggangnya disebut dengan pending, yang terbuat dari perak. Untuk laki-laki akan dilengkapi dengan pemakaian sepatu pantofel hitam dan kaos kaki putih. Jika, rok maka akan dibuat dan lipit kecil.',
       },
       {
         nama: 'Manteren Lamo',
         gambar: 'mantere-lamo.jpg',
         description:
-            'Manteren Lamo merupakan pakaian adat dari Maluku Utara yang khusus digunakan oleh keturunan kerajaan atau para sultan kerajaan. Menariknya, pakaian ini juga merupakan salah satu peninggalan dari kerajaan Ternate dan Tidore',
+          'Manteren Lamo merupakan pakaian adat dari Maluku Utara yang khusus digunakan oleh keturunan kerajaan atau para sultan kerajaan. Menariknya, pakaian ini juga merupakan salah satu peninggalan dari kerajaan Ternate dan Tidore',
       },
     ],
-    rumah: [{
-      nama: 'Rumah Baileo',
-      gambar: 'baileo.jpg',
-      description:
+    rumah: [
+      {
+        nama: 'Rumah Baileo',
+        gambar: 'baileo.jpg',
+        description:
           'Rumah adat ini kerap dijumpai di Maluku sehingga sering dianggap sebagai perwakilan dari rumah adat Maluku. Rumah adat ini kemudian sebenarnya memiliki suku Huaulu sebagai penduduk asli Pulau Seram, Ambon. Saat mendirikan rumah adat Baileo ini diadakan berbagai upacara ritual supaya bangunan kemudian dapat bertahan lama dan yang meninggalkannya selamat dari berbagai bahaya.',
-    },
-    {
-      nama: 'Rumah Sasadu',
-      gambar: 'sasadu.jpg',
-      description:
+      },
+      {
+        nama: 'Rumah Sasadu',
+        gambar: 'sasadu.jpg',
+        description:
           'Rumah adat Maluku milik masyarakat Suku Sahu yang telah lama tinggal di Halmahera. Memiliki konsep rumah yang terbuka tanpa dinding dan jendela pada bagian dalamnya, meski dari segi bentuk, keduanya sangatlah berbeda. Rumah baileo juga masuk ke dalam jenis rumah panggung. Ciri Khas rumah ini diantaranya terletak pada bagian atapnya yang lebih tinggi jika dibanding dengan bagian bawahnya. Rumah sasadu sendiri sengaja dibuat mirip limas persegi dengan bentuk bagian bawah yang melingkar lengkap dengan tempat duduk kayu di sekitarnya.',
-    },
-    {
-      nama: 'Rumah Hibualamo',
-      gambar: 'hibualamo.jpg',
-      description:
+      },
+      {
+        nama: 'Rumah Hibualamo',
+        gambar: 'hibualamo.jpg',
+        description:
           'Rumah adat Maluku rumah hibualamo yang meski terlihat lebih modern, rumah adat ini sesungguhnya merupakan jenis rumah tertua di Maluku yang dipercaya sudah ada sejak ratusan tahun lalu. Penamaan rumah hibualamo ini sendiri diambil dari kata hibua yang artinya rumah dan lamo yang artinya besar.',
-    },
+      },
     ],
     senjata: [
       {
         nama: 'Parang Salawaku',
         gambar: 'parang-salawaku.jpg',
         description:
-            'Parang Salawaku adalah salah satu senjata tradisional Maluku yang berbentuk sepasang parang dan perisai. Istilah Parang Salawaku ini terdiri atas dua kata penyusun, yakni parang dan salawaku. Kata parang memiliki arti yaitu pisau besar, walaupun lebih pendek dibandingkan pedang. Sementara untuk kata salawaku memiliki arti yaitu perisai.',
+          'Parang Salawaku adalah salah satu senjata tradisional Maluku yang berbentuk sepasang parang dan perisai. Istilah Parang Salawaku ini terdiri atas dua kata penyusun, yakni parang dan salawaku. Kata parang memiliki arti yaitu pisau besar, walaupun lebih pendek dibandingkan pedang. Sementara untuk kata salawaku memiliki arti yaitu perisai.',
       },
       {
         nama: 'Kalawai',
         gambar: 'kalawai.jpg',
         description:
-            'Senjata Kalawai merupakan salah satu senjata tradisional Maluku lain yang hampir mirip dengan tombak. Tapi, apabila dilihat lebih dekat dan memahami fungsi dari senjata tersebut, maka keduanya sebenarnya merupakan senjata yang sangat berbeda. Istilah Kawai sendiri berasal dari dua suku kata, yaitu Kala dan Wai. Kala sendiri memiliki arti yaitu tikam, sedangkan Wai memiliki arti air. Sehingga, nama dari senjata yang satu ini melambangkan fungsinya yaitu tikam air.',
+          'Senjata Kalawai merupakan salah satu senjata tradisional Maluku lain yang hampir mirip dengan tombak. Tapi, apabila dilihat lebih dekat dan memahami fungsi dari senjata tersebut, maka keduanya sebenarnya merupakan senjata yang sangat berbeda. Istilah Kawai sendiri berasal dari dua suku kata, yaitu Kala dan Wai. Kala sendiri memiliki arti yaitu tikam, sedangkan Wai memiliki arti air. Sehingga, nama dari senjata yang satu ini melambangkan fungsinya yaitu tikam air.',
       },
     ],
   },
@@ -1435,7 +1439,7 @@ const budaya = [
         nama: 'Tari Cakalele',
         gambar: 'cakalele.jpg',
         description:
-            'Tari cakalele adalah tarian adat yang melambangkan atau menceritakan peperangan yang dilakukan oleh masyarakat adat dan menjadi tarian yang sangat sakral. Penari cakalele menggunakan gerak dan lagu serta kostum perang, bersenjata tombak dan salawaku.',
+          'Tari cakalele adalah tarian adat yang melambangkan atau menceritakan peperangan yang dilakukan oleh masyarakat adat dan menjadi tarian yang sangat sakral. Penari cakalele menggunakan gerak dan lagu serta kostum perang, bersenjata tombak dan salawaku.',
       },
     ],
     upacara: [
@@ -1443,7 +1447,7 @@ const budaya = [
         nama: 'Joko Kaha',
         gambar: 'joko-aha.jpg',
         description:
-            'Upacara joko kaha (injak tanah) Joko kaha adalah salah satu upacara tradisional yang dilaksanakan pada penerimaan tamu agung bagi seseorang yang baru pertama kali menginjakkan kaki di bumi Ternate moloku kie raha. Tanahnya diambil sebagian, diletakkan dalam piring, kemudian diinjak.',
+          'Upacara joko kaha (injak tanah) Joko kaha adalah salah satu upacara tradisional yang dilaksanakan pada penerimaan tamu agung bagi seseorang yang baru pertama kali menginjakkan kaki di bumi Ternate moloku kie raha. Tanahnya diambil sebagian, diletakkan dalam piring, kemudian diinjak.',
       },
     ],
     pakaian: [
@@ -1451,22 +1455,21 @@ const budaya = [
         nama: 'Manteren Lamo',
         gambar: 'mantere-lamo.jpg',
         description:
-            'Manteren Lamo merupakan pakaian adat dari Maluku Utara yang khusus digunakan oleh keturunan kerajaan atau para sultan kerajaan. Menariknya, pakaian ini juga merupakan salah satu peninggalan dari kerajaan Ternate dan Tidore',
+          'Manteren Lamo merupakan pakaian adat dari Maluku Utara yang khusus digunakan oleh keturunan kerajaan atau para sultan kerajaan. Menariknya, pakaian ini juga merupakan salah satu peninggalan dari kerajaan Ternate dan Tidore',
       },
     ],
-    rumah:
-    {
+    rumah: [{
       nama: 'Rumah Sasadu',
       gambar: 'rumah-sasadu.jpg',
       description:
-          'Sasadu adalah rumah adat suku Sahu, salah satu suku yang berasal kabupaten Halmahera Barat. Kata Sasadu berasal dari kata Sasa-Sela-Lamo yang besar. Kata lain yang mempengaruhinya adalah tatadu-tadus atau berlindung. Bentuk rumah adat Sasadu cukup sederhana, yaitu rumah panggung berbahan kayu sebagai pilar atau tiang penyangga dan anyaman daun sagu sebagai penutup atap rumaha adat.',
-    },
+        'Sasadu adalah rumah adat suku Sahu, salah satu suku yang berasal kabupaten Halmahera Barat. Kata Sasadu berasal dari kata Sasa-Sela-Lamo yang besar. Kata lain yang mempengaruhinya adalah tatadu-tadus atau berlindung. Bentuk rumah adat Sasadu cukup sederhana, yaitu rumah panggung berbahan kayu sebagai pilar atau tiang penyangga dan anyaman daun sagu sebagai penutup atap rumaha adat.',
+    }],
     senjata: [
       {
         nama: 'Parang Salawaku',
         gambar: 'salawaku.jpg',
         description:
-            'Parang Salawaku adalah sepasang senjata tradisional dari Maluku. Parang Salawaku terdiri dari Parang (pisau Panjang) dan Salawaku ( perisai ) yang pada masa lalu adalah senjata yang digunakan untuk berperang.',
+          'Parang Salawaku adalah sepasang senjata tradisional dari Maluku. Parang Salawaku terdiri dari Parang (pisau Panjang) dan Salawaku ( perisai ) yang pada masa lalu adalah senjata yang digunakan untuk berperang.',
       },
     ],
   },
@@ -1492,19 +1495,19 @@ const budaya = [
         nama: 'Tari Serimpi Sangu Pati',
         gambar: 'tari serimpi.jpg',
         description:
-            'sebuah tarian keraton pada masalalu disertai suara gamelan dengan gerak tari yang lembut.',
+          'sebuah tarian keraton pada masalalu disertai suara gamelan dengan gerak tari yang lembut.',
       },
       {
         nama: 'Tari Klana Alus',
         gambar: 'Tari Kalana Alus.jpg',
         description:
-            'Tari Klana Alus adalah tarian yang berkembang di keraton. Tarian ini diambil dari tokoh Prabu Dasalengkara dalam wayang wong lakon Abimanyu Palakrama yang sedang sedang jatuh cinta pada seorang bernama Dewi Siti Sendari.',
+          'Tari Klana Alus adalah tarian yang berkembang di keraton. Tarian ini diambil dari tokoh Prabu Dasalengkara dalam wayang wong lakon Abimanyu Palakrama yang sedang sedang jatuh cinta pada seorang bernama Dewi Siti Sendari.',
       },
       {
         nama: 'Tari beksan lawung Ageng',
         gambar: 'Lawung Ageng.png',
         description:
-            'Tarian khas Jogja ketiga adalah Tari Beksan Lawung Ageng. Tarian ini adalah salah satu tarian Keraton Yogyakarta. Tarian ini terinspirasi dari kegiatan prajurit kerajaan pada era Sri Sultan Hamengkubuwono I. Beranggotakan laki-laki dan memiliki banyaknya peran dalam tarian, membuat tarian ini terkesan lebih hidup dan beralur. Alunan gamelan pada tarian ini menggunakan iringan gamelan khusus, yaitu Kiai Guntur Sri.',
+          'Tarian khas Jogja ketiga adalah Tari Beksan Lawung Ageng. Tarian ini adalah salah satu tarian Keraton Yogyakarta. Tarian ini terinspirasi dari kegiatan prajurit kerajaan pada era Sri Sultan Hamengkubuwono I. Beranggotakan laki-laki dan memiliki banyaknya peran dalam tarian, membuat tarian ini terkesan lebih hidup dan beralur. Alunan gamelan pada tarian ini menggunakan iringan gamelan khusus, yaitu Kiai Guntur Sri.',
       },
     ],
     upacara: [
@@ -1512,19 +1515,19 @@ const budaya = [
         nama: 'Sekaten',
         gambar: 'sekaten.jpg',
         description:
-            'Sekaten Sekaten adalah acara tahunan yang digelar oleh Keraton Yogyakarta dan Keraton Solo. Pelaksanaan sekaten selama tujuh hari mulai tanggal 5 hingga 11 bulan Maulud/Rabiulawal. Tujuan sekaten adalah untuk memperingati hari lahir Nabi Muhammad SAW dan juga penyebaran ajaran agama Islam.',
+          'Sekaten Sekaten adalah acara tahunan yang digelar oleh Keraton Yogyakarta dan Keraton Solo. Pelaksanaan sekaten selama tujuh hari mulai tanggal 5 hingga 11 bulan Maulud/Rabiulawal. Tujuan sekaten adalah untuk memperingati hari lahir Nabi Muhammad SAW dan juga penyebaran ajaran agama Islam.',
       },
       {
         nama: 'grebeg muludan',
         gambar: 'grebek-muludan.webp',
         description:
-            'Tradisi Maulid Nabi pertama di Pulau Jawa adalah Grebeg Maulud yang dilakukan oleh masyarakat Yogyakarta setiap tanggal 12 Rabiul Awal. Kegiatan ini setiap tahunnya diadakan di lingkungan Keraton Yogyakarta. Awal mulanya, tradisi ini pertama kali dipelopori oleh Sri Sultan Hamengku Buwono I.',
+          'Tradisi Maulid Nabi pertama di Pulau Jawa adalah Grebeg Maulud yang dilakukan oleh masyarakat Yogyakarta setiap tanggal 12 Rabiul Awal. Kegiatan ini setiap tahunnya diadakan di lingkungan Keraton Yogyakarta. Awal mulanya, tradisi ini pertama kali dipelopori oleh Sri Sultan Hamengku Buwono I.',
       },
       {
         nama: 'Labuhan Parangkusumo',
         gambar: 'labuhan.jpg',
         description:
-            'Upacara Labuhan Parangkusumo merupakan bagian dari rangkaian tradisi Hajad Dalem Tingalan Jumenengan atau upacara adat penobatan tahta Sultan Jogja. Ini merupakan upacara puncak yang bertujuan meminta keselamatan kesejahteraan pada Tuhan Yang Maha Esa.',
+          'Upacara Labuhan Parangkusumo merupakan bagian dari rangkaian tradisi Hajad Dalem Tingalan Jumenengan atau upacara adat penobatan tahta Sultan Jogja. Ini merupakan upacara puncak yang bertujuan meminta keselamatan kesejahteraan pada Tuhan Yang Maha Esa.',
       },
     ],
     pakaian: [
@@ -1532,19 +1535,19 @@ const budaya = [
         nama: 'Kasatrian',
         gambar: 'pakaian adat kasatrian.jpg',
         description:
-            'Pakaian adat tradisional masyarakat Daerah Istimewa Yogyakarta terdiri dari seperangkat pakaian adat tradisional yang memiliki unsur-unsur yang tidak dapat dipisahkan satu dengan lainnya.',
+          'Pakaian adat tradisional masyarakat Daerah Istimewa Yogyakarta terdiri dari seperangkat pakaian adat tradisional yang memiliki unsur-unsur yang tidak dapat dipisahkan satu dengan lainnya.',
       },
       {
         nama: 'Sikepan Alet',
         gambar: 'sakepan-alet.webp',
         description:
-            'Ini adalah pakaian adat yang digunakan oleh abdi dalem keraton. Para abdi dalem harus mengenakan sikepan alit dalam kesehariannya, termasuk saat bepergian.',
+          'Ini adalah pakaian adat yang digunakan oleh abdi dalem keraton. Para abdi dalem harus mengenakan sikepan alit dalam kesehariannya, termasuk saat bepergian.',
       },
       {
         nama: 'Langenharjan',
         gambar: 'langenharjan.webp',
         description:
-            'Para abdi dalem yang harus menghadiri pertemuan akan mengenakan beskap langenarjan. Jenis pakaian ini terdiri dari kain batik dan baju bukakan berbahan laken dengan warna hitam. Pakaian ini diciptakan oleh Mangkunegaran VII.',
+          'Para abdi dalem yang harus menghadiri pertemuan akan mengenakan beskap langenarjan. Jenis pakaian ini terdiri dari kain batik dan baju bukakan berbahan laken dengan warna hitam. Pakaian ini diciptakan oleh Mangkunegaran VII.',
       },
     ],
     rumah: [
@@ -1566,7 +1569,7 @@ const budaya = [
         nama: 'Keris',
         gambar: 'kris_diy.jpg',
         description:
-            'Sama seperti Jawa Tengah, keris juga merupakan senjata tradisional masyarakat Yogyakarta. Keris adalah senjata tikam golongan belati (berujung runcing dan tajam pada kedua sisinya). Bentuknya khas dan mudah dibedakan dari senjata tajam lainnya, karena tidak simetris di bagian pagkal yang melebar.',
+          'Sama seperti Jawa Tengah, keris juga merupakan senjata tradisional masyarakat Yogyakarta. Keris adalah senjata tikam golongan belati (berujung runcing dan tajam pada kedua sisinya). Bentuknya khas dan mudah dibedakan dari senjata tajam lainnya, karena tidak simetris di bagian pagkal yang melebar.',
       },
     ],
   },
@@ -1592,19 +1595,19 @@ const budaya = [
         nama: 'Tari Remong',
         gambar: 'Tari-Remong.jpg',
         description:
-            ' sebuah tarian dari Surabaya yang melambangkan jiwa, kepahlawanan. Ditarikan pada waktu menyambut para tamu.',
+          ' sebuah tarian dari Surabaya yang melambangkan jiwa, kepahlawanan. Ditarikan pada waktu menyambut para tamu.',
       },
       {
         nama: 'Tari Reog Ponorogo',
         gambar: 'reog-ponorogo.jpg',
         description:
-            'TReog Ponorogo kerap dipentaskan untuk berbagai acara kesenian baik upacara adat hingga upacara pernikahan.',
+          'TReog Ponorogo kerap dipentaskan untuk berbagai acara kesenian baik upacara adat hingga upacara pernikahan.',
       },
       {
         nama: 'Tari Jejer Gandrung',
         gambar: 'tari-jejer-genrung.webp',
         description:
-            'Tari Jejer Gandrung berasal dari Banyuwangi. Kesenian tradisional yang satu ini ditetapkan sebagai tarian selamat datang oleh Pemerintah Kabupaten Banyuwangi',
+          'Tari Jejer Gandrung berasal dari Banyuwangi. Kesenian tradisional yang satu ini ditetapkan sebagai tarian selamat datang oleh Pemerintah Kabupaten Banyuwangi',
       },
     ],
     upacara: [
@@ -1612,19 +1615,19 @@ const budaya = [
         nama: 'Kasada Bromo',
         gambar: 'upacara-adat-jawa-timur.png',
         description:
-            'Bagi orang Tengger, Gunung Bromo atau Brahma adalah gunung suci. Upacara Kasada biasa dilakukan rutin setiap tahun pada tengah malam hingga dini hari di bulan Kasodo (kesepuluh) pada penanggalan Jawa. Selain sebagai penghormatan terhadap leluhur, Upacara Kasada juga dilakukan untuk mengangkat seorang tabib atau dukun di setiap desa.',
+          'Bagi orang Tengger, Gunung Bromo atau Brahma adalah gunung suci. Upacara Kasada biasa dilakukan rutin setiap tahun pada tengah malam hingga dini hari di bulan Kasodo (kesepuluh) pada penanggalan Jawa. Selain sebagai penghormatan terhadap leluhur, Upacara Kasada juga dilakukan untuk mengangkat seorang tabib atau dukun di setiap desa.',
       },
       {
         nama: 'Sadhur',
         gambar: 'upacara-sadhur.jpg',
         description:
-            'Sandhur atau Dhamong Ghardam merupakan ritual yang biasa dilakukan oleh masyarakat di dataran Madura, Jawa Timur, Ritus ini berupa tarian yang dimaksudkan untuk memohon hujan, menjamin sumur penuh dengan air, menghormati makam keramat, membuang bahaya penyakit, atau mengenyahkan musibah dan bencana.',
+          'Sandhur atau Dhamong Ghardam merupakan ritual yang biasa dilakukan oleh masyarakat di dataran Madura, Jawa Timur, Ritus ini berupa tarian yang dimaksudkan untuk memohon hujan, menjamin sumur penuh dengan air, menghormati makam keramat, membuang bahaya penyakit, atau mengenyahkan musibah dan bencana.',
       },
       {
         nama: 'Larung Sembonyo',
         gambar: 'upacara-adat-larung.jpg',
         description:
-            'Larung Sembonyo adalah upacara adat sedekah laut yang telah dilakukan secara turun temurun sejak zaman nenek moyang oleh masyarakat lokal nelayan Pantai Prigi, Trenggalek, Jawa Timur. Tradisi tersebut merupakan bentuk ungkapan rasa syukur bagi masyarakat setempat atas hasil laut yang melimpah',
+          'Larung Sembonyo adalah upacara adat sedekah laut yang telah dilakukan secara turun temurun sejak zaman nenek moyang oleh masyarakat lokal nelayan Pantai Prigi, Trenggalek, Jawa Timur. Tradisi tersebut merupakan bentuk ungkapan rasa syukur bagi masyarakat setempat atas hasil laut yang melimpah',
       },
     ],
     pakaian: [
@@ -1632,19 +1635,19 @@ const budaya = [
         nama: ' Pesaan',
         gambar: 'Pesaan.jpg',
         description:
-            'Pakaian adat tradisional Madura, Jawa Timur biasa disebut pesa’an. Pakaian ini terkesan sederhana karena hanya berupa kaos bergaris merah putih dan celana longgar. Untuk wanita biasa menggunakan kebaya',
+          'Pakaian adat tradisional Madura, Jawa Timur biasa disebut pesa’an. Pakaian ini terkesan sederhana karena hanya berupa kaos bergaris merah putih dan celana longgar. Untuk wanita biasa menggunakan kebaya',
       },
       {
         nama: 'Baju Gothil',
         gambar: 'Pakaian_Adat_Gothil.jpg',
         description:
-            'Baju Gothil  atau warok ponorogo merupakan pakaian adat Jawa Timur in dipakai oleh para pria. Pakaian tradisional ini memiliki warna yang kkhas yakni hitam polos dengan ukuran longgar serta lengan panjang. ',
+          'Baju Gothil  atau warok ponorogo merupakan pakaian adat Jawa Timur in dipakai oleh para pria. Pakaian tradisional ini memiliki warna yang kkhas yakni hitam polos dengan ukuran longgar serta lengan panjang. ',
       },
       {
         nama: 'Mantenan',
         gambar: 'Pakaian_Adat_mantenan.jpg',
         description:
-            'Baju Mantenan berwarna dasar hitam, baik untuk pria maupun wanita. Untuk memperindah penampilan, terdapat sulaman benang emas mulai dari bagian leher, hingga ke dada, dan menyambung ke seluruh bagian pinggir, termasuk ujung lengan. Aksesoris yang dikenakan antara lain odheng, bunga melati, arloji, kain selempang, tongkat, dan lain-lain.',
+          'Baju Mantenan berwarna dasar hitam, baik untuk pria maupun wanita. Untuk memperindah penampilan, terdapat sulaman benang emas mulai dari bagian leher, hingga ke dada, dan menyambung ke seluruh bagian pinggir, termasuk ujung lengan. Aksesoris yang dikenakan antara lain odheng, bunga melati, arloji, kain selempang, tongkat, dan lain-lain.',
       },
     ],
     rumah: [
@@ -1660,7 +1663,7 @@ const budaya = [
         nama: 'Celurit',
         gambar: 'clurit.jpg',
         description:
-            'Senjata Tradisional ini memiliki bilah berbentuk melengkung, bentuk bilah inilah yang menjadi ciri khasnya. Senjata ini sangat tajam, jadi harus hati-hati dalam menggunakannnya',
+          'Senjata Tradisional ini memiliki bilah berbentuk melengkung, bentuk bilah inilah yang menjadi ciri khasnya. Senjata ini sangat tajam, jadi harus hati-hati dalam menggunakannnya',
       },
     ],
   },
@@ -1682,7 +1685,7 @@ const budaya = [
         nama: 'Tari Pendet',
         gambar: 'tari-pendet.jpg',
         description:
-            'pada awalnya merupakan tari pemujaan yang banyak diperagakan di pura, tempat ibadat umat Hindu di Bali, Indonesia',
+          'pada awalnya merupakan tari pemujaan yang banyak diperagakan di pura, tempat ibadat umat Hindu di Bali, Indonesia',
       },
     ],
     upacara: [
@@ -1690,7 +1693,7 @@ const budaya = [
         nama: 'Ngaben',
         gambar: 'ngaben.jpg',
         description:
-            'Upacara ngaben merupakan proses pengembalian unsur panca maha butha kepada Sang pencipta',
+          'Upacara ngaben merupakan proses pengembalian unsur panca maha butha kepada Sang pencipta',
       },
     ],
     pakaian: [
@@ -1698,7 +1701,7 @@ const budaya = [
         nama: ' Payas Alit',
         gambar: 'payas alit.jpg',
         description:
-            'Payas alit Baju adat Bali yang paling sederhana dan bisa dipakai sehari-hari, termasuk upacara adat harian di pura. Yang dikenakan biasanya hanya menggunakan kebaya dan songket. Laki-laki pun hanya menggunakan kemeja putih dan dilengkapi dengan kamen serta udeng.',
+          'Payas alit Baju adat Bali yang paling sederhana dan bisa dipakai sehari-hari, termasuk upacara adat harian di pura. Yang dikenakan biasanya hanya menggunakan kebaya dan songket. Laki-laki pun hanya menggunakan kemeja putih dan dilengkapi dengan kamen serta udeng.',
       },
     ],
     rumah: [
@@ -1714,7 +1717,7 @@ const budaya = [
         nama: 'Keris',
         gambar: 'keris bali.jpg',
         description:
-            'Sama seperti keris pada umunya, namun bedanya adalah lebih besar dan panjang. Balutan sarung keris berpenampilan mewah, dihias dengan emas, perak, gading, dan bahannya kayu langka yang dihiasi ukiran.',
+          'Sama seperti keris pada umunya, namun bedanya adalah lebih besar dan panjang. Balutan sarung keris berpenampilan mewah, dihias dengan emas, perak, gading, dan bahannya kayu langka yang dihiasi ukiran.',
       },
     ],
   },
@@ -1732,7 +1735,7 @@ const budaya = [
         nama: 'Tari Perang',
         gambar: 'Tari-Perang-Nusa-Tenggara-Timur.jpg',
         description:
-            'tari yang menunjukkan sifat-sifat keperkasaan dan kepandaian mempermainkan senjata. Senjata yang dipakai berupa cambuk dan perisai.',
+          'tari yang menunjukkan sifat-sifat keperkasaan dan kepandaian mempermainkan senjata. Senjata yang dipakai berupa cambuk dan perisai.',
       },
     ],
     upacara: [
@@ -1740,7 +1743,7 @@ const budaya = [
         nama: 'upacara Adat Reba',
         gambar: 'upacara reba.jpg',
         description:
-            'Upacara adat ini akan digelar untuk menyambut tahun baru yang akan dilakukan secara adat tradisional. Upacara adat ini digelar setiap tahunnya sebagai wujud rasa syukur.',
+          'Upacara adat ini akan digelar untuk menyambut tahun baru yang akan dilakukan secara adat tradisional. Upacara adat ini digelar setiap tahunnya sebagai wujud rasa syukur.',
       },
     ],
     pakaian: [
@@ -1748,7 +1751,7 @@ const budaya = [
         nama: 'Baju Amarasi',
         gambar: 'baju amarasi.jpg',
         description:
-            'Baju amarasi untuk pria berupa kain tenun yang dibentuk selimut ikat, baju budo, kalung habas berbandung gong, muti salak, gelang timot, dan hiasan ikat kepala. Untuk wanitanya menggunakan sarung tenun untuk bawahan, kebaya, selendang penutup dada, muti salak, hiasan kepala tusuk konde, kalung kepala 3 sisir emas, dan gelang nalar.',
+          'Baju amarasi untuk pria berupa kain tenun yang dibentuk selimut ikat, baju budo, kalung habas berbandung gong, muti salak, gelang timot, dan hiasan ikat kepala. Untuk wanitanya menggunakan sarung tenun untuk bawahan, kebaya, selendang penutup dada, muti salak, hiasan kepala tusuk konde, kalung kepala 3 sisir emas, dan gelang nalar.',
       },
     ],
     rumah: [
@@ -1764,7 +1767,7 @@ const budaya = [
         nama: 'Sundu',
         gambar: 'sundu.jpg',
         description:
-            'Sundu adalah senjata semacam keris dari Nusa Tenggara Timur, yang merupakan senjata tikam.',
+          'Sundu adalah senjata semacam keris dari Nusa Tenggara Timur, yang merupakan senjata tikam.',
       },
     ],
   },
@@ -1782,7 +1785,7 @@ const budaya = [
         nama: 'Tari Mpaa Lenggogo',
         gambar: 'Tari-Mpaa-Lenggogo.jpg',
         description:
-            'sebuah tarian guna menyambut Maulid Nahi Muhammad SAW. Tarian ini juga scring dipertunjukkan pada upacara-upacara perkawinan atau upacara khitanan keluarga raja',
+          'sebuah tarian guna menyambut Maulid Nahi Muhammad SAW. Tarian ini juga scring dipertunjukkan pada upacara-upacara perkawinan atau upacara khitanan keluarga raja',
       },
     ],
     upacara: [
@@ -1790,7 +1793,7 @@ const budaya = [
         nama: 'upacara Nunas Nede ',
         gambar: 'nunas nede.jpg',
         description:
-            'adat yang satu ini memiliki tujuan untuk memohon ridho sang pencipta, dengan tujuan pada musim tanam selanjutnya akan diberikan air yang berkecukupan, hasil panen melimpah, dan memberikan kerukunan antar warga.',
+          'adat yang satu ini memiliki tujuan untuk memohon ridho sang pencipta, dengan tujuan pada musim tanam selanjutnya akan diberikan air yang berkecukupan, hasil panen melimpah, dan memberikan kerukunan antar warga.',
       },
     ],
     pakaian: [
@@ -1798,7 +1801,7 @@ const budaya = [
         nama: 'Poron Rante dan Pasangi',
         gambar: 'Pakaian Adat Tradisional Lombok.jpg',
         description:
-            'Pakaian adat Poro Rante dan Pasangi dari suku Bima di Nusa Tenggara Barat mencerminkan kekayaan budaya dan makna yang dalam dalam tradisi pernikahan.',
+          'Pakaian adat Poro Rante dan Pasangi dari suku Bima di Nusa Tenggara Barat mencerminkan kekayaan budaya dan makna yang dalam dalam tradisi pernikahan.',
       },
     ],
     rumah: [
@@ -1814,7 +1817,7 @@ const budaya = [
         nama: 'Tulup',
         gambar: 'tulup.jpg',
         description:
-            'Tulup adalah salah satu senjata tradisional Suku Sasak, Lombok, Nusa Tenggara Barat. Biasanya tulup ini dibuat dari kayu pohon meranti. Sebagai pelurunya, digunakan potongan lidi dari pohon enau, yaitu disebut ancar ',
+          'Tulup adalah salah satu senjata tradisional Suku Sasak, Lombok, Nusa Tenggara Barat. Biasanya tulup ini dibuat dari kayu pohon meranti. Sebagai pelurunya, digunakan potongan lidi dari pohon enau, yaitu disebut ancar ',
       },
     ],
   },
@@ -1832,7 +1835,7 @@ const budaya = [
         nama: 'Tari patuddu',
         gambar: 'tari patuddu.jpg',
         description:
-            'sebuah tarian guna ditujukan dalam acara untuk menyambut para tetamu dari luar maupun dalam negeri. Tarian ini merupakan tarian suku Mandar yang tinggal di Sulawesi Barat.',
+          'sebuah tarian guna ditujukan dalam acara untuk menyambut para tetamu dari luar maupun dalam negeri. Tarian ini merupakan tarian suku Mandar yang tinggal di Sulawesi Barat.',
       },
     ],
     upacara: [
@@ -1840,7 +1843,7 @@ const budaya = [
         nama: 'Cakkuriri ',
         gambar: 'cakkuriri.jpg',
         description:
-            'Cakkuriri merupakan upacara adat pengibaran bendera cakkuriri yang awalnya dilakukan oleh Kerajaan Sendana. Upacara ini dilaksanakan oleh pihak Pappuangang di Puttada, yakni pihak yang mengangkat dan melantik Raja atau Maraqdia.',
+          'Cakkuriri merupakan upacara adat pengibaran bendera cakkuriri yang awalnya dilakukan oleh Kerajaan Sendana. Upacara ini dilaksanakan oleh pihak Pappuangang di Puttada, yakni pihak yang mengangkat dan melantik Raja atau Maraqdia.',
       },
     ],
     pakaian: [
@@ -1848,7 +1851,7 @@ const budaya = [
         nama: 'Pattuqduq Towaine',
         gambar: 'Pakaian-Adat-Sulawesi-Barat.webp',
         description:
-            'Kaum pria Suku Mandar menggunakan jas hitam lengan panjang yang dipadukan dengan celana panjang. sebagai pelengkap, kain sarung tenun khas Mandar tampak apik dililitkan di pinggang sebagai bawahan. Sedangkan pada wanita, nama pakaian adat Suku Mandar adalah Rawang Boko dan Lipaq Saqbe. Rawang Boko diwujudkan berupa blus lengan pendek, sedangkan Lipaq Saqbe merupakan bawahan sarung tenun.',
+          'Kaum pria Suku Mandar menggunakan jas hitam lengan panjang yang dipadukan dengan celana panjang. sebagai pelengkap, kain sarung tenun khas Mandar tampak apik dililitkan di pinggang sebagai bawahan. Sedangkan pada wanita, nama pakaian adat Suku Mandar adalah Rawang Boko dan Lipaq Saqbe. Rawang Boko diwujudkan berupa blus lengan pendek, sedangkan Lipaq Saqbe merupakan bawahan sarung tenun.',
       },
     ],
     rumah: [
@@ -1864,7 +1867,7 @@ const budaya = [
         nama: 'Badik',
         gambar: 'Badik.JPG',
         description:
-            'Badik adalah sejenis pisau bersisi tajam tunggal atau ganda. Bentuknya asimetris dan bilahnya kerap kali dihiasi. Senjata tradisional ini, dikenal di berbagai wilayah di Indonesia, seperti di Sumatera dan Sulawesi.',
+          'Badik adalah sejenis pisau bersisi tajam tunggal atau ganda. Bentuknya asimetris dan bilahnya kerap kali dihiasi. Senjata tradisional ini, dikenal di berbagai wilayah di Indonesia, seperti di Sumatera dan Sulawesi.',
       },
     ],
   },
@@ -1882,7 +1885,7 @@ const budaya = [
         nama: 'Tari Lumense',
         gambar: 'Tari-Lumense.png',
         description:
-            'sebuah tarian dari Poso yang merupakan tarian selamat dating untuk menyambut tamu agung.',
+          'sebuah tarian dari Poso yang merupakan tarian selamat dating untuk menyambut tamu agung.',
       },
     ],
     upacara: [
@@ -1890,7 +1893,7 @@ const budaya = [
         nama: 'Meaju  ',
         gambar: 'meaju.jpg',
         description:
-            'Meaju adalah salah satu ritual atau tradisi adat suku Kaili Sulawesi Tengah dalam menyambut tamu kehormatan, dengan maksud sebagai ungkapan kegembiraan atau suka cita, dan juga untuk mempekenalkan adat budaya Tuan rumah, yang selalu siap siaga memberikan rasa aman dan damai bagi para tamu yang datang.',
+          'Meaju adalah salah satu ritual atau tradisi adat suku Kaili Sulawesi Tengah dalam menyambut tamu kehormatan, dengan maksud sebagai ungkapan kegembiraan atau suka cita, dan juga untuk mempekenalkan adat budaya Tuan rumah, yang selalu siap siaga memberikan rasa aman dan damai bagi para tamu yang datang.',
       },
     ],
     pakaian: [
@@ -1898,7 +1901,7 @@ const budaya = [
         nama: 'Baju Adat Sulawesi Tengah',
         gambar: 'baju adat sulteng.jpg',
         description:
-            'Baju adat Suku Kaili untuk kaum wanita dinamakan baju Nggembe, sedangkan untuk kaum pria dikenal dengan sebutan Koje dan Puruka Pajana. Baju adat Suku Mori untuk kamu wanita dikenal dengan nama baju Lambu yang memiliki bentuk seperti blus. Sementara itu, kaum pria mengenakan celana panjang yang dikenal Salura.',
+          'Baju adat Suku Kaili untuk kaum wanita dinamakan baju Nggembe, sedangkan untuk kaum pria dikenal dengan sebutan Koje dan Puruka Pajana. Baju adat Suku Mori untuk kamu wanita dikenal dengan nama baju Lambu yang memiliki bentuk seperti blus. Sementara itu, kaum pria mengenakan celana panjang yang dikenal Salura.',
       },
     ],
     rumah: [
@@ -1914,7 +1917,7 @@ const budaya = [
         nama: 'Pasatimpo',
         gambar: 'pasatimpo.jpg',
         description:
-            'Pasatimpo adalah sejenis keris yang bentuk hulunya bengkok ke bawah dan sarungnya diberi tali. Senjata ini sering digunakan oleh masyarakat setempat untuk mengusir roh jahat. Kini, pasatimpo lebih sering digunakan dalam tari-tari kepahlawanan.',
+          'Pasatimpo adalah sejenis keris yang bentuk hulunya bengkok ke bawah dan sarungnya diberi tali. Senjata ini sering digunakan oleh masyarakat setempat untuk mengusir roh jahat. Kini, pasatimpo lebih sering digunakan dalam tari-tari kepahlawanan.',
       },
     ],
   },
@@ -1940,13 +1943,13 @@ const budaya = [
         nama: 'Tari Blambangan Cakil ',
         gambar: 'Tari-Blambangan-Cakil-Jawa.jpg',
         description:
-            'sebuah tarian mengisahkan perjuangan Srikandi melawan Buto Cakil (raksasa). Sebuah perlambang penumpasan angkara murka.',
+          'sebuah tarian mengisahkan perjuangan Srikandi melawan Buto Cakil (raksasa). Sebuah perlambang penumpasan angkara murka.',
       },
       {
         nama: 'Tari Gambyong ',
         gambar: 'tari gambyong.jpg',
         description:
-            'salah satu bentuk tarian Jawa klasik yang berasal-mula dari wilayah Surakarta dan biasanya dibawakan untuk pertunjukan atau menyambut tamu.',
+          'salah satu bentuk tarian Jawa klasik yang berasal-mula dari wilayah Surakarta dan biasanya dibawakan untuk pertunjukan atau menyambut tamu.',
       },
     ],
     upacara: [
@@ -1954,13 +1957,13 @@ const budaya = [
         nama: 'Tradisi popokan',
         gambar: 'tradisi popokan.jpg',
         description:
-            'Masyarakat setempat melakukan tradisi ini untuk menghilangkan kejahatan serta tolak bala yang ada di daerah tempat tinggal mereka.',
+          'Masyarakat setempat melakukan tradisi ini untuk menghilangkan kejahatan serta tolak bala yang ada di daerah tempat tinggal mereka.',
       },
       {
         nama: 'Upacara tedak siten ',
         gambar: 'tedak-siten.jpg',
         description:
-            'upacara turun tanah karena bertujuan untuk mengenalkan anak tanah yang ia pijak.',
+          'upacara turun tanah karena bertujuan untuk mengenalkan anak tanah yang ia pijak.',
       },
     ],
     pakaian: [
@@ -1968,7 +1971,7 @@ const budaya = [
         nama: 'Kebaya',
         gambar: 'Kebaya.jpg',
         description:
-            'Pakaian adat tradisional Jawa Tengah identik dengan penggunaan kain kebaya dengan motif batik, dimana batik yang digunakan merupakan batik tulis yang masih tergolong asli',
+          'Pakaian adat tradisional Jawa Tengah identik dengan penggunaan kain kebaya dengan motif batik, dimana batik yang digunakan merupakan batik tulis yang masih tergolong asli',
       },
     ],
     rumah: [
@@ -1984,7 +1987,7 @@ const budaya = [
         nama: 'Keris',
         gambar: 'keris.jpg',
         description:
-            'Keris adalah senjata tikam golongan belati (berujung runcing dan tajam pada kedua sisinya). Bentuknya khas dan mudah dibedakan dari senjata tajam lainnya, karena tidak simetris di bagian pagkal yang melebar, seringkali bilahnya berkelok-kelok',
+          'Keris adalah senjata tikam golongan belati (berujung runcing dan tajam pada kedua sisinya). Bentuknya khas dan mudah dibedakan dari senjata tajam lainnya, karena tidak simetris di bagian pagkal yang melebar, seringkali bilahnya berkelok-kelok',
       },
     ],
   },
@@ -2002,7 +2005,7 @@ const budaya = [
         nama: 'Tari Maengket',
         gambar: 'Tari-Maengket.jpg',
         description:
-            'merupakan tari pergaulan yang dilakukan secara berpasang-pasangan. Menggambarkan suasana kasih sayang dan cumbuan.',
+          'merupakan tari pergaulan yang dilakukan secara berpasang-pasangan. Menggambarkan suasana kasih sayang dan cumbuan.',
       },
     ],
     upacara: [
@@ -2010,13 +2013,13 @@ const budaya = [
         nama: 'Upacara Mekiwuka',
         gambar: 'mekiwuka.jpg',
         description:
-            'Upacara Mekiwuka adalah upacara adat suku Minahasa di Manado. Mekiwuka merupakan ungkapan rasa syukur atas pemeliharaan Tuhan di sepanjang tahun yang telah dilewati dan permohonan kepada Tuhan agar dibukakan jalan untuk memperoleh banyak berkat dalam menjalani tahun yang baru.',
+          'Upacara Mekiwuka adalah upacara adat suku Minahasa di Manado. Mekiwuka merupakan ungkapan rasa syukur atas pemeliharaan Tuhan di sepanjang tahun yang telah dilewati dan permohonan kepada Tuhan agar dibukakan jalan untuk memperoleh banyak berkat dalam menjalani tahun yang baru.',
       },
       {
         nama: 'Upcara Tulude',
         gambar: 'tulude.jpg',
         description:
-            'Upacara adat Tulude merupakan hajatan tahunan warisan para leluhur masyarakat Nusa Utara (kepulauan Sangihe, Talaud dan Sitaro).  Upacara ini merupakan acara sakral yang dilakukan sebagai rasa syukur atas segala berkat terhadap Mawu Ruata Ghenggona Langi (Tuhan yang Mahakuasa).',
+          'Upacara adat Tulude merupakan hajatan tahunan warisan para leluhur masyarakat Nusa Utara (kepulauan Sangihe, Talaud dan Sitaro).  Upacara ini merupakan acara sakral yang dilakukan sebagai rasa syukur atas segala berkat terhadap Mawu Ruata Ghenggona Langi (Tuhan yang Mahakuasa).',
       },
     ],
     pakaian: [
@@ -2024,7 +2027,7 @@ const budaya = [
         nama: 'Pakaian Adat Sulawesi Utara',
         gambar: 'Pakaian Adat Tradisional Kulavi.jpg',
         description:
-            'Kaum pria mamakai baju terusan. Di bagian lehernya berbentuk setengah lingkaran, berlengan panjang, dan pakaiannya sampai tumit kaki. Wanita memakai baju terusan, di bagian lehernya terdapat lipatan berbentuk segitiga atau huruf V sebesar ukuran kepala agar mudah memakainya.',
+          'Kaum pria mamakai baju terusan. Di bagian lehernya berbentuk setengah lingkaran, berlengan panjang, dan pakaiannya sampai tumit kaki. Wanita memakai baju terusan, di bagian lehernya terdapat lipatan berbentuk segitiga atau huruf V sebesar ukuran kepala agar mudah memakainya.',
       },
     ],
     rumah: [
@@ -2040,7 +2043,7 @@ const budaya = [
         nama: 'Keris',
         gambar: 'keris sulut.jpg',
         description:
-            'Keris khas Sulawesi Utara berbentuk lurus, tidak ada lekukannya. Senjata ini termasuk kategori senjata tikam.',
+          'Keris khas Sulawesi Utara berbentuk lurus, tidak ada lekukannya. Senjata ini termasuk kategori senjata tikam.',
       },
     ],
   },
@@ -2066,7 +2069,7 @@ const budaya = [
         nama: 'Tari Kipas',
         gambar: 'Tari-Kipas.jpg',
         description:
-            'tari yang mempertunjukkan kemahiran para gadis dalam memainkan kipas samhil mengikuti alunan lagu.',
+          'tari yang mempertunjukkan kemahiran para gadis dalam memainkan kipas samhil mengikuti alunan lagu.',
       },
     ],
     upacara: [
@@ -2074,7 +2077,7 @@ const budaya = [
         nama: 'Rambu Solo',
         gambar: 'rambu solo.jpg',
         description:
-            'Rambu Solo merupakan ritual pemakaman adat suku Toraja, Sulawesi Selatan. Upacara ini sebagai bentuk penghormatan terhadap orang yang telah meninggal. Tujuan upacara adat Rambu Solo adalah mengantarkan orang yang telah meninggal ke alam roh.',
+          'Rambu Solo merupakan ritual pemakaman adat suku Toraja, Sulawesi Selatan. Upacara ini sebagai bentuk penghormatan terhadap orang yang telah meninggal. Tujuan upacara adat Rambu Solo adalah mengantarkan orang yang telah meninggal ke alam roh.',
       },
     ],
     pakaian: [
@@ -2082,7 +2085,7 @@ const budaya = [
         nama: 'Baju Bodo',
         gambar: 'baju bodo.jpg',
         description:
-            'Baju bodo  adalah pakaian adat tradisional perempuan Bugis,  Sulawesi Selatan,  Indonesia. Baju bodo berbentuk segi empat, biasanya berlengan pendek, yaitu setengah atas bagian siku lengan. Baju bodo juga dikenali sebagai salah satu busana tertua di dunia.',
+          'Baju bodo  adalah pakaian adat tradisional perempuan Bugis,  Sulawesi Selatan,  Indonesia. Baju bodo berbentuk segi empat, biasanya berlengan pendek, yaitu setengah atas bagian siku lengan. Baju bodo juga dikenali sebagai salah satu busana tertua di dunia.',
       },
     ],
     rumah: [
@@ -2098,7 +2101,7 @@ const budaya = [
         nama: 'Badik',
         gambar: 'Badik.JPG',
         description:
-            'Badik adalah sejenis pisau bersisi tajam tunggal atau ganda. Bentuknya asimetris dan bilahnya kerap kali dihiasi. Senjata tradisional ini, dikenal di berbagai wilayah di Indonesia, seperti di Sumatera dan Sulawesi',
+          'Badik adalah sejenis pisau bersisi tajam tunggal atau ganda. Bentuknya asimetris dan bilahnya kerap kali dihiasi. Senjata tradisional ini, dikenal di berbagai wilayah di Indonesia, seperti di Sumatera dan Sulawesi',
       },
     ],
   },
@@ -2132,19 +2135,19 @@ const budaya = [
         nama: 'Tari Soanggi',
         gambar: 'tari-soanggi.png',
         description:
-            'Tari Soanggi disebutkan berawal dari sebuah kisah seorang suami yang ditinggal mati oleh sang istri karena diserang oleh makhluk dengan nama anggi-anggi atau soanggi (jadi-jadian). Di Jawa, makhluk soanggi ini disebut sebagai memedi. Menurut kepercayaan dari warga sekitar, soanggai adalah roh jahat yang belum mendapatkan rasa nyaman di alam baka, tempat ia seharusnya berada. Roh jahat tersebut pada umumnya akan datang serta merasuki tubuh dari seorang perempuan.',
+          'Tari Soanggi disebutkan berawal dari sebuah kisah seorang suami yang ditinggal mati oleh sang istri karena diserang oleh makhluk dengan nama anggi-anggi atau soanggi (jadi-jadian). Di Jawa, makhluk soanggi ini disebut sebagai memedi. Menurut kepercayaan dari warga sekitar, soanggai adalah roh jahat yang belum mendapatkan rasa nyaman di alam baka, tempat ia seharusnya berada. Roh jahat tersebut pada umumnya akan datang serta merasuki tubuh dari seorang perempuan.',
       },
       {
         nama: 'Tari Aluyen',
         gambar: 'tari-aluyen.png',
         description:
-            'Tari Aluyen merupakan tarian daerah Papua yang berasal dari daerah Distrik Aimas, Kabupaten Sorong, Provinsi Papua Barat. Penyebutan istilah tari Aluyen berasal dari dua suku kata yaitu kata alu yang artinya adalah lagu serta yen yang artinya adalah dinyanyikan.Secara keseluruhan, tari Aluyen ini memiliki arti lagu yang dinyanyikan. Eksistensi awal dari tari Aluyen telah ada sejak Indonesia masih dalam masa penjajahan dan belum merdekan. Tari Aluyen adalah tari tradisional yang umumnya dipentaskan sebagai bagian dari upacara adat yaitu ketika ada seorang warga yang membangun rumah baru atau membuka kebun baru.',
+          'Tari Aluyen merupakan tarian daerah Papua yang berasal dari daerah Distrik Aimas, Kabupaten Sorong, Provinsi Papua Barat. Penyebutan istilah tari Aluyen berasal dari dua suku kata yaitu kata alu yang artinya adalah lagu serta yen yang artinya adalah dinyanyikan.Secara keseluruhan, tari Aluyen ini memiliki arti lagu yang dinyanyikan. Eksistensi awal dari tari Aluyen telah ada sejak Indonesia masih dalam masa penjajahan dan belum merdekan. Tari Aluyen adalah tari tradisional yang umumnya dipentaskan sebagai bagian dari upacara adat yaitu ketika ada seorang warga yang membangun rumah baru atau membuka kebun baru.',
       },
       {
         nama: 'Tari Afaitaneng',
         gambar: 'tari-afaitaneng.png',
         description:
-            'Tari Afaitaneng merupakan sebuah tarian daerah tradisional yang berasal dari daerah di Distrik Kepulauan Ambai, Kabupaten Kepulauan Yapen, Provinsi Papua Barat. Eksistensi dari awal tarian ini telah ada sejak Indonesia belum merdeka, sama seperti kebanyakan dari tarian daerah Papua yang lainnya.Tarian  Afaitaneng satu ini termasuk dalam tarian tradisional yang berkaitan dengan sikap kepahlawanan. Penyebutan dari nama tari Afaitaneng berasal dari dua suku kata yaitu afai yang artinya adalah panah serta kata taneng yang artinya adalah milik. Maka secara keseluruhan, tari Afaitaneng dapat diartikan sebagai anak panah milik kami.',
+          'Tari Afaitaneng merupakan sebuah tarian daerah tradisional yang berasal dari daerah di Distrik Kepulauan Ambai, Kabupaten Kepulauan Yapen, Provinsi Papua Barat. Eksistensi dari awal tarian ini telah ada sejak Indonesia belum merdeka, sama seperti kebanyakan dari tarian daerah Papua yang lainnya.Tarian  Afaitaneng satu ini termasuk dalam tarian tradisional yang berkaitan dengan sikap kepahlawanan. Penyebutan dari nama tari Afaitaneng berasal dari dua suku kata yaitu afai yang artinya adalah panah serta kata taneng yang artinya adalah milik. Maka secara keseluruhan, tari Afaitaneng dapat diartikan sebagai anak panah milik kami.',
       },
     ],
     upacara: [
@@ -2152,7 +2155,7 @@ const budaya = [
         nama: 'Tanam Sasi',
         gambar: 'tanam-sasi.jpg',
         description:
-            'Upacara adat tanam sasi adalah upacara adat kematian yang berkembang di daerah Kabupaten Merauke dan dilaksanakan oleh suku Marind atau suku Marind-Anim. Suku Marind berada di wilayah dataran luas di Papua Barat. Kata anim dalam penamaan suku Marind Anim ini memiliki arti laki-laki dan kata anum artinya adalah perempuan. Jumlah penduduk dari suku ini diperkirakan sebanyak 5000 hingga 7000 jiwa.',
+          'Upacara adat tanam sasi adalah upacara adat kematian yang berkembang di daerah Kabupaten Merauke dan dilaksanakan oleh suku Marind atau suku Marind-Anim. Suku Marind berada di wilayah dataran luas di Papua Barat. Kata anim dalam penamaan suku Marind Anim ini memiliki arti laki-laki dan kata anum artinya adalah perempuan. Jumlah penduduk dari suku ini diperkirakan sebanyak 5000 hingga 7000 jiwa.',
       },
     ],
     pakaian: [
@@ -2160,7 +2163,7 @@ const budaya = [
         nama: 'Yokal',
         gambar: 'yokal.webp',
         description:
-            'Pakaian ini khusus dikenakan oleh para wanita yang sudah berkeluarga atau yang sudah menikah. Pakaian adat dengan warna khas cokelat kemerahan ini bisa ditemukan di daerah pedalaman Papua. Pakaian ini juga disebut sebagai simbol bahwa masyarakat Papua memiliki kedekatan dengan. Pakaian ini bisa digunakan oleh masyarakat Papua ketika beraktivitas sehari-hari maupun saat ada festival budaya atau acara adat khusus.',
+          'Pakaian ini khusus dikenakan oleh para wanita yang sudah berkeluarga atau yang sudah menikah. Pakaian adat dengan warna khas cokelat kemerahan ini bisa ditemukan di daerah pedalaman Papua. Pakaian ini juga disebut sebagai simbol bahwa masyarakat Papua memiliki kedekatan dengan. Pakaian ini bisa digunakan oleh masyarakat Papua ketika beraktivitas sehari-hari maupun saat ada festival budaya atau acara adat khusus.',
       },
     ],
     rumah: [
@@ -2176,13 +2179,13 @@ const budaya = [
         nama: 'Alat Tusuk dari Tulang Kuskus',
         gambar: 'alat-tusuk-dari-tulang-kuskus.webp',
         description:
-            'Alat tusuk yang terbuat dari tulang kuskus digunakan oleh suku Bauzi sebagai alat berburu sambil menunggu musim panen. Alat ini dikenal karena ramah terhadap lingkungan karena pembuatannya tidak melibatkan alat-alat industri yang dapat mencemari lingkungan. Proses pembuatan alat ini melibatkan membersihkan tulang kuskus, meruncingkannya dengan menggosokkannya menggunakan batu asahan, dan mengulanginya hingga membentuk senjata yang tajam.',
+          'Alat tusuk yang terbuat dari tulang kuskus digunakan oleh suku Bauzi sebagai alat berburu sambil menunggu musim panen. Alat ini dikenal karena ramah terhadap lingkungan karena pembuatannya tidak melibatkan alat-alat industri yang dapat mencemari lingkungan. Proses pembuatan alat ini melibatkan membersihkan tulang kuskus, meruncingkannya dengan menggosokkannya menggunakan batu asahan, dan mengulanginya hingga membentuk senjata yang tajam.',
       },
       {
         nama: 'Tombak',
         gambar: 'tombak.webp',
         description:
-            'Tombak ini terbuat dari bahan-bahan alami yang mudah ditemukan di alam, seperti kayu yang digunakan untuk membuat gagangnya.Bagian ujung tombak, yang disebut mata tombak, terbuat dari batu kali yang kemudian diasah hingga tajam.Tombak ini memiliki nilai khusus dalam budaya Papua, dengan aturan adat yang mengharuskan penggunaannya hanya untuk keperluan berburu atau berperang.',
+          'Tombak ini terbuat dari bahan-bahan alami yang mudah ditemukan di alam, seperti kayu yang digunakan untuk membuat gagangnya.Bagian ujung tombak, yang disebut mata tombak, terbuat dari batu kali yang kemudian diasah hingga tajam.Tombak ini memiliki nilai khusus dalam budaya Papua, dengan aturan adat yang mengharuskan penggunaannya hanya untuk keperluan berburu atau berperang.',
       },
     ],
   },
@@ -2216,19 +2219,19 @@ const budaya = [
         nama: 'Tari Awaijale Rilejale',
         gambar: 'tari-awaijale-rilejale.png',
         description:
-            'Tarian  daerah Papua satu ini menggambarkan mengenai keindahan dari alam Danau Sentani ketika memasuki waktu senja, ketika warga lokal pulang dari bekerja dengan menaiki perahu. Tari Awaijale Rilejale ditarikan oleh sekelompok penari laki-laki serta perempuan. Ketika membawakan tari Awaijale Rilejale, para penari akan mengenakan pakaian adat yang disebut sebagai Pea Malo',
+          'Tarian  daerah Papua satu ini menggambarkan mengenai keindahan dari alam Danau Sentani ketika memasuki waktu senja, ketika warga lokal pulang dari bekerja dengan menaiki perahu. Tari Awaijale Rilejale ditarikan oleh sekelompok penari laki-laki serta perempuan. Ketika membawakan tari Awaijale Rilejale, para penari akan mengenakan pakaian adat yang disebut sebagai Pea Malo',
       },
       {
         nama: 'Tari Sajojo',
         gambar: 'tari-sajojo.png',
         description:
-            'Tari Sajojo sering ditampilkan di berbagai kesempatan dan acara, baik itu acara hiburan, adat maupun budaya. Pera penari Sajojo biasanya akan menampilkan tarian Sajojo dengan diiringi oleh lagu dengan judul Sajojo. Lagu tersebut adalah lagu daerah Papua yang menceritakan mengenai kisah dari seorang gadis yang diidolakan serta dicintai di kampung tempat tinggalnya.',
+          'Tari Sajojo sering ditampilkan di berbagai kesempatan dan acara, baik itu acara hiburan, adat maupun budaya. Pera penari Sajojo biasanya akan menampilkan tarian Sajojo dengan diiringi oleh lagu dengan judul Sajojo. Lagu tersebut adalah lagu daerah Papua yang menceritakan mengenai kisah dari seorang gadis yang diidolakan serta dicintai di kampung tempat tinggalnya.',
       },
       {
         nama: 'Tari Det Pok Mbui',
         gambar: 'tari-det-pok-mbui.png',
         description:
-            'Kemunculan awal dari tari Det Pok Mbui telah ada sejak Indonesia belum merdeka. Penyebutan tari tradisional yaitu Det Pok Mbui berasal dari dua suku kata yaitu kata det yang artinya adalah topeng yang mirip setan dan pok mbui yang artinya adalah pesta atau sebuah upacara. Maka arti kata dari Det Pok Mbui adalah upacara topeng setan.',
+          'Kemunculan awal dari tari Det Pok Mbui telah ada sejak Indonesia belum merdeka. Penyebutan tari tradisional yaitu Det Pok Mbui berasal dari dua suku kata yaitu kata det yang artinya adalah topeng yang mirip setan dan pok mbui yang artinya adalah pesta atau sebuah upacara. Maka arti kata dari Det Pok Mbui adalah upacara topeng setan.',
       },
     ],
     upacara: [
@@ -2236,31 +2239,31 @@ const budaya = [
         nama: 'Kiuturu Nandauw',
         gambar: 'kiuturu-nandauw.jpg',
         description:
-            'Adat memotong rambut pertama kali pada anak ada di beberapa daerah, Kiuturu Nandauw merupakan upacara adat potong rambut yang dilakukan oleh anak-anak ketika menginjak usia 5 tahun.Upacara ini biasanya dilakukan oleh para orang tua untuk anak-anaknya, serangkaian upacara adat yang menjadi salah satu tradisi secara turun temurun, Kiuturu Nandauw juga biasa disebut dengan upacara adat Kakakrukrorbun.',
+          'Adat memotong rambut pertama kali pada anak ada di beberapa daerah, Kiuturu Nandauw merupakan upacara adat potong rambut yang dilakukan oleh anak-anak ketika menginjak usia 5 tahun.Upacara ini biasanya dilakukan oleh para orang tua untuk anak-anaknya, serangkaian upacara adat yang menjadi salah satu tradisi secara turun temurun, Kiuturu Nandauw juga biasa disebut dengan upacara adat Kakakrukrorbun.',
       },
       {
         nama: 'Upacara Wor',
         gambar: 'upacara-wor.jpg',
         description:
-            'Upacara Wor dimaknai sebagai upacara adat yang memiliki hubungan dengan kehidupan religius dari masyarakat Suku Biak.Kehidupan sosial masyarakat Suku Biak tak terlepas dari upacara Wor ini,melibatkan keluarga inti dan kerabat suami istri, bertujuan untuk memohon sekaligus meminta perlindungan untuk anak mereka pada penguasa alam semesta.',
+          'Upacara Wor dimaknai sebagai upacara adat yang memiliki hubungan dengan kehidupan religius dari masyarakat Suku Biak.Kehidupan sosial masyarakat Suku Biak tak terlepas dari upacara Wor ini,melibatkan keluarga inti dan kerabat suami istri, bertujuan untuk memohon sekaligus meminta perlindungan untuk anak mereka pada penguasa alam semesta.',
       },
       {
         nama: 'Bakar Batu',
         gambar: 'bakar-batu.jpg',
         description:
-            'Salah satu bentuk rasa syukur bagi masyarakat Papua adalah dengan melakukan upacara bakar batu, atau ritual masak bersama-sama.Biasanya upacara bakar batu dilakukan oleh suku pedalaman seperti Nabire, Lembah Baliem, Paniai, Pegunungan Tengah, Pegunungan Bintan, Yahukimo, dan Dekai. Dalam sejarah upacara bakar batu dilakukan oleh orang pegunungan dengan membakar daging babi, namun sebagai bentuk toleransi saat ini bakar batu tidak selalu membakar babi, tetapi juga membakar sapi, kambing, maupun ayam.',
+          'Salah satu bentuk rasa syukur bagi masyarakat Papua adalah dengan melakukan upacara bakar batu, atau ritual masak bersama-sama.Biasanya upacara bakar batu dilakukan oleh suku pedalaman seperti Nabire, Lembah Baliem, Paniai, Pegunungan Tengah, Pegunungan Bintan, Yahukimo, dan Dekai. Dalam sejarah upacara bakar batu dilakukan oleh orang pegunungan dengan membakar daging babi, namun sebagai bentuk toleransi saat ini bakar batu tidak selalu membakar babi, tetapi juga membakar sapi, kambing, maupun ayam.',
       },
       {
         nama: 'Ero Era Tu Ura',
         gambar: 'ero-era-tu-ura.jpg',
         description:
-            'Ada upacara unik di Papua, dilakukan oleh anak-anak yang berumur tiga sampai lima tahun untuk menindik telinga mereka, disebut dengan Ero Era Tu Ura.Upacara ini dilaksanakan dan dipimpin oleh seorang dukun, dan dihadiri oleh sanak saudara dari anak yang akan ditindik sekaligus para tetangga.Upacara tindik telinga anak ini dilaksanakan untuk menjaga telinga anak, yang dipercaya bahwa anak yang telah mendapat tindik telinga selalu mendengarkan suara yang baik dan tidak buruk.',
+          'Ada upacara unik di Papua, dilakukan oleh anak-anak yang berumur tiga sampai lima tahun untuk menindik telinga mereka, disebut dengan Ero Era Tu Ura.Upacara ini dilaksanakan dan dipimpin oleh seorang dukun, dan dihadiri oleh sanak saudara dari anak yang akan ditindik sekaligus para tetangga.Upacara tindik telinga anak ini dilaksanakan untuk menjaga telinga anak, yang dipercaya bahwa anak yang telah mendapat tindik telinga selalu mendengarkan suara yang baik dan tidak buruk.',
       },
       {
         nama: 'Snap Mor',
         gambar: 'snap-mor.jpg',
         description:
-            'Papua memiliki upacara unik, sebuah tradisi menangkap ikan di air laut yang sedang surut, upacara ini disebut sebagai Snap Mor yang biasa dilakukan oleh masyarakat Papua dari Suku Biak secara beramai-ramai.Snap Mor dilaksanakan pada sekitar bulan Juli hingga Agustus, di saat air laut dalam keadaan surut, tradisi menangkap ikan ini mengandung nilai kebersamaan serta menjadi bentuk dari rasa syukur masyarakat Papua atas kekayaan alam yang dimilikinya.',
+          'Papua memiliki upacara unik, sebuah tradisi menangkap ikan di air laut yang sedang surut, upacara ini disebut sebagai Snap Mor yang biasa dilakukan oleh masyarakat Papua dari Suku Biak secara beramai-ramai.Snap Mor dilaksanakan pada sekitar bulan Juli hingga Agustus, di saat air laut dalam keadaan surut, tradisi menangkap ikan ini mengandung nilai kebersamaan serta menjadi bentuk dari rasa syukur masyarakat Papua atas kekayaan alam yang dimilikinya.',
       },
     ],
     pakaian: [
@@ -2268,19 +2271,19 @@ const budaya = [
         nama: 'Rok Rumbai',
         gambar: 'rok-rumbai.webp',
         description:
-            'Papua biasanya bertelanjang dada menggunakan celana rumbai dari daun sagu. Panjang rok ini pada umumnya sebatas lutut. Pria Papua juga mengenakan aksesoris lain seperti gelang dan kalung yang terbuat dari gigi anjing atau taring babi.',
+          'Papua biasanya bertelanjang dada menggunakan celana rumbai dari daun sagu. Panjang rok ini pada umumnya sebatas lutut. Pria Papua juga mengenakan aksesoris lain seperti gelang dan kalung yang terbuat dari gigi anjing atau taring babi.',
       },
       {
         nama: 'Holim',
         gambar: 'holim.webp',
         description:
-            'Baju adat Papua Holim dipakai oleh pria dari suku dani. Pakaian adat ini lebih dikenal dengan sebutan koteka. Fungsinya untuk menutupi area kemaluan pria. Suku di Papua lainnya menggunakan koteka meski bentuknya berbeda-beda.',
+          'Baju adat Papua Holim dipakai oleh pria dari suku dani. Pakaian adat ini lebih dikenal dengan sebutan koteka. Fungsinya untuk menutupi area kemaluan pria. Suku di Papua lainnya menggunakan koteka meski bentuknya berbeda-beda.',
       },
       {
         nama: 'Baju Adat Sali',
         gambar: 'baju-adat-sali.jpg',
         description:
-            'Baju adat sali dikhususkan bagi wanita yang masih lajang dan belum menikah. Pakaian adat ini terbuat dari kulit pohon yang tidak sembarangan dan bisa digunakan sehari-hari. Dalam pembuatan pakaian adat sali, kulit pohon yang dipilih harus berwarna cokelat agar pakaian yang dihasilkan bagus, sempurna dan menarik.',
+          'Baju adat sali dikhususkan bagi wanita yang masih lajang dan belum menikah. Pakaian adat ini terbuat dari kulit pohon yang tidak sembarangan dan bisa digunakan sehari-hari. Dalam pembuatan pakaian adat sali, kulit pohon yang dipilih harus berwarna cokelat agar pakaian yang dihasilkan bagus, sempurna dan menarik.',
       },
     ],
     rumah: [
@@ -2320,19 +2323,19 @@ const budaya = [
         nama: 'Belati dari Tulang Kasuri',
         gambar: 'belati-dari-tulang-kasuri.png',
         description:
-            'Belati dari Tulang Kasuari bentuknya tidak terlalu panjang, namun ketajamannya dapat membuat musuh ketakutan. Bila senjata tradisional umumnya terbuat dari logam, maka belati khas Papua ini menggunakan tulang Burung Kasuari. Belati dari Tulang Kasuari ini dibuat dengan meruncingkan di bagian ujung, kemudian senjata dihiasi dengan bulu di bagian gagangnya.',
+          'Belati dari Tulang Kasuari bentuknya tidak terlalu panjang, namun ketajamannya dapat membuat musuh ketakutan. Bila senjata tradisional umumnya terbuat dari logam, maka belati khas Papua ini menggunakan tulang Burung Kasuari. Belati dari Tulang Kasuari ini dibuat dengan meruncingkan di bagian ujung, kemudian senjata dihiasi dengan bulu di bagian gagangnya.',
       },
       {
         nama: 'Kapak Batu',
         gambar: 'kapak-batu.png',
         description:
-            'Kapak batu yang ditemukan di Papua umumnya kapak lonjong. Namun seiring berjalannya waktu, budaya kapak batu ini hampir terlupakan Dalam budaya Sentani, kelompok suku besar di Papua, kapak batu mengalami pergeseran fungsi. Kapak batu tidak lagi sebagai alat kerja untuk menebang pohon, menokok sagu, atau membuat perahu. Kapak batu atau he (bahasa Sentani) digunakan sebagai warisan turun-temurun yang memiliki nilai sosial terutama dalam upacara adat, seperti pembayaran mas kawin, denda adat, dan pembayaran kepala.',
+          'Kapak batu yang ditemukan di Papua umumnya kapak lonjong. Namun seiring berjalannya waktu, budaya kapak batu ini hampir terlupakan Dalam budaya Sentani, kelompok suku besar di Papua, kapak batu mengalami pergeseran fungsi. Kapak batu tidak lagi sebagai alat kerja untuk menebang pohon, menokok sagu, atau membuat perahu. Kapak batu atau he (bahasa Sentani) digunakan sebagai warisan turun-temurun yang memiliki nilai sosial terutama dalam upacara adat, seperti pembayaran mas kawin, denda adat, dan pembayaran kepala.',
       },
       {
         nama: 'Tombak',
         gambar: 'tombak.jpg',
         description:
-            'Tombak merupakan senjata tradisional yang digunakan untuk berburu. Berburu merupakan salah satu sistem mata pencaharian yang terdapat di masyarakat Papua. Tombak juga dipergunakan sebagai salah satu senjata berperang untuk mempertahankan atau merebut wilayah. Untuk masyarakat Papua, perang merupakan sebuah prestasi atau prestise. Panjang tombak antara 2 sampai 3 meter, tombak terbuat dari batang bambu atau batang nibun dengan mata tobak terbuat dari kayu besi atau pohon pinus',
+          'Tombak merupakan senjata tradisional yang digunakan untuk berburu. Berburu merupakan salah satu sistem mata pencaharian yang terdapat di masyarakat Papua. Tombak juga dipergunakan sebagai salah satu senjata berperang untuk mempertahankan atau merebut wilayah. Untuk masyarakat Papua, perang merupakan sebuah prestasi atau prestise. Panjang tombak antara 2 sampai 3 meter, tombak terbuat dari batang bambu atau batang nibun dengan mata tobak terbuat dari kayu besi atau pohon pinus',
       },
     ],
   },

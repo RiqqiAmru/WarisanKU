@@ -1,6 +1,7 @@
 import DrawerInitiator from '../utils/drawer-initiator';
 import UrlParser from '../routes/url-parser';
 import routes from '../routes/routes';
+import './components/cardDetail';
 
 class App {
   constructor({

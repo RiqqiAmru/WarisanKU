@@ -1,4 +1,6 @@
 const Hapi = require('@hapi/hapi');
+const inert = require('@hapi/inert');
+const path = require('path');
 const budayaData = require('./budaya.js');
 
 const init = async () => {
@@ -18,7 +20,7 @@ const init = async () => {
   server.route({
     method: 'GET',
     path: '/api/budaya',
-    handler: (request, h) => ({ data: budayaData }),
+    handler: () => ({ data: budayaData }),
   });
 
   // Definisikan rute untuk mendapatkan satu budaya berdasarkan ID\
@@ -34,6 +36,18 @@ const init = async () => {
       }
 
       return { data: budaya };
+    },
+  });
+
+  // route untuk mengembalikan gambar
+  await server.register(inert);
+
+  server.route({
+    method: 'GET',
+    path: '/api/images/{imageName}',
+    handler: (request, h) => {
+      const { imageName } = request.params;
+      return h.file(path.join(__dirname, `../api/img/${imageName}`));
     },
   });
 
