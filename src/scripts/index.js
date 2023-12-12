@@ -1,9 +1,6 @@
 import 'regenerator-runtime'; /* for async await transpile */
 import '../styles/main.css';
 import '../styles/responsive.css';
-// import Swiper from 'swiper';
-// import 'swiper/swiper-bundle.min.css';
-// import Swiper from 'swiper/bundle';
 import App from './views/app';
 
 // eslint-disable-next-line no-unused-vars

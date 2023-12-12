@@ -2,6 +2,7 @@ import DrawerInitiator from '../utils/drawer-initiator';
 import UrlParser from '../routes/url-parser';
 import routes from '../routes/routes';
 import './components/cardDetail';
+import slogan from '../data/slogan';
 
 // Swiper JS
 function initializeSwiper() {
@@ -28,6 +29,12 @@ function initializeSwiper() {
       prevEl: '.swiper-button-prev',
     },
   });
+}
+
+function generateSlogan() {
+  const randomIndex = Math.floor(Math.random() * slogan.length);
+  const randomSlogan = slogan[randomIndex];
+  document.getElementById('slogan').innerText = randomSlogan;
 }
 
 class App {
@@ -58,6 +65,9 @@ class App {
     this._content.innerHTML = await page.render();
     await page.afterRender();
     initializeSwiper();
+
+    generateSlogan();
+    setInterval(generateSlogan, 5000);
   }
 }
 

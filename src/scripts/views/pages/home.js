@@ -1,10 +1,11 @@
 const Home = {
   async render() {
     return `
+    <!-- Hero -->
     <section class="hero">
     <div class="hero-header">
       <h1 class="font-bold"><span class="sorotan">Warisan</span>KU</h1>
-      <p>Belajar berbudaya, lestarikan budaya kita</p>
+      <p id="slogan"></p>
       <a href="#" class="ctn">Learn Now</a>
     </div>
   </section>
