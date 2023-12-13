@@ -18,6 +18,12 @@ class BudayaApiSource {
     const responseBlob = await response.blob();
     return responseBlob;
   }
+
+  static async budayaLainnya() {
+    const response = await fetch(endpoints.BUDAYA_LAINNYA);
+    const responseJson = await response.json();
+    return responseJson;
+  }
 }
 
 export default BudayaApiSource;

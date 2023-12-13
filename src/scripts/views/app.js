@@ -2,6 +2,7 @@ import DrawerInitiator from '../utils/drawer-initiator';
 import UrlParser from '../routes/url-parser';
 import routes from '../routes/routes';
 import './components/cardDetail';
+import './components/cardLainnya';
 import slogan from '../data/slogan';
 
 // Swiper JS
@@ -62,12 +63,15 @@ class App {
   async renderPage() {
     const url = UrlParser.parseActiveUrl(true);
     const page = routes[url];
+    console.log(url);
     this._content.innerHTML = await page.render();
     await page.afterRender();
-    initializeSwiper();
 
-    generateSlogan();
-    setInterval(generateSlogan, 5000);
+    if (url === '/') {
+      initializeSwiper();
+      generateSlogan();
+      setInterval(generateSlogan, 5000);
+    }
   }
 }
 

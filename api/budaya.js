@@ -392,7 +392,7 @@ const budaya = [
     pakaian: [
       {
         nama: 'Ta’a dan Sapei Sapaq',
-        gambar: 'Baju Adat kalimantan utara.jpeg',
+        gambar: 'baju-adat-kalimantan-utara.jpeg',
         description:
           'Pakaian ta’a dikhususkan untuk dipakai oleh kalangan wanita. Bahannya terbuat dari beludru dengan hiasan pernak -pernik pada jahitannya. sapei sapaq hanya digunakan oleh kaum pria berupa kain selendang yang digulung dan dililitkan yang membentuk seperti celana mengenakan rompi, membawa perisai.',
       },
@@ -857,7 +857,7 @@ const budaya = [
     pakaian: [
       {
         nama: 'Baju Teluk Belanga',
-        gambar: 'belanga.jpg',
+        gambar: 'belanga.jpeg',
         description:
           'Busana ini terdiri dari celana, kain sampin, dan songkok atau penutup kepala. Untuk perempuan, pakaian yang dipakai berupa baju kurung, kain, dan selendang. Selendang dipakai dengan cara disampirkan di bahu.',
       },

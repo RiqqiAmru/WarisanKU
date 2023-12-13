@@ -9,6 +9,9 @@ class CardDetail extends HTMLElement {
 
   render(data) {
     this.innerHTML = `
+    <style>
+
+    </style>
     <div class="bg-transparent rounded-md shadow-lg border-white border-2">
     <img
       src="${endpoints.BUDAYA_IMAGE(data.gambar)}"
