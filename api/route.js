@@ -38,10 +38,10 @@ const route = [
       const dataProvinsi = budayaData.map((item) => ({
         id: item.id,
         provinsi: item.provinsi,
-        // randomly pick one image from the array
         item: pickRandomItemFromOneProvinsi(item),
       }));
-      return { data: dataProvinsi };
+      const randomDataProvinsi = dataProvinsi.sort(() => 0.5 - Math.random()).slice(0, 9);
+      return { data: randomDataProvinsi };
     },
   },
 ];

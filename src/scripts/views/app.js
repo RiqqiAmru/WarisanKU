@@ -2,6 +2,7 @@ import DrawerInitiator from '../utils/drawer-initiator';
 import UrlParser from '../routes/url-parser';
 import routes from '../routes/routes';
 import './components/cardDetail';
+import './components/cardLainnya';
 import slogan from '../data/slogan';
 import budaya from '../../../api/budaya';
 
@@ -63,35 +64,13 @@ class App {
   async renderPage() {
     const url = UrlParser.parseActiveUrl(true);
     const page = routes[url];
+    console.log(url);
     this._content.innerHTML = await page.render();
     await page.afterRender();
     initializeSwiper();
 
     generateSlogan();
     setInterval(generateSlogan, 5000);
-
-    const imgBudaya = document.getElementById('swiper-slide');
-    console.log(imgBudaya);
-
-    const provinsi = document.getElementById('provinsi');
-    console.log(provinsi);
-
-    console.log(budaya);
-
-    const swiperSlide = document.querySelector('.swiper-wrapper');
-    console.log(swiperSlide);
-    // eslint-disable-next-line no-shadow
-    // budaya.forEach((budaya) => {
-    //   provinsi.innerHTML = `${budaya.provinsi}`;
-
-    //   budaya.rumah.forEach((rumah) => {
-    //     const imgElement = document.createElement('img');
-
-    //     imgElement.src = `http://localhost:3000/api/images/${rumah.gambar}`;
-
-    //     imgBudaya.appendChild(imgElement);
-    //   });
-    // });
   }
 }
 
