@@ -91,10 +91,6 @@ nav li:first-child{
   width: 100%;
 }
 
-main{
-  /* height: 2000px; */
-}
-
 main section.hero{
   width: 100%;
   min-height: 800px;
