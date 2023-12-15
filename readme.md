@@ -11,11 +11,10 @@ Endpoints:
 
 ## Debug
 
-data Budaya
-
-- Upacara Adat
-- Pakaian Adat
-- Rumah Adat
-- Senjata Tradisional
-- Tarian Tradisional
-- Makanan Khas
+- buat offline capability,
+- webmanifest
+- buat search api
+- rename nama gambar
+- quiz
+- perkecil ukuran gambar hero & ikrom, riqqi
+- maskable icon
