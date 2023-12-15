@@ -299,6 +299,12 @@ align-items: center;
   -webkit-box-reflect: below 1px linear-gradient(transparent, transparent,#0002, #0004);
 }
 
+.items__budaya .swiper .swiper-wrapper .swiper-slide img{
+ height: 200px;
+ width: 300px;
+ object-fit: cover;
+}
+
 main section.our__team{
   text-align: center;
   padding: 4rem 5rem;

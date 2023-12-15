@@ -151,10 +151,7 @@ const Home = {
       <!-- Swiper JS -->
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide" id="swiper-slide">
-            <img id="imgBudaya" src="https://swiperjs.com/demos/images/nature-1.jpg" />
-            <h4 class="font-bold text-center" id="provinsi"></h4>
-          </div>
+          
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>

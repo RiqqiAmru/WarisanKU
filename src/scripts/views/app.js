@@ -4,7 +4,7 @@ import routes from '../routes/routes';
 import './components/cardDetail';
 import './components/cardLainnya';
 import slogan from '../data/slogan';
-import budaya from '../../../api/budaya';
+import BudayaApiSource from '../data/budaya-api-source';
 
 // Swiper JS
 function initializeSwiper() {
@@ -71,29 +71,29 @@ class App {
     generateSlogan();
     setInterval(generateSlogan, 5000);
 
-    const imgBudaya = document.getElementById('swiper-slide');
-    console.log(imgBudaya);
-
-    const provinsi = document.getElementById('provinsi');
-    console.log(provinsi);
-
-    console.log(budaya);
-
-    const swiperSlide = document.querySelector('.swiper-wrapper');
-    console.log(swiperSlide);
-    // eslint-disable-next-line no-shadow
-    // budaya.forEach((budaya) => {
-    //   provinsi.innerHTML = `${budaya.provinsi}`;
-
-    //   budaya.rumah.forEach((rumah) => {
-    //     const imgElement = document.createElement('img');
-
-    //     imgElement.src = `http://localhost:3000/api/images/${rumah.gambar}`;
-
-    //     imgBudaya.appendChild(imgElement);
-    //   });
-    // });
     if (url === '/') {
+      const budayaLainnya = await BudayaApiSource.budayaLainnya();
+
+      const swiperWraper = document.querySelector('.swiper-wrapper');
+      // eslint-disable-next-line no-shadow
+      budayaLainnya.data.forEach((provinsi) => {
+        const imgElement = document.createElement('img');
+        const linkLainnya = document.createElement('a');
+        const swiperSlide = document.createElement('div');
+        const namaDaerah = document.createElement('h4');
+
+        imgElement.src = `http://localhost:3000/api/images/${provinsi.item.gambar}`;
+        namaDaerah.innerHTML = `${provinsi.item.nama}`;
+        // linkLainnya.href(`http://localhost:3000/detail/${provinsi.id}`);
+
+        swiperWraper.appendChild(swiperSlide);
+        swiperSlide.classList.add('swiper-slide');
+        swiperSlide.appendChild(linkLainnya);
+        linkLainnya.href = (`/#/detail/${provinsi.id}`);
+        linkLainnya.appendChild(imgElement);
+        namaDaerah.classList.add('text-center');
+        swiperSlide.appendChild(namaDaerah);
+      });
       initializeSwiper();
       generateSlogan();
       setInterval(generateSlogan, 5000);
