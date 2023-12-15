@@ -9,7 +9,7 @@ module.exports = [
     ],
     tarian: [
       {
-        nama: "Tarek Pukat Aceconst fs = require('fs');h",
+        nama: 'Tarek Pukat Aceh',
         gambar: 'tari-pukat-aceh.webp',
         description:
           'menggambarkan aktivitas nelayan yang akan melaut untuk menangkap ikan. Menurut sejarah, tarian ini memang terinspirasi dari tradisi para nelayan Aceh yang memang sebagian besar profesinya adalah nelayan. Makna singkat dari tarian ini adalah kerja sama serta kebersamaan yang diiringi dengan alat musik tradisional',

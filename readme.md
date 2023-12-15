@@ -12,9 +12,9 @@ Endpoints:
 ## Debug
 
 - buat offline capability,
-- webmanifest
-- buat search api
-- rename nama gambar
 - quiz
-- perkecil ukuran gambar hero & ikrom, riqqi
-- maskable icon
+
+- buat search api?
+- testing?
+
+- Deploy to vercel
