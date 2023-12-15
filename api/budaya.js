@@ -1,20 +1,11 @@
-const budaya = [
+module.exports = [
   {
     id: 1,
     provinsi: 'Aceh',
     makanan: [
-      {
-        nama: 'Mie Aceh',
-        gambar: 'Mie-Aceh-1.jpg',
-      },
-      {
-        nama: 'Kuah Pliek U',
-        gambar: 'Kuah-Pliek-U.jpg',
-      },
-      {
-        nama: 'Gulai Kambing Aceh',
-        gambar: 'Gulai-Kambing-Aceh.jpg',
-      },
+      { nama: 'Mie Aceh', gambar: 'mie-aceh-1.jpg' },
+      { nama: 'Kuah Pliek U', gambar: 'kuah-pliek-u.jpg' },
+      { nama: 'Gulai Kambing Aceh', gambar: 'gulai-kambing-aceh.jpg' },
     ],
     tarian: [
       {
@@ -39,19 +30,19 @@ const budaya = [
     upacara: [
       {
         nama: 'Peusijuek',
-        gambar: 'Peusijuek.jpg',
+        gambar: 'peusijuek.jpg',
         description:
           'Peusijuek ini biasanya dipimpin oleh seorang tokoh agama atau tokoh adat yang dituakan oleh masyarakat. Dalam prosesinya, tradisi ini diisi dengan doa keselamatan dan kesejahteraan bersama sesuai dengan ajaran agama Islam. Upacara adat ini dilakukan oleh masyarakat Aceh sebagai ungkapan rasa syukur atas keselamatan dan kesuksesan dalam meraih sesuatu.',
       },
       {
         nama: 'Meugang',
-        gambar: 'Meugang.jpg',
+        gambar: 'meugang.jpg',
         description:
           'Meugang merupakan tradisi masyarakat Aceh yang dilakukan pada bulan Ramadhan. Tradisi ini dilakukan dengan cara mengunjungi rumah sanak saudara dan tetangga untuk bersilaturahmi. Selain itu, tradisi ini juga dilakukan dengan cara membagikan makanan kepada tetangga dan sanak saudara. Makanan yang biasanya dibagikan adalah makanan yang terbuat dari daging seperti rendang, gulai kambing, dan lain-lain.',
       },
       {
         nama: 'Kenduri Beureuat',
-        gambar: 'Kenduri-Beureuat.jpg',
+        gambar: 'kenduri-beureuat.jpg',
         description:
           'Meugang atau yang juga dikenal sebagai Makmeugang ini merupakan salah satu upacara adat di Aceh yang masih dilakukan sampai saat ini. Meugang ini meruoakan tradisi menyembelih hewan kurban berupa kambing atau sapi yang dilaksanakan setiap tiga kali setahun, yaitu saat Ramadhan, Idul Fotri dan Idul Adha.Daging dari penyembelihan kurban tersebut kemudian diolah oleh masyarakat Aceh dan dinikmati bersama keluarga, keraban serta dibagikan pada yatim piatu. Tradisi ini biasanya dilaksanakan sehari sebelum bulan Ramadhan atau Hari Raya Idul Fitri. Meugang ini konon telah dilakukan sejak ratusan tahun lalu pada masa Kerajaan Aceh yang mana tujuannya sebagai wujud rasa syukur atas kemakmuran rakyatnya serta rasa terima kasih kepada seluruh rakyatnya.',
       },
@@ -97,19 +88,13 @@ const budaya = [
     id: 2,
     provinsi: 'Kepulauan Bangka Belitung',
     makanan: [
-      {
-        nama: 'Lempah Kuning',
-        gambar: 'Lempah kuning.jpg',
-      },
-      {
-        nama: 'Mie Bangka',
-        gambar: 'Mie bangka.jpg',
-      },
+      { nama: 'Lempah Kuning', gambar: 'lempah-kuning.jpg' },
+      { nama: 'Mie Bangka', gambar: 'mie-bangka.jpg' },
     ],
     tarian: [
       {
         nama: 'Tari Campak',
-        gambar: 'Tari campak.jpeg',
+        gambar: 'tari-campak.jpeg',
         description:
           ' menggambarkan sebuah kecerian yang dirasakan oleh bujang dan dayang (laki - laki dan wanita yang belum menikah) di kepulauan bangka belitung.',
       },
@@ -117,7 +102,7 @@ const budaya = [
     upacara: [
       {
         nama: 'Larung Sesaji',
-        gambar: 'larung sesaji.jpg',
+        gambar: 'larung-sesaji.jpg',
         description:
           'tradisi untuk menghormati leluhur dengan melepas perahu hias ke laut diisi dengan berbagai sesaji.',
       },
@@ -130,16 +115,18 @@ const budaya = [
           'Baju Pangsi: Pakaian adat pria lainnya, terdiri dari kemeja putih, celana hitam, dan destar. Baju Kurung: Pakaian adat wanita dengan warna-warna cerah dan kain songket yang indah.',
       },
     ],
-    rumah: [{
-      nama: 'Rumah Rakit Limas',
-      gambar: 'rumah rakit limas.jpg',
-      description:
-        'Rumah adat Rakit Limas banyak dikenal sebagai rumah adat dari Bangka Belitung. Namun secara garis besar, rumah ada di Bangka Belitung terdiri atas tiga jenis yaitu Rumah Rakit, Rumah Limas, dan Rumah Panggung.',
-    }],
+    rumah: [
+      {
+        nama: 'Rumah Rakit Limas',
+        gambar: 'rumah-rakit-limas.jpg',
+        description:
+          'Rumah adat Rakit Limas banyak dikenal sebagai rumah adat dari Bangka Belitung. Namun secara garis besar, rumah ada di Bangka Belitung terdiri atas tiga jenis yaitu Rumah Rakit, Rumah Limas, dan Rumah Panggung.',
+      },
+    ],
     senjata: [
       {
         nama: 'Siwar',
-        gambar: 'Siwar.jpg',
+        gambar: 'siwar.jpg',
         description:
           'senjata tradisional tradisional Bangka Belitung yang bentuknya menyerupai Golok panjang. Siwar dibedakan berdasarkan ukuran panjang dan pendeknya.',
       },
@@ -148,16 +135,11 @@ const budaya = [
   {
     id: 3,
     provinsi: 'Kalimantan Barat',
-    makanan: [
-      {
-        nama: 'Bubur Sambas',
-        gambar: 'bubur sambas.jpg',
-      },
-    ],
+    makanan: [{ nama: 'Bubur Sambas', gambar: 'bubur-sambas.jpg' }],
     tarian: [
       {
         nama: 'Tari Zapin Tembung',
-        gambar: 'Tari-Zapin-Tembung.jpg',
+        gambar: 'tari-zapin-tembung.jpg',
         description:
           ' Zapin Tembung sering dianggap sebagai bentuk seni yang merefleksikan keceriaan dan keharmonisan dalam budaya lokal Kalimantan Barat.',
       },
@@ -173,21 +155,23 @@ const budaya = [
     pakaian: [
       {
         nama: 'Pakaian Adat Tradisional Perang',
-        gambar: 'Pakaian Adat Tradisional kalbar.jpg',
+        gambar: 'pakaian-adat-tradisional-kalbar.jpg',
         description:
           'Pakaian adat trasional Kalimantan Barat berbahan kulit kayu yang diproses menjadi kain.',
       },
     ],
-    rumah: [{
-      nama: 'Rumah Betang',
-      gambar: 'rumah betang.jpg',
-      description:
-        'Rumah Betang merupakan rumah panjang tradisional suku Dayak. Ciri khasnya adalah bentuk panjang dan ramping dengan atap tinggi yang melengkung. Rumah Betang biasanya terbuat dari kayu ulin yang kuat dan tahan lama.',
-    }],
+    rumah: [
+      {
+        nama: 'Rumah Betang',
+        gambar: 'rumah-betang.jpg',
+        description:
+          'Rumah Betang merupakan rumah panjang tradisional suku Dayak. Ciri khasnya adalah bentuk panjang dan ramping dengan atap tinggi yang melengkung. Rumah Betang biasanya terbuat dari kayu ulin yang kuat dan tahan lama.',
+      },
+    ],
     senjata: [
       {
         nama: 'Mandau',
-        gambar: 'mandau kalbar.jpg',
+        gambar: 'mandau-kalbar.jpg',
         description:
           'senjata tradisional suku Dayak, semacam golok dan berbentuk panjang, terbuat dari bahan pilihan yang diambil dari batu gunung yang mengandung besi.',
       },
@@ -197,23 +181,14 @@ const budaya = [
     id: 4,
     provinsi: 'Kalimantan Timur',
     makanan: [
-      {
-        nama: 'Ayam Cincane',
-        gambar: 'ayam cincane.jpg',
-      },
-      {
-        nama: 'Kue Gegicak',
-        gambar: 'kue gegicak.jpg',
-      },
-      {
-        nama: 'Amplang',
-        gambar: 'amplang.jpg',
-      },
+      { nama: 'Ayam Cincane', gambar: 'ayam-cincane.jpg' },
+      { nama: 'Kue Gegicak', gambar: 'kue-gegicak.jpg' },
+      { nama: 'Amplang', gambar: 'amplang.jpg' },
     ],
     tarian: [
       {
         nama: 'Tari Gong',
-        gambar: 'Tari-Gong.jpg',
+        gambar: 'tari-gong.jpg',
         description:
           ' Tari Gong dipertunjukan pada upacara penyambutan terhadap tatmu agung. Dapat pula di pertunjukan sewaktu lahir seorang bayi kepala suku.',
       },
@@ -221,13 +196,13 @@ const budaya = [
     upacara: [
       {
         nama: 'Upacara Tiwah',
-        gambar: 'upacara tiwah.jpg',
+        gambar: 'upacara-tiwah.jpg',
         description:
           'Upacara ini merupakan ritual kematian dan penghormatan terhadap leluhur suku Dayak.',
       },
       {
         nama: 'Upacara Erau',
-        gambar: 'upacara erau.jpg',
+        gambar: 'upacara-erau.jpg',
         description:
           ' perayaan adat besar yang diadakan untuk merayakan berbagai peristiwa dan keberhasilan masyarakat Dayak.',
       },
@@ -235,27 +210,29 @@ const budaya = [
     pakaian: [
       {
         nama: 'Baju takwo laki',
-        gambar: 'Baju Kaltim.webp',
+        gambar: 'baju-kaltim.webp',
         description:
           'berbentuk jas tutup berkerah tinggi. Kain bagian depan baju memanjang sedikit dari gari tengah baju ke kanan dengan hiasan kancing emas.',
       },
       {
         nama: 'Baju takwo bini',
-        gambar: 'Baju Kaltim.webp',
+        gambar: 'baju-kaltim.webp',
         description:
           'berbahan dasar kain brokat ataupun polosan. Potongannya serupa dengan kebaya berkerah tinggi dengan dibuat tertutup',
       },
     ],
-    rumah: [{
-      nama: 'Rumah Lamin',
-      gambar: 'rumah lamin.jpg',
-      description:
-        'Rumah Lamin merupakan rumah adat Dayak, khususnya yang berada di Kalimantan Timur. Ciri dari rumah ini adalah berbentuk panggung dengan ketinggian kolong sampai 3 meter. Denahnya berbentuk segi emat memanjang dengan atap pelana.',
-    }],
+    rumah: [
+      {
+        nama: 'Rumah Lamin',
+        gambar: 'rumah-lamin.jpg',
+        description:
+          'Rumah Lamin merupakan rumah adat Dayak, khususnya yang berada di Kalimantan Timur. Ciri dari rumah ini adalah berbentuk panggung dengan ketinggian kolong sampai 3 meter. Denahnya berbentuk segi emat memanjang dengan atap pelana.',
+      },
+    ],
     senjata: [
       {
         nama: 'Mandau',
-        gambar: 'mandau kaltim.jpg',
+        gambar: 'mandau-kaltim.jpg',
         description:
           'senjata tradisional suku Dayak, semacam golok dan berbentuk panjang, terbuat dari bahan pilihan yang diambil dari batu gunung yang mengandung besi.',
       },
@@ -265,19 +242,13 @@ const budaya = [
     id: 5,
     provinsi: 'Kalimantan Selatan',
     makanan: [
-      {
-        nama: 'Soto Banjar',
-        gambar: 'soto banjar.jpg',
-      },
-      {
-        nama: 'Sarabba',
-        gambar: 'Sarabba.jpg',
-      },
+      { nama: 'Soto Banjar', gambar: 'soto-banjar.jpg' },
+      { nama: 'Sarabba', gambar: 'sarabba.jpg' },
     ],
     tarian: [
       {
         nama: 'Tari Baksa Kembang',
-        gambar: 'Tari-Baksa-Kembang.jpg',
+        gambar: 'tari-baksa-kembang.jpg',
         description:
           ' tari klasik dari Keraton Banjar dari Kalimantan Selatan. Tari ini saat itu merupakan kegiatan penyambutan tamu yang dilakukan oleh putri-putri keraton Banjar.',
       },
@@ -292,21 +263,23 @@ const budaya = [
     pakaian: [
       {
         nama: 'Baju Adat Banjar',
-        gambar: 'baju adat banjar.jpg',
+        gambar: 'baju-adat-banjar.jpg',
         description:
           'Pria mengenakan baju berwarna cerah yang disertai dengan celana panjang, kain sarung, dan destar (ikat kepala), Wanita mengenakan kebaya dengan kain sarung dan selendang, seringkali dihiasi dengan payet dan sulam.',
       },
     ],
-    rumah: [{
-      nama: 'Rumah Banjar',
-      gambar: 'rumah banjar.jpg',
-      description:
-        'Rumah Banjar berbentuk rumah panggung, memiliki atap lancip dan terbuat dari rumbia, serta berbentuk segi empat. Rumah adat ini terbuat dari kayu dan damar. ',
-    }],
+    rumah: [
+      {
+        nama: 'Rumah Banjar',
+        gambar: 'rumah-banjar.jpg',
+        description:
+          'Rumah Banjar berbentuk rumah panggung, memiliki atap lancip dan terbuat dari rumbia, serta berbentuk segi empat. Rumah adat ini terbuat dari kayu dan damar. ',
+      },
+    ],
     senjata: [
       {
         nama: 'Mandau',
-        gambar: 'mandau kasel.jpg',
+        gambar: 'mandau-kasel.jpg',
         description:
           'senjata tradisional suku Dayak, semacam golok dan berbentuk panjang, terbuat dari bahan pilihan yang diambil dari batu gunung yang mengandung besi.',
       },
@@ -316,19 +289,13 @@ const budaya = [
     id: 6,
     provinsi: 'Kalimantan Tengah',
     makanan: [
-      {
-        nama: 'Juhu Singkah',
-        gambar: 'juhu singkah.jpg',
-      },
-      {
-        nama: 'Kalumpe',
-        gambar: 'kalumpe.jpg',
-      },
+      { nama: 'Juhu Singkah', gambar: 'juhu-singkah.jpg' },
+      { nama: 'Kalumpe', gambar: 'kalumpe.jpg' },
     ],
     tarian: [
       {
         nama: 'Tari Tambun dan bungai',
-        gambar: 'Tari-Tambun-dan-bungai.jpg',
+        gambar: 'tari-tambun-dan-bungai.jpg',
         description:
           ' Tari yang mengisahkan kepahlawanan Tambun dan Bungai Dalam mengusir musuh yang akan merampas panen rakyat.',
       },
@@ -336,7 +303,7 @@ const budaya = [
     upacara: [
       {
         nama: 'Upacara Tiwah',
-        gambar: 'Natai.jpg',
+        gambar: 'natai.jpg',
         description:
           'salah satu upacara adat suku Dayak yang dilaksanakan sebagai bentuk penghormatan terhadap leluhur yang telah meninggal.',
       },
@@ -344,21 +311,23 @@ const budaya = [
     pakaian: [
       {
         nama: 'Pakaian Adat Tradisional Kalimantan Tengah',
-        gambar: 'Pakaian Adat Tradisional Kalimantan Tengah.jpeg',
+        gambar: 'pakaian-adat-tradisional-kalimantan-tengah.jpeg',
         description:
           'Untuk pakaian adat tradisional pengantin pria di Kalimantan Tengah memakai celana panjang sampai lutut, selempit perak atau tali pinggang dan tutup kepala. Perhiasan yang dipakai adalah inuk atau kalung panjang, cekoang atau kalung pendek dan kalung yang terbuat dari gigi binatang.  ',
       },
     ],
-    rumah: [{
-      nama: 'Rumah Betang',
-      gambar: 'Rumah betang.jpg',
-      description:
-        'Bentuk dan besar rumah betang bervariasi. Ada rumah betang yang mencapai panjang 150 meter dan lebar hinggaa 30 meter. Umumnya, rumah betang dibangundengan bentuk panggung dengan ketinggian 3-5 meter dari tanah.',
-    }],
+    rumah: [
+      {
+        nama: 'Rumah Betang',
+        gambar: 'rumah-betang.jpg',
+        description:
+          'Bentuk dan besar rumah betang bervariasi. Ada rumah betang yang mencapai panjang 150 meter dan lebar hinggaa 30 meter. Umumnya, rumah betang dibangundengan bentuk panggung dengan ketinggian 3-5 meter dari tanah.',
+      },
+    ],
     senjata: [
       {
         nama: 'Mandau',
-        gambar: 'mandau kalteng.jpg',
+        gambar: 'mandau-kalteng.jpg',
         description:
           'senjata tradisional suku Dayak, semacam golok dan berbentuk panjang, terbuat dari bahan pilihan yang diambil dari batu gunung yang mengandung besi.',
       },
@@ -367,16 +336,11 @@ const budaya = [
   {
     id: 7,
     provinsi: 'Kalimantan Utara',
-    makanan: [
-      {
-        nama: 'kepiting soka',
-        gambar: 'kepiting soka.jpg',
-      },
-    ],
+    makanan: [{ nama: 'kepiting soka', gambar: 'kepiting-soka.jpg' }],
     tarian: [
       {
         nama: 'Tari Kancet Ledo',
-        gambar: 'Kancet lendo.jpg',
+        gambar: 'kancet-lendo.jpg',
         description:
           ' sebuah tarian tradisional dari suku Dayak Kenyah yang berasal dari Baram – Sarawak, Kalimantan Utara. Tarian ini mewakili kelembutan seorang gadis, bagaikan ayunan padi ketika angin berhembus. ',
       },
@@ -384,7 +348,7 @@ const budaya = [
     upacara: [
       {
         nama: 'Iraw Tengkayu',
-        gambar: 'Iraw Tengkayu.jpg',
+        gambar: 'iraw-tengkayu.jpg',
         description:
           'upacara ritual menghanyutkan sesaji ke laut dan berbagai macam perlombaan',
       },
@@ -397,16 +361,18 @@ const budaya = [
           'Pakaian ta’a dikhususkan untuk dipakai oleh kalangan wanita. Bahannya terbuat dari beludru dengan hiasan pernak -pernik pada jahitannya. sapei sapaq hanya digunakan oleh kaum pria berupa kain selendang yang digulung dan dililitkan yang membentuk seperti celana mengenakan rompi, membawa perisai.',
       },
     ],
-    rumah: [{
-      nama: 'Baloy Mayo',
-      gambar: 'baloy mayo.jpg',
-      description:
-        'baloy mayo terdapat empat ruang utama, yaitu ambir kiri (tempat untuk menerima masyarakat yang mengadukan perkara atau masalah adat), ambir tengah (tempat pemuka adat bersidang), ambir kanan (ruang istirahat), dan lamin dalom (singgasana pemimpin adat). Rumah ini termasuk jenis panggung.',
-    }],
+    rumah: [
+      {
+        nama: 'Baloy Mayo',
+        gambar: 'baloy-mayo.jpg',
+        description:
+          'baloy mayo terdapat empat ruang utama, yaitu ambir kiri (tempat untuk menerima masyarakat yang mengadukan perkara atau masalah adat), ambir tengah (tempat pemuka adat bersidang), ambir kanan (ruang istirahat), dan lamin dalom (singgasana pemimpin adat). Rumah ini termasuk jenis panggung.',
+      },
+    ],
     senjata: [
       {
         nama: 'Mandau',
-        gambar: 'mandau kalimantan utara.jpg',
+        gambar: 'mandau-kalimantan-utara.jpg',
         description:
           'senjata tradisional suku Dayak, semacam golok dan berbentuk panjang, terbuat dari bahan pilihan yang diambil dari batu gunung yang mengandung besi.',
       },
@@ -416,23 +382,14 @@ const budaya = [
     id: 8,
     provinsi: 'Banten',
     makanan: [
-      {
-        nama: 'Nasi Sumsum',
-        gambar: 'nasi sumsum.jpg',
-      },
-      {
-        nama: 'Sate bandeng',
-        gambar: 'sate bandeng.jpg',
-      },
-      {
-        nama: 'Gandos',
-        gambar: 'gandos.jpg',
-      },
+      { nama: 'Nasi Sumsum', gambar: 'nasi-sumsum.jpg' },
+      { nama: 'Sate bandeng', gambar: 'sate-bandeng.jpg' },
+      { nama: 'Gandos', gambar: 'gandos.jpg' },
     ],
     tarian: [
       {
         nama: 'Tari Rampak Beduk',
-        gambar: 'Tari rampak beduk.jpg',
+        gambar: 'tari-rampak-beduk.jpg',
         description:
           'sajian instrumen berupa perkusi, yang ditingkahi suara bedug berbagai ukuran. Ada empat bedug diikat kain merah biru, yang dipukul oleh pemain yang berdiri di tengah.',
       },
@@ -440,7 +397,7 @@ const budaya = [
     upacara: [
       {
         nama: 'Upacara Adat Ngalaksa',
-        gambar: 'upacara adat ngalaksa.jpeg',
+        gambar: 'upacara-adat-ngalaksa.jpeg',
         description:
           'upacara adat lanjutan setelah diadakannya ritual Ngawalu bentuk kemeriahan juga partisipasi dan juga berfungsi untuk menghitung berapa  jumlah penduduk setempat.',
       },
@@ -448,21 +405,23 @@ const budaya = [
     pakaian: [
       {
         nama: 'Pakaian Adat Baduy',
-        gambar: 'Pakaian Adat banten.jpg',
+        gambar: 'pakaian-adat-banten.jpg',
         description:
           'Pria Baduy mengenakan baju lengan panjang dan celana panjang yang terbuat dari kain putih. Wanita mengenakan kebaya dan kain sarung putih, sering kali dengan hiasan kepala.',
       },
     ],
-    rumah: [{
-      nama: 'Rumah Baduy',
-      gambar: 'rumah badui.jpg',
-      description:
-        'berbentuk rumah panggung yang berbahan kayu. Setiap rumah mempunyai bentuk yang sama, di bagian muka terdapat balai-balai.',
-    }],
+    rumah: [
+      {
+        nama: 'Rumah Baduy',
+        gambar: 'rumah-badui.jpg',
+        description:
+          'berbentuk rumah panggung yang berbahan kayu. Setiap rumah mempunyai bentuk yang sama, di bagian muka terdapat balai-balai.',
+      },
+    ],
     senjata: [
       {
         nama: 'Golok',
-        gambar: 'golok banten.jpg',
+        gambar: 'golok-banten.jpg',
         description:
           'senjata tradisional yang sering digunakan untuk kebutuhan sehari-hari. Ukurang dan bentuknya beragam. Biasanya, ujung golok dibentuk ukiran yang beragam, bisa berbagai bentuk hewan. ',
       },
@@ -472,23 +431,14 @@ const budaya = [
     id: 9,
     provinsi: 'DKI Jakarta',
     makanan: [
-      {
-        nama: 'Kerak Telor',
-        gambar: 'kerak telor.jpg',
-      },
-      {
-        nama: 'Es Selendang Mayang',
-        gambar: 'es selendang mayang.jpg',
-      },
-      {
-        nama: 'Soto Betawi',
-        gambar: 'soto betawi.jpg',
-      },
+      { nama: 'Kerak Telor', gambar: 'kerak-telor.jpg' },
+      { nama: 'Es Selendang Mayang', gambar: 'es-selendang-mayang.jpg' },
+      { nama: 'Soto Betawi', gambar: 'soto-betawi.jpg' },
     ],
     tarian: [
       {
         nama: 'Tari Nandak Ganjen',
-        gambar: 'tari nandak ganjen.jpg',
+        gambar: 'tari-nandak-ganjen.jpg',
         description:
           'Tari ini menceritakan kisah seorang gadis yang beranjak dewasa sehingga gerakan tariannya sangat seru dan energik',
       },
@@ -496,13 +446,13 @@ const budaya = [
     upacara: [
       {
         nama: 'Upacara Adat Bikin Rume',
-        gambar: 'bikin rume.jpeg',
+        gambar: 'bikin-rume.jpg',
         description:
           'serangkaian ritual adat yang dilakukan Masyarakat Suku Betawi ketika hendak membangun rumah.',
       },
       {
         nama: 'Upacara Adat Baritan',
-        gambar: 'upacara baritan.jpg',
+        gambar: 'upacara-baritan.jpg',
         description:
           'Upacara Adat Baritan dilaksanakan dengan tujuan untuk menunjukkan rasa syukur akan hasil bumi yang melimpah ruah.',
       },
@@ -510,21 +460,23 @@ const budaya = [
     pakaian: [
       {
         nama: 'Pakaian Adat Betawi',
-        gambar: 'Pakaian Adat Tradisional Betawi.jpg',
+        gambar: 'pakaian-adat-tradisional-betawi.jpg',
         description:
           'Pakaian Adat Betawi yang dipengaruhi dari berbagai corak masyarakat Jakarta yang sangat beragam diantaranya dipengaruhi oleh budaya Arab, China, Melayu dan Budaya Barat.',
       },
     ],
-    rumah: [{
-      nama: 'Rumah Kebaya',
-      gambar: 'rumah-betawi.jpg',
-      description:
-        'Ciri khas rumah ini adalah teras rumahnya luas, hanya dibatasi pagar pendek. Sementara itu depan dan sekeliling rumah adalah halaman yang luas. Bentuk rumahnya sederhana dan terbuat dari kayu dengan ukiran khas betawi',
-    }],
+    rumah: [
+      {
+        nama: 'Rumah Kebaya',
+        gambar: 'rumah-betawi.jpg',
+        description:
+          'Ciri khas rumah ini adalah teras rumahnya luas, hanya dibatasi pagar pendek. Sementara itu depan dan sekeliling rumah adalah halaman yang luas. Bentuk rumahnya sederhana dan terbuat dari kayu dengan ukiran khas betawi',
+      },
+    ],
     senjata: [
       {
         nama: 'Golok',
-        gambar: 'golok.JPG',
+        gambar: 'golok.jpg',
         description:
           'Golok  khas Jakarta yang dipengaruhi oleh daerah lokal disekitarnya, seperti Banten. Sedangkan senjata lainnya masih ada seperti toya dan trisula yang dipengaruhi oleh budaya Cina ',
       },
@@ -534,23 +486,14 @@ const budaya = [
     id: 10,
     provinsi: 'Jawa Barat',
     makanan: [
-      {
-        nama: 'Nasi Timbel ',
-        gambar: 'nasi timbel.jpg',
-      },
-      {
-        nama: 'Nasi Maranggi',
-        gambar: 'nasi maranggi.jpg',
-      },
-      {
-        nama: 'Surabi',
-        gambar: 'surabi.jpg',
-      },
+      { nama: 'Nasi Timbel ', gambar: 'nasi-timbel.jpg' },
+      { nama: 'Nasi Maranggi', gambar: 'nasi-maranggi.jpg' },
+      { nama: 'Surabi', gambar: 'surabi.jpg' },
     ],
     tarian: [
       {
         nama: 'Tari Merak',
-        gambar: 'Tari-Merak.jpg',
+        gambar: 'tari-merak.jpg',
         description:
           'sebuah tari yang mengisahkan kehidupan burung merak yang serba indah dan memukau.',
       },
@@ -558,24 +501,26 @@ const budaya = [
     upacara: [
       {
         nama: 'Upacara Adat Seren Taun',
-        gambar: 'seren taun.jpg',
+        gambar: 'seren-taun.jpg',
         description: 'upacara syukuran yang dilakukan dalam rangka panen raya.',
       },
     ],
     pakaian: [
       {
         nama: 'Kebaya dan Beskap',
-        gambar: 'Kebaya-jabar.jpg',
+        gambar: 'kebaya-jabar.jpg',
         description:
           'Beskap adalah pakaian adat Jawa Barat yang digunakan laki-laki. Umumnya, beskap digunakan ketika acara resmi saja. Beskap digunakan bersamaan dengan kain jarik yang memiliki corak khas Jawa Barat. Kebaya Sunda juga memiliki desain kerah kebaya yang berbentuk U, bagian bawah kebaya didesain lebih panjang untuk menutupi pinggul dan paha, hingga menggunakan warna-warna yang cerah.',
       },
     ],
-    rumah: [{
-      nama: 'Rumah Sunda',
-      gambar: 'rumah sunda.jpg',
-      description:
-        'memiliki ciri khas atap yang melengkung ke atas dengan ujung yang runcing, disebut "atap genting." Bangunan ini seringkali terdiri dari dua lantai dan memiliki desain yang artistik.',
-    }],
+    rumah: [
+      {
+        nama: 'Rumah Sunda',
+        gambar: 'rumah-sunda.jpg',
+        description:
+          'memiliki ciri khas atap yang melengkung ke atas dengan ujung yang runcing, disebut "atap genting." Bangunan ini seringkali terdiri dari dua lantai dan memiliki desain yang artistik.',
+      },
+    ],
     senjata: [
       {
         nama: 'Kujang',
@@ -588,16 +533,11 @@ const budaya = [
   {
     id: 11,
     provinsi: 'Sumatera Utara',
-    makanan: [
-      {
-        nama: 'Bika Ambon',
-        gambar: 'bika-ambon.jpg',
-      },
-    ],
+    makanan: [{ nama: 'Bika Ambon', gambar: 'bika-ambon.jpg' }],
     tarian: [
       {
         nama: 'Tor-tor',
-        gambar: 'Tor-tor.jpg',
+        gambar: 'tor-tor.jpg',
         description:
           'Sebuah tari dari daerah batak dengan latar belakang falsafah dan ditarikan dalam bentuk khusuk.',
       },
@@ -618,12 +558,14 @@ const budaya = [
           'Pakaian ulos yang dianggap oleh masyarakat suku batak sebagai jimat yang memiliki magis tertentu',
       },
     ],
-    rumah: [{
-      nama: 'Jabu Bolon',
-      gambar: 'jabu-bolon.jpg',
-      description:
-        'Rumah ini ditempati 4 - 6 keluarga dengan bentuk persegi memanjang.',
-    }],
+    rumah: [
+      {
+        nama: 'Jabu Bolon',
+        gambar: 'jabu-bolon.jpg',
+        description:
+          'Rumah ini ditempati 4 - 6 keluarga dengan bentuk persegi memanjang.',
+      },
+    ],
     senjata: [
       {
         nama: 'Piso Gaja Dompak',
@@ -636,12 +578,7 @@ const budaya = [
   {
     id: 12,
     provinsi: 'Sumatera Selatan',
-    makanan: [
-      {
-        nama: 'Pempek',
-        gambar: 'pempek.jpg',
-      },
-    ],
+    makanan: [{ nama: 'Pempek', gambar: 'pempek.jpg' }],
     tarian: [
       {
         nama: 'Tari Tanggai',
@@ -665,12 +602,14 @@ const budaya = [
           ' Baju adat tradisional ini terinspirasi dari zaman kerajaan sriwijaya dari dulunya berjaya di sumatera selatan',
       },
     ],
-    rumah: [{
-      nama: 'Rumah Limas',
-      gambar: 'rumah-limas.jpg',
-      description:
-        'Rumah yang atapnya berbentuk limas dan memiliki lantai bertingkat - tingkat yang disebut bengkilas.',
-    }],
+    rumah: [
+      {
+        nama: 'Rumah Limas',
+        gambar: 'rumah-limas.jpg',
+        description:
+          'Rumah yang atapnya berbentuk limas dan memiliki lantai bertingkat - tingkat yang disebut bengkilas.',
+      },
+    ],
     senjata: [
       {
         nama: 'Siwar',
@@ -683,16 +622,11 @@ const budaya = [
   {
     id: 13,
     provinsi: 'Sumatera Barat',
-    makanan: [
-      {
-        nama: 'Rendang',
-        gambar: 'rendang.jpg',
-      },
-    ],
+    makanan: [{ nama: 'Rendang', gambar: 'rendang.jpg' }],
     tarian: [
       {
         nama: 'Tari Piring',
-        gambar: 'Tari-piring.jpg',
+        gambar: 'tari-piring.jpg',
         description:
           'Tarian melambangkan suasana kegotong royongan rakyat dalam menunaikan tugasnya.',
       },
@@ -719,12 +653,14 @@ const budaya = [
           'Digunakan oleh para penghulu yang terdapat di minangkabau.',
       },
     ],
-    rumah: [{
-      nama: 'Rumah Gadang',
-      gambar: 'rumah-gadang.jpg',
-      description:
-        'Berbentuk empat persegi panjang serta dibagi atas 2 bagian yaitu muka dan belakang.',
-    }],
+    rumah: [
+      {
+        nama: 'Rumah Gadang',
+        gambar: 'rumah-gadang.jpg',
+        description:
+          'Berbentuk empat persegi panjang serta dibagi atas 2 bagian yaitu muka dan belakang.',
+      },
+    ],
     senjata: [
       {
         nama: 'Kerambit',
@@ -737,12 +673,7 @@ const budaya = [
   {
     id: 14,
     provinsi: 'Bengkulu',
-    makanan: [
-      {
-        nama: 'Pendap',
-        gambar: 'pendap.jpg',
-      },
-    ],
+    makanan: [{ nama: 'Pendap', gambar: 'pendap.jpg' }],
     tarian: [
       {
         nama: 'Tari Andun',
@@ -766,12 +697,14 @@ const budaya = [
           'Berlengan panjang, bertabur corak-corak, sulaman emas berbentuk lempengan-lempengan bulat seperti uang logam. Pakaian adat tradisional pria terdiri atas jas, sarung, celana panjang, alas kaki yang dilengkapi dengan tutup kepala dan sebuah keris.',
       },
     ],
-    rumah: [{
-      nama: 'Bubungan Lima',
-      gambar: 'bubungan-lima.jpg',
-      description:
-        'Bertipe panggung yang dapat digunakan untuk menyimpan gerobak, hasil panen, alat - alat pertanian, kayu api, dan kandang hewan ternak.',
-    }],
+    rumah: [
+      {
+        nama: 'Bubungan Lima',
+        gambar: 'bubungan-lima.jpg',
+        description:
+          'Bertipe panggung yang dapat digunakan untuk menyimpan gerobak, hasil panen, alat - alat pertanian, kayu api, dan kandang hewan ternak.',
+      },
+    ],
     senjata: [
       {
         nama: 'Keris Bengkulu',
@@ -784,12 +717,7 @@ const budaya = [
   {
     id: 15,
     provinsi: 'Riau',
-    makanan: [
-      {
-        nama: 'Gulai Balacan',
-        gambar: 'gulai-balacan.jpg',
-      },
-    ],
+    makanan: [{ nama: 'Gulai Balacan', gambar: 'gulai-balacan.jpg' }],
     tarian: [
       {
         nama: 'Tari Tandak',
@@ -814,12 +742,14 @@ const budaya = [
           'Merupakan pakaian adat Melayu Riau yang dikenakan oleh laki-laki. Pakaian adat ini memiliki bentuk yang mirip dengan busana teluk belanga. ',
       },
     ],
-    rumah: [{
-      nama: 'Rumah Selaso Jatuh Kembar',
-      gambar: 'rumah-selaso-jatuh-kembar.jpg',
-      description:
-        'Rumah selaso jatuh kembar berbentuk panggung dan persegi panjang. Di puncak atapnya selalu ada hiasan kayu yang mencuat ke atas bersilangan.',
-    }],
+    rumah: [
+      {
+        nama: 'Rumah Selaso Jatuh Kembar',
+        gambar: 'rumah-selaso-jatuh-kembar.jpg',
+        description:
+          'Rumah selaso jatuh kembar berbentuk panggung dan persegi panjang. Di puncak atapnya selalu ada hiasan kayu yang mencuat ke atas bersilangan.',
+      },
+    ],
     senjata: [
       {
         nama: 'Pedang Jenawi',
@@ -832,12 +762,7 @@ const budaya = [
   {
     id: 16,
     provinsi: 'Kepulauan Riau',
-    makanan: [
-      {
-        nama: 'Otak-otak',
-        gambar: 'otak-otak.jpg',
-      },
-    ],
+    makanan: [{ nama: 'Otak-otak', gambar: 'otak-otak.jpg' }],
     tarian: [
       {
         nama: 'Tari Melemang',
@@ -862,12 +787,14 @@ const budaya = [
           'Busana ini terdiri dari celana, kain sampin, dan songkok atau penutup kepala. Untuk perempuan, pakaian yang dipakai berupa baju kurung, kain, dan selendang. Selendang dipakai dengan cara disampirkan di bahu.',
       },
     ],
-    rumah: [{
-      nama: 'Belah Bubung',
-      gambar: 'belah-bubung.jpg',
-      description:
-        'Salah satu rumah untuk tempat tinggal masyarakat Kepulauan Riau adalah rumah belah bubung. Nama rumah belah bubung diberikan oleh orang melayu karena atapnya terbelah.',
-    }],
+    rumah: [
+      {
+        nama: 'Belah Bubung',
+        gambar: 'belah-bubung.jpg',
+        description:
+          'Salah satu rumah untuk tempat tinggal masyarakat Kepulauan Riau adalah rumah belah bubung. Nama rumah belah bubung diberikan oleh orang melayu karena atapnya terbelah.',
+      },
+    ],
     senjata: [
       {
         nama: 'Tumbuk Lada',
@@ -880,12 +807,7 @@ const budaya = [
   {
     id: 17,
     provinsi: 'Jambi',
-    makanan: [
-      {
-        nama: 'Gulai Ikan Patin',
-        gambar: 'gulai-ikan-patin.jpg',
-      },
-    ],
+    makanan: [{ nama: 'Gulai Ikan Patin', gambar: 'gulai-ikan-patin.jpg' }],
     tarian: [
       {
         nama: 'Tari Sekapur Sirih',
@@ -910,12 +832,14 @@ const budaya = [
           ' ini biasanya lebih mewah daripada pakaian yang digunakan sehari-hari karena disulam dengan benang emas dan dihiasi dengan berbagai hiasan yang mewah untuk kelengkapannya.',
       },
     ],
-    rumah: [{
-      nama: 'Panggung Kajang Leko',
-      gambar: 'panggung-kajang-leko.jpg',
-      description:
-        'Bentuk rumah Kajang Leko adalah empat persegi panjang. Keunikannya terletak pada struktur konstruksi dan seni ukiran yang menghiasi bangunan.',
-    }],
+    rumah: [
+      {
+        nama: 'Panggung Kajang Leko',
+        gambar: 'panggung-kajang-leko.jpg',
+        description:
+          'Bentuk rumah Kajang Leko adalah empat persegi panjang. Keunikannya terletak pada struktur konstruksi dan seni ukiran yang menghiasi bangunan.',
+      },
+    ],
     senjata: [
       {
         nama: 'Badik Tumbuk Lada',
@@ -928,16 +852,11 @@ const budaya = [
   {
     id: 18,
     provinsi: 'Lampung',
-    makanan: [
-      {
-        nama: 'Seruit',
-        gambar: 'seruit.jpg',
-      },
-    ],
+    makanan: [{ nama: 'Seruit', gambar: 'seruit.jpg' }],
     tarian: [
       {
         nama: 'Tari Jangget',
-        gambar: 'tari-Jangget.jpg',
+        gambar: 'tari-jangget.jpg',
         description:
           'adalah tarian untuk upacar-upacara peradatan. Tarian ini melambangkan keluhuran budi dan susila rakyat Lampung.',
       },
@@ -958,12 +877,14 @@ const budaya = [
           'Pakaian adat tradisional Lampung bila dicermati terdapat perbedaan antara lampung pesisir dengan lampung daratan tetapi pada dasar masih sama yaitu menggunakan kain tapis di hias dengan logam kuningan yang memper indah dan mebuat mewah, sedangkan kain tapis adalah suatu kain yang ditenun secara manual dengan menggunakan tinta mas yang di ukir dengan tangan tangan terampil hingga membuat yang memakai pakaian penganten tersebut terlihat lebih berwibawa',
       },
     ],
-    rumah: [{
-      nama: 'Nuwou Sesat',
-      gambar: 'nuwou.jpg',
-      description:
-        'Nuwou sesat adalah rumah adat provinsi Lampung. Bagian-bagian yang terdapat dibangunan ini adalah tangga masuk yang dilengkapi atap.',
-    }],
+    rumah: [
+      {
+        nama: 'Nuwou Sesat',
+        gambar: 'nuwou.jpg',
+        description:
+          'Nuwou sesat adalah rumah adat provinsi Lampung. Bagian-bagian yang terdapat dibangunan ini adalah tangga masuk yang dilengkapi atap.',
+      },
+    ],
     senjata: [
       {
         nama: 'Terapang',
@@ -977,26 +898,11 @@ const budaya = [
     id: 19,
     provinsi: 'Sulawesi Tenggara',
     makanan: [
-      {
-        nama: 'Sate Gogos',
-        gambar: 'sate-gogos-sulteng.jpg',
-      },
-      {
-        nama: 'Lapa - Lapa',
-        gambar: 'lapa-lapa.jpg',
-      },
-      {
-        nama: 'Karasi',
-        gambar: 'karasi.jpg',
-      },
-      {
-        nama: 'Sinonggi',
-        gambar: 'sinonggi.jpg',
-      },
-      {
-        nama: 'Panada',
-        gambar: 'panada.jpg',
-      },
+      { nama: 'Sate Gogos', gambar: 'sate-gogos-sulteng.jpg' },
+      { nama: 'Lapa - Lapa', gambar: 'lapa-lapa.jpg' },
+      { nama: 'Karasi', gambar: 'karasi.jpg' },
+      { nama: 'Sinonggi', gambar: 'sinonggi.jpg' },
+      { nama: 'Panada', gambar: 'panada.jpg' },
     ],
     tarian: [
       {
@@ -1043,7 +949,7 @@ const budaya = [
       },
       {
         nama: 'Tari Umoara',
-        gambar: 'tari-umoara.jpg',
+        gambar: 'tari-umoara.jpeg',
         description:
           'Tari Umoara adalah tari perang masyarakat Tolaki. Kata Umoara berarti mencoba atau mencoba-coba. Dalam hal ini mencoba ketangkasan memainkan parang, melatih otot dengan menghentakan kaki, ketangkasan mata, dan melatih menangkis memakai tameng. Tari Umoara pada masa lalu dipentaskan setelah para tentara kerajaan Mekongga dan Konawe selesai perang. Sebagai tanda kemenangan, para tentara disambut rakyat melalui tarian tersebut.',
       },
@@ -1088,22 +994,24 @@ const budaya = [
           'Pakaian adat Babu Nggawi digunakan oleh mempelai wanita dari suku Tolaki. Atasan untuk pakaian adat ini disebut lipa hinoru, sedangkan bawahannya disebut roo mendaa. Lipa hinoru merupakan atasan baju dengan model bahu yang terputus. Sementara bawahan roo mendaa, merupakan bawahan dengan model rok panjang semata kaki dengan warna yang menyerupai atasannya. Pakaian adat ini dilengkapi dengan manik-manik berwarna emas, yang pada bagian depannya akan dipadukan dengan motif tradisional dari Tolaki. Motif yang digunakan seperti, pinesowi, pineburu mbaku, dan pinetobo.',
       },
     ],
-    rumah: [{
-      nama: 'Banua Tada',
-      gambar: 'banua-tada.jpg',
-      description:
-        'Banua dan Tada. Banua mempunyai arti sebagai rumah, sementara Tanda mempunyai arti siku. Ketika digabungkan, rumah ini memiliki arti sebagai rumah siku.Rumah adat Banua Tada memiliki tiga jenis rumah, yaitu Kamali atau Malige yang merupakan rumah atau istana tempat tinggal bagi raja dan keluarganya. Lalu, ada Banua Tada Tare Pata Pale, rumah siku bertiang empat tempat tinggal para pejabat dan pegawai istana dan Banua Tada Tare Talu Pale yang merupakan tempat tinggal bagi orang biasa.',
-    }],
+    rumah: [
+      {
+        nama: 'Banua Tada',
+        gambar: 'banua-tada.webp',
+        description:
+          'Banua dan Tada. Banua mempunyai arti sebagai rumah, sementara Tanda mempunyai arti siku. Ketika digabungkan, rumah ini memiliki arti sebagai rumah siku.Rumah adat Banua Tada memiliki tiga jenis rumah, yaitu Kamali atau Malige yang merupakan rumah atau istana tempat tinggal bagi raja dan keluarganya. Lalu, ada Banua Tada Tare Pata Pale, rumah siku bertiang empat tempat tinggal para pejabat dan pegawai istana dan Banua Tada Tare Talu Pale yang merupakan tempat tinggal bagi orang biasa.',
+      },
+    ],
     senjata: [
       {
         nama: 'Parang Taawu',
-        gambar: 'parang-taawu.jpg',
+        gambar: 'parang-taawu.png',
         description:
           'Parang Taawu merupakan senjata tradisional Sulawesi Tenggara yang bentuk bilah panjang bermata satu.Bilah Parang Taawu berbentuk tipis dan melebar dari pangkal ke ujungnya yang lancip seperti bentuk segitiga siku-siku.',
       },
       {
         nama: 'Keris dan Tombak Meantuu Tiworo',
-        gambar: 'meantuu-tiworo.jpg',
+        gambar: 'meantuu-tiworo.png',
         description:
           'Meantuu Tiworo merupakan seorang pembesar di Kerajaan Liya yang punya tugas untuk mengamankan dan mengatur hasil tani rakyat di wilayah pesisir pantai.',
       },
@@ -1119,46 +1027,16 @@ const budaya = [
     id: 20,
     provinsi: 'Gorontalo',
     makanan: [
-      {
-        nama: 'Ayam IIloni',
-        gambar: 'ayam-iloni.jpg',
-      },
-      {
-        nama: 'Binte Biluhuta',
-        gambar: 'binte-biluhuta.jpg',
-      },
-      {
-        nama: 'Es Brenebon',
-        gambar: 'es-brenebon.jpg',
-      },
-      {
-        nama: 'Sate Tuna Gorontalo',
-        gambar: 'sate-tuna-gorontalo.jpg',
-      },
-      {
-        nama: 'Tili Aya',
-        gambar: 'tili-aya.jpg',
-      },
-      {
-        nama: 'Ilabulo',
-        gambar: 'ilabulo.jpg',
-      },
-      {
-        nama: 'Kue Karawo',
-        gambar: 'kue-karawo.jpg',
-      },
-      {
-        nama: 'Bilenthango',
-        gambar: 'bilenthango.jpg',
-      },
-      {
-        nama: 'Sayur Putungo',
-        gambar: 'sayur-putungo.jpg',
-      },
-      {
-        nama: 'Duduli',
-        gambar: 'duduli.jpg',
-      },
+      { nama: 'Ayam IIloni', gambar: 'ayam-iloni.jpg' },
+      { nama: 'Binte Biluhuta', gambar: 'binte-biluhuta.jpg' },
+      { nama: 'Es Brenebon', gambar: 'es-brenebon.jpg' },
+      { nama: 'Sate Tuna Gorontalo', gambar: 'sate-tuna-gorontalo.jpg' },
+      { nama: 'Tili Aya', gambar: 'tili-aya.jpg' },
+      { nama: 'Ilabulo', gambar: 'ilabulo.jpg' },
+      { nama: 'Kue Karawo', gambar: 'kue-karawo.jpg' },
+      { nama: 'Bilenthango', gambar: 'bilenthango.jpg' },
+      { nama: 'Sayur Putungo', gambar: 'sayur-putungo.jpg' },
+      { nama: 'Duduli', gambar: 'duduli.jpg' },
     ],
     tarian: [
       {
@@ -1217,13 +1095,13 @@ const budaya = [
     rumah: [
       {
         nama: 'Bantayo Poboide ',
-        gambar: 'bantayo-poboide.jpg',
+        gambar: 'bantayo-poboide.webp',
         description:
           'Rumah adat Gorontalo ini merupakan salah satu tempat yang kerap difungsikan sebagai tempat upacara adat dan bermusyawarah. Ada pun, Bantayo Poboide memiliki dua makna, yakni Bantayo sebagai gedung atau bangunan, juga Poboide yang berarti tempat bermusyawarah.',
       },
       {
         nama: 'Dulohupa',
-        gambar: 'dulohupa.jpg',
+        gambar: 'dulohupa.webp',
         description:
           'Penduduk Gorontalo kerap menyebut Dulohupa dengan nama Yiladia Dulohupa Lo Ulipu Hulondhalo. Rumah adat Gorontalo ini berfungsi sebagai tempat untuk melakukan musyawarah untuk mencapai mufakat. Rumah adat Dulohupa menjadi tempat untuk mengadili individu atau memutuskan berbagai perkara yang terjadi saat masa pemerintahan kerajaan Gorontalo.',
       },
@@ -1237,7 +1115,7 @@ const budaya = [
       },
       {
         nama: 'Kalumbi',
-        gambar: 'kalumbi.jpg',
+        gambar: 'kalumbi.png',
         description:
           'Kalumbi adalah senjata tradisional Gorontalo yang bentuknya seperti pemukul bola bisbol. Bahan yang digunakan untuk membuat kalumbi berasal dari kayu langka eboni hitam yang terkenal kuat dan tahan lama. Panjang kalumbi mencapai 50 sentimeter dengan berat sekitar tiga kilogram. Kalumbi hanya dapat digunakan oleh prajurit terlatih dengan cara mengayunkannya untuk memukul.Meantuu Tiworo merupakan seorang pembesar di Kerajaan Liya yang punya tugas untuk mengamankan dan mengatur hasil tani rakyat di wilayah pesisir pantai.',
       },
@@ -1247,38 +1125,14 @@ const budaya = [
     id: 21,
     provinsi: 'Maluku',
     makanan: [
-      {
-        nama: 'Woku Komo-Komo',
-        gambar: 'woku-komo-komo.jpg',
-      },
-      {
-        nama: 'Ikan Kuah Pala Banda',
-        gambar: 'ikan-kuah-pala.jpg',
-      },
-      {
-        nama: 'Ikan Asap',
-        gambar: 'ikan-asap.jpg',
-      },
-      {
-        nama: 'Papeda',
-        gambar: 'papeda.jpg',
-      },
-      {
-        nama: 'Nasi Lapola',
-        gambar: 'nasi-lapola.jpg',
-      },
-      {
-        nama: 'Kasbi Komplet',
-        gambar: 'kasbi-komplet.jpg',
-      },
-      {
-        nama: 'Kohu-Kohu',
-        gambar: 'kohu-kohu.jpg',
-      },
-      {
-        nama: 'Ikan Gohu',
-        gambar: 'ikan-gohu.jpg',
-      },
+      { nama: 'Woku Komo-Komo', gambar: 'woku-komo-komo.jpg' },
+      { nama: 'Ikan Kuah Pala Banda', gambar: 'ikan-kuah-pala.jpg' },
+      { nama: 'Ikan Asap', gambar: 'ikan-asap.jpg' },
+      { nama: 'Papeda', gambar: 'papeda.jpg' },
+      { nama: 'Nasi Lapola', gambar: 'nasi-lapola.jpg' },
+      { nama: 'Kasbi Komplet', gambar: 'kasbi-komplet.jpg' },
+      { nama: 'Kohu-Kohu', gambar: 'kohu-kohu.jpg' },
+      { nama: 'Ikan Gohu', gambar: 'ikan-gohu.jpg' },
     ],
     tarian: [
       {
@@ -1371,15 +1225,9 @@ const budaya = [
       },
       {
         nama: 'Pakaian Nona Rok',
-        gambar: 'pakaian-nona-rok.jpg',
+        gambar: 'pakaian-nona-rok.png',
         description:
           'Pakaian nona rok dari Maluku Tenggara ini berupa kebaya putih tangan panjang dengan lengan kancing dari jenis kain brokat halus dengan motif kembang kecil-kecil warna merah atau oren.Pengikat pinggangnya disebut dengan pending, yang terbuat dari perak. Untuk laki-laki akan dilengkapi dengan pemakaian sepatu pantofel hitam dan kaos kaki putih. Jika, rok maka akan dibuat dan lipit kecil.',
-      },
-      {
-        nama: 'Manteren Lamo',
-        gambar: 'mantere-lamo.jpg',
-        description:
-          'Manteren Lamo merupakan pakaian adat dari Maluku Utara yang khusus digunakan oleh keturunan kerajaan atau para sultan kerajaan. Menariknya, pakaian ini juga merupakan salah satu peninggalan dari kerajaan Ternate dan Tidore',
       },
     ],
     rumah: [
@@ -1421,18 +1269,9 @@ const budaya = [
     id: 22,
     provinsi: 'Maluku Utara',
     makanan: [
-      {
-        nama: 'Bagea',
-        gambar: 'bagea.jpg',
-      },
-      {
-        nama: 'Ikan Asar',
-        gambar: 'ikan-asar.jpg',
-      },
-      {
-        nama: 'Lapis Tidore',
-        gambar: 'lapis-tidore.jpg',
-      },
+      { nama: 'Bagea', gambar: 'bagea.jpg' },
+      { nama: 'Ikan Asar', gambar: 'ikan-asar.jpg' },
+      { nama: 'Lapis Tidore', gambar: 'lapis-tidore.jpg' },
     ],
     tarian: [
       {
@@ -1445,7 +1284,7 @@ const budaya = [
     upacara: [
       {
         nama: 'Joko Kaha',
-        gambar: 'joko-aha.jpg',
+        gambar: 'joko-kaha.jpg',
         description:
           'Upacara joko kaha (injak tanah) Joko kaha adalah salah satu upacara tradisional yang dilaksanakan pada penerimaan tamu agung bagi seseorang yang baru pertama kali menginjakkan kaki di bumi Ternate moloku kie raha. Tanahnya diambil sebagian, diletakkan dalam piring, kemudian diinjak.',
       },
@@ -1453,17 +1292,19 @@ const budaya = [
     pakaian: [
       {
         nama: 'Manteren Lamo',
-        gambar: 'mantere-lamo.jpg',
+        gambar: 'manteren-lamo.png',
         description:
           'Manteren Lamo merupakan pakaian adat dari Maluku Utara yang khusus digunakan oleh keturunan kerajaan atau para sultan kerajaan. Menariknya, pakaian ini juga merupakan salah satu peninggalan dari kerajaan Ternate dan Tidore',
       },
     ],
-    rumah: [{
-      nama: 'Rumah Sasadu',
-      gambar: 'rumah-sasadu.jpg',
-      description:
-        'Sasadu adalah rumah adat suku Sahu, salah satu suku yang berasal kabupaten Halmahera Barat. Kata Sasadu berasal dari kata Sasa-Sela-Lamo yang besar. Kata lain yang mempengaruhinya adalah tatadu-tadus atau berlindung. Bentuk rumah adat Sasadu cukup sederhana, yaitu rumah panggung berbahan kayu sebagai pilar atau tiang penyangga dan anyaman daun sagu sebagai penutup atap rumaha adat.',
-    }],
+    rumah: [
+      {
+        nama: 'Rumah Sasadu',
+        gambar: 'rumah-sasadu.jpg',
+        description:
+          'Sasadu adalah rumah adat suku Sahu, salah satu suku yang berasal kabupaten Halmahera Barat. Kata Sasadu berasal dari kata Sasa-Sela-Lamo yang besar. Kata lain yang mempengaruhinya adalah tatadu-tadus atau berlindung. Bentuk rumah adat Sasadu cukup sederhana, yaitu rumah panggung berbahan kayu sebagai pilar atau tiang penyangga dan anyaman daun sagu sebagai penutup atap rumaha adat.',
+      },
+    ],
     senjata: [
       {
         nama: 'Parang Salawaku',
@@ -1477,35 +1318,26 @@ const budaya = [
     id: 23,
     provinsi: 'Daerah Istimewa Yogyakarta',
     makanan: [
-      {
-        nama: 'Gudeg',
-        gambar: 'gudeg.jpg',
-      },
-      {
-        nama: 'Sate Klatak',
-        gambar: 'sate kletak.jpg',
-      },
-      {
-        nama: 'Belalang Goreng',
-        gambar: 'belalag goreng.png',
-      },
+      { nama: 'Gudeg', gambar: 'gudeg.jpg' },
+      { nama: 'Sate Klatak', gambar: 'sate-kletak.jpg' },
+      { nama: 'Belalang Goreng', gambar: 'belalang-goreng.png' },
     ],
     tarian: [
       {
         nama: 'Tari Serimpi Sangu Pati',
-        gambar: 'tari serimpi.jpg',
+        gambar: 'tari-serimpi.jpg',
         description:
           'sebuah tarian keraton pada masalalu disertai suara gamelan dengan gerak tari yang lembut.',
       },
       {
         nama: 'Tari Klana Alus',
-        gambar: 'Tari Kalana Alus.jpg',
+        gambar: 'tari-kalana-alus.jpg',
         description:
           'Tari Klana Alus adalah tarian yang berkembang di keraton. Tarian ini diambil dari tokoh Prabu Dasalengkara dalam wayang wong lakon Abimanyu Palakrama yang sedang sedang jatuh cinta pada seorang bernama Dewi Siti Sendari.',
       },
       {
         nama: 'Tari beksan lawung Ageng',
-        gambar: 'Lawung Ageng.png',
+        gambar: 'lawung-ageng.png',
         description:
           'Tarian khas Jogja ketiga adalah Tari Beksan Lawung Ageng. Tarian ini adalah salah satu tarian Keraton Yogyakarta. Tarian ini terinspirasi dari kegiatan prajurit kerajaan pada era Sri Sultan Hamengkubuwono I. Beranggotakan laki-laki dan memiliki banyaknya peran dalam tarian, membuat tarian ini terkesan lebih hidup dan beralur. Alunan gamelan pada tarian ini menggunakan iringan gamelan khusus, yaitu Kiai Guntur Sri.',
       },
@@ -1533,7 +1365,7 @@ const budaya = [
     pakaian: [
       {
         nama: 'Kasatrian',
-        gambar: 'pakaian adat kasatrian.jpg',
+        gambar: 'pakaian-adat-kasatrian.jpg',
         description:
           'Pakaian adat tradisional masyarakat Daerah Istimewa Yogyakarta terdiri dari seperangkat pakaian adat tradisional yang memiliki unsur-unsur yang tidak dapat dipisahkan satu dengan lainnya.',
       },
@@ -1559,7 +1391,7 @@ const budaya = [
       },
       {
         nama: 'Bangsal Kencono',
-        gambar: 'rumah-Bangsal-Kencono.webp',
+        gambar: 'rumah-bangsal-kencono.webp',
         description:
           'Dibandingkan dengan rumah Joglo, rumah adat Yogyakarta Bangsal Kencono memiliki ukuran yang lebih besar. Dulu, saat kota Yogyakarta masih bergabung dengan Jawa Tengah, maka rumah Joglo adalah rumah adat yang dikenal masyarakat. Namun, berbeda sejak Yogyakarta jadi provinsi sendiri.',
       },
@@ -1577,23 +1409,14 @@ const budaya = [
     id: 24,
     provinsi: 'Jawa Timur',
     makanan: [
-      {
-        nama: 'Soto Lamongan',
-        gambar: 'Soto-Lamongan.webp',
-      },
-      {
-        nama: 'Nasi Krawu',
-        gambar: 'nasi-krawu.webp',
-      },
-      {
-        nama: 'Rujak Cingur',
-        gambar: 'Rujak Cingur.jpg',
-      },
+      { nama: 'Soto Lamongan', gambar: 'soto-lamongan.webp' },
+      { nama: 'Nasi Krawu', gambar: 'nasi-krawu.webp' },
+      { nama: 'Rujak Cingur', gambar: 'rujak-cingur.jpg' },
     ],
     tarian: [
       {
         nama: 'Tari Remong',
-        gambar: 'Tari-Remong.jpg',
+        gambar: 'tari-remong.jpg',
         description:
           ' sebuah tarian dari Surabaya yang melambangkan jiwa, kepahlawanan. Ditarikan pada waktu menyambut para tamu.',
       },
@@ -1633,19 +1456,19 @@ const budaya = [
     pakaian: [
       {
         nama: ' Pesaan',
-        gambar: 'Pesaan.jpg',
+        gambar: 'pesaan.jpg',
         description:
           'Pakaian adat tradisional Madura, Jawa Timur biasa disebut pesa’an. Pakaian ini terkesan sederhana karena hanya berupa kaos bergaris merah putih dan celana longgar. Untuk wanita biasa menggunakan kebaya',
       },
       {
         nama: 'Baju Gothil',
-        gambar: 'Pakaian_Adat_Gothil.jpg',
+        gambar: 'pakaian_adat_gothil.jpg',
         description:
           'Baju Gothil  atau warok ponorogo merupakan pakaian adat Jawa Timur in dipakai oleh para pria. Pakaian tradisional ini memiliki warna yang kkhas yakni hitam polos dengan ukuran longgar serta lengan panjang. ',
       },
       {
         nama: 'Mantenan',
-        gambar: 'Pakaian_Adat_mantenan.jpg',
+        gambar: 'pakaian_adat_mantenan.jpg',
         description:
           'Baju Mantenan berwarna dasar hitam, baik untuk pria maupun wanita. Untuk memperindah penampilan, terdapat sulaman benang emas mulai dari bagian leher, hingga ke dada, dan menyambung ke seluruh bagian pinggir, termasuk ujung lengan. Aksesoris yang dikenakan antara lain odheng, bunga melati, arloji, kain selempang, tongkat, dan lain-lain.',
       },
@@ -1653,7 +1476,7 @@ const budaya = [
     rumah: [
       {
         nama: 'Tanian Lanjang',
-        gambar: 'Rumah Adat-jawa-timur.jpg',
+        gambar: 'rumah-adat-jawa-timur.jpg',
         description:
           'Rumah adat ini memiliki halaman panajang, yang biasa disebut tanian lanjang. Pintu rumah adat Madura memiliki satu pintu, dengan alas an agar pemiliki rumah dapat mengontrol aktivitas keluar masuk keluarga.',
       },
@@ -1671,14 +1494,8 @@ const budaya = [
     id: 25,
     provinsi: 'Bali',
     makanan: [
-      {
-        nama: 'Ayam Betutu',
-        gambar: 'ayam betutu.jpg',
-      },
-      {
-        nama: 'Sambal Matah',
-        gambar: 'sambal matah.jpg',
-      },
+      { nama: 'Ayam Betutu', gambar: 'ayam-betutu.jpg' },
+      { nama: 'Sambal Matah', gambar: 'sambal-matah.jpg' },
     ],
     tarian: [
       {
@@ -1699,7 +1516,7 @@ const budaya = [
     pakaian: [
       {
         nama: ' Payas Alit',
-        gambar: 'payas alit.jpg',
+        gambar: 'payas-alit.jpg',
         description:
           'Payas alit Baju adat Bali yang paling sederhana dan bisa dipakai sehari-hari, termasuk upacara adat harian di pura. Yang dikenakan biasanya hanya menggunakan kebaya dan songket. Laki-laki pun hanya menggunakan kemeja putih dan dilengkapi dengan kamen serta udeng.',
       },
@@ -1715,7 +1532,7 @@ const budaya = [
     senjata: [
       {
         nama: 'Keris',
-        gambar: 'keris bali.jpg',
+        gambar: 'keris-bali.jpg',
         description:
           'Sama seperti keris pada umunya, namun bedanya adalah lebih besar dan panjang. Balutan sarung keris berpenampilan mewah, dihias dengan emas, perak, gading, dan bahannya kayu langka yang dihiasi ukiran.',
       },
@@ -1724,16 +1541,11 @@ const budaya = [
   {
     id: 26,
     provinsi: 'NTT',
-    makanan: [
-      {
-        nama: 'Catemak Jagung',
-        gambar: 'catemak jagung.jpg',
-      },
-    ],
+    makanan: [{ nama: 'Catemak Jagung', gambar: 'catemak-jagung.jpg' }],
     tarian: [
       {
         nama: 'Tari Perang',
-        gambar: 'Tari-Perang-Nusa-Tenggara-Timur.jpg',
+        gambar: 'tari-perang-nusa-tenggara-timur.jpg',
         description:
           'tari yang menunjukkan sifat-sifat keperkasaan dan kepandaian mempermainkan senjata. Senjata yang dipakai berupa cambuk dan perisai.',
       },
@@ -1741,7 +1553,7 @@ const budaya = [
     upacara: [
       {
         nama: 'upacara Adat Reba',
-        gambar: 'upacara reba.jpg',
+        gambar: 'upacara-reba.jpg',
         description:
           'Upacara adat ini akan digelar untuk menyambut tahun baru yang akan dilakukan secara adat tradisional. Upacara adat ini digelar setiap tahunnya sebagai wujud rasa syukur.',
       },
@@ -1749,7 +1561,7 @@ const budaya = [
     pakaian: [
       {
         nama: 'Baju Amarasi',
-        gambar: 'baju amarasi.jpg',
+        gambar: 'baju-amarasi.jpg',
         description:
           'Baju amarasi untuk pria berupa kain tenun yang dibentuk selimut ikat, baju budo, kalung habas berbandung gong, muti salak, gelang timot, dan hiasan ikat kepala. Untuk wanitanya menggunakan sarung tenun untuk bawahan, kebaya, selendang penutup dada, muti salak, hiasan kepala tusuk konde, kalung kepala 3 sisir emas, dan gelang nalar.',
       },
@@ -1757,7 +1569,7 @@ const budaya = [
     rumah: [
       {
         nama: 'Wae Rebo',
-        gambar: 'wae rebo.jpg',
+        gambar: 'wae-rebo.jpg',
         description:
           'Rumah adat wae rebo adalah rumah yang terbentuk kerucut dan atapnya terbuat dari daun lontar. Seointas, rumah ini mirip dengan honai yang ada di Papua. Namun, yang membedakan adalah atap rumahnya lebih kerucut, dengan atap yang memanjang sampai menyentuh tanah.',
       },
@@ -1774,16 +1586,11 @@ const budaya = [
   {
     id: 27,
     provinsi: 'NTB',
-    makanan: [
-      {
-        nama: 'Ayam Taliwang',
-        gambar: 'ayam Taliwang.jpg',
-      },
-    ],
+    makanan: [{ nama: 'Ayam Taliwang', gambar: 'ayam-taliwang.jpg' }],
     tarian: [
       {
         nama: 'Tari Mpaa Lenggogo',
-        gambar: 'Tari-Mpaa-Lenggogo.jpg',
+        gambar: 'tari-mpaa-lenggogo.jpg',
         description:
           'sebuah tarian guna menyambut Maulid Nahi Muhammad SAW. Tarian ini juga scring dipertunjukkan pada upacara-upacara perkawinan atau upacara khitanan keluarga raja',
       },
@@ -1791,7 +1598,7 @@ const budaya = [
     upacara: [
       {
         nama: 'upacara Nunas Nede ',
-        gambar: 'nunas nede.jpg',
+        gambar: 'nunas-nede.jpg',
         description:
           'adat yang satu ini memiliki tujuan untuk memohon ridho sang pencipta, dengan tujuan pada musim tanam selanjutnya akan diberikan air yang berkecukupan, hasil panen melimpah, dan memberikan kerukunan antar warga.',
       },
@@ -1799,7 +1606,7 @@ const budaya = [
     pakaian: [
       {
         nama: 'Poron Rante dan Pasangi',
-        gambar: 'Pakaian Adat Tradisional Lombok.jpg',
+        gambar: 'pakaian-adat-tradisional-lombok.jpg',
         description:
           'Pakaian adat Poro Rante dan Pasangi dari suku Bima di Nusa Tenggara Barat mencerminkan kekayaan budaya dan makna yang dalam dalam tradisi pernikahan.',
       },
@@ -1807,7 +1614,7 @@ const budaya = [
     rumah: [
       {
         nama: 'Loka Samawa',
-        gambar: 'loka samawa.jpg',
+        gambar: 'loka-samawa.jpg',
         description:
           'Loka sumawa berupa rumah panggung yang dibuat dari kayu jati. Terdiri dari dua lantai dengan beberapa ruangan, seperti balairung, serambi depan, ruang keluarga, dan dapur.',
       },
@@ -1824,16 +1631,11 @@ const budaya = [
   {
     id: 28,
     provinsi: 'Sulawesi Barat',
-    makanan: [
-      {
-        nama: 'Jepa',
-        gambar: 'jepa.jpg',
-      },
-    ],
+    makanan: [{ nama: 'Jepa', gambar: 'jepa.jpg' }],
     tarian: [
       {
         nama: 'Tari patuddu',
-        gambar: 'tari patuddu.jpg',
+        gambar: 'tari-patuddu.jpg',
         description:
           'sebuah tarian guna ditujukan dalam acara untuk menyambut para tetamu dari luar maupun dalam negeri. Tarian ini merupakan tarian suku Mandar yang tinggal di Sulawesi Barat.',
       },
@@ -1849,7 +1651,7 @@ const budaya = [
     pakaian: [
       {
         nama: 'Pattuqduq Towaine',
-        gambar: 'Pakaian-Adat-Sulawesi-Barat.webp',
+        gambar: 'pakaian-adat-sulawesi-barat.webp',
         description:
           'Kaum pria Suku Mandar menggunakan jas hitam lengan panjang yang dipadukan dengan celana panjang. sebagai pelengkap, kain sarung tenun khas Mandar tampak apik dililitkan di pinggang sebagai bawahan. Sedangkan pada wanita, nama pakaian adat Suku Mandar adalah Rawang Boko dan Lipaq Saqbe. Rawang Boko diwujudkan berupa blus lengan pendek, sedangkan Lipaq Saqbe merupakan bawahan sarung tenun.',
       },
@@ -1857,7 +1659,7 @@ const budaya = [
     rumah: [
       {
         nama: 'Rumah Adat Mandar',
-        gambar: 'rumah mandar.jpg',
+        gambar: 'rumah-mandar.jpg',
         description:
           'Rumah panggung yang memiliki bentuk yang hampir sama dengan rumah adat suku Bugis dan Makassar. Perbedaanya pada bagian teras (lego) lebih besar dan atapnya seperti ember miring ke depan.',
       },
@@ -1865,7 +1667,7 @@ const budaya = [
     senjata: [
       {
         nama: 'Badik',
-        gambar: 'Badik.JPG',
+        gambar: 'badik.jpg',
         description:
           'Badik adalah sejenis pisau bersisi tajam tunggal atau ganda. Bentuknya asimetris dan bilahnya kerap kali dihiasi. Senjata tradisional ini, dikenal di berbagai wilayah di Indonesia, seperti di Sumatera dan Sulawesi.',
       },
@@ -1874,16 +1676,11 @@ const budaya = [
   {
     id: 29,
     provinsi: 'Sulawesi Tengah',
-    makanan: [
-      {
-        nama: 'Lalampa',
-        gambar: 'lalampa.jpg',
-      },
-    ],
+    makanan: [{ nama: 'Lalampa', gambar: 'lalampa.jpg' }],
     tarian: [
       {
         nama: 'Tari Lumense',
-        gambar: 'Tari-Lumense.png',
+        gambar: 'tari-lumense.png',
         description:
           'sebuah tarian dari Poso yang merupakan tarian selamat dating untuk menyambut tamu agung.',
       },
@@ -1899,7 +1696,7 @@ const budaya = [
     pakaian: [
       {
         nama: 'Baju Adat Sulawesi Tengah',
-        gambar: 'baju adat sulteng.jpg',
+        gambar: 'baju-adat-sulteng.jpg',
         description:
           'Baju adat Suku Kaili untuk kaum wanita dinamakan baju Nggembe, sedangkan untuk kaum pria dikenal dengan sebutan Koje dan Puruka Pajana. Baju adat Suku Mori untuk kamu wanita dikenal dengan nama baju Lambu yang memiliki bentuk seperti blus. Sementara itu, kaum pria mengenakan celana panjang yang dikenal Salura.',
       },
@@ -1907,7 +1704,7 @@ const budaya = [
     rumah: [
       {
         nama: 'Rumah Tambi',
-        gambar: 'rumah tambi.jpg',
+        gambar: 'rumah-tambi.jpg',
         description:
           'Rumah tambi merupakan rumah panggung. Rumah tambi digunakan sebagai rumah kepala adat. Alas rumah tersebut terdiri dari balok-balok yang disusun, sedangkan pondasinya terdiri dari batu.',
       },
@@ -1925,29 +1722,20 @@ const budaya = [
     id: 30,
     provinsi: 'Jawa Tengah',
     makanan: [
-      {
-        nama: 'Bakmi Jawa',
-        gambar: 'bakmi.jpg',
-      },
-      {
-        nama: 'Jenang',
-        gambar: 'jenang.jpg',
-      },
-      {
-        nama: 'Tongseng',
-        gambar: 'tongseng.jpg',
-      },
+      { nama: 'Bakmi Jawa', gambar: 'bakmi.jpg' },
+      { nama: 'Jenang', gambar: 'jenang.jpg' },
+      { nama: 'Tongseng', gambar: 'tongseng.jpg' },
     ],
     tarian: [
       {
         nama: 'Tari Blambangan Cakil ',
-        gambar: 'Tari-Blambangan-Cakil-Jawa.jpg',
+        gambar: 'tari-blambangan-cakil-jawa.jpg',
         description:
           'sebuah tarian mengisahkan perjuangan Srikandi melawan Buto Cakil (raksasa). Sebuah perlambang penumpasan angkara murka.',
       },
       {
         nama: 'Tari Gambyong ',
-        gambar: 'tari gambyong.jpg',
+        gambar: 'tari-gambyong.jpg',
         description:
           'salah satu bentuk tarian Jawa klasik yang berasal-mula dari wilayah Surakarta dan biasanya dibawakan untuk pertunjukan atau menyambut tamu.',
       },
@@ -1955,7 +1743,7 @@ const budaya = [
     upacara: [
       {
         nama: 'Tradisi popokan',
-        gambar: 'tradisi popokan.jpg',
+        gambar: 'tradisi-popokan.jpg',
         description:
           'Masyarakat setempat melakukan tradisi ini untuk menghilangkan kejahatan serta tolak bala yang ada di daerah tempat tinggal mereka.',
       },
@@ -1969,7 +1757,7 @@ const budaya = [
     pakaian: [
       {
         nama: 'Kebaya',
-        gambar: 'Kebaya.jpg',
+        gambar: 'kebaya.jpg',
         description:
           'Pakaian adat tradisional Jawa Tengah identik dengan penggunaan kain kebaya dengan motif batik, dimana batik yang digunakan merupakan batik tulis yang masih tergolong asli',
       },
@@ -1995,15 +1783,12 @@ const budaya = [
     id: 31,
     provinsi: 'Sulawesi Utara',
     makanan: [
-      {
-        nama: 'Tinutuan atau bubur Manado',
-        gambar: 'bubur manado.jpg',
-      },
+      { nama: 'Tinutuan atau bubur Manado', gambar: 'bubur-manado.jpg' },
     ],
     tarian: [
       {
         nama: 'Tari Maengket',
-        gambar: 'Tari-Maengket.jpg',
+        gambar: 'tari-maengket.jpg',
         description:
           'merupakan tari pergaulan yang dilakukan secara berpasang-pasangan. Menggambarkan suasana kasih sayang dan cumbuan.',
       },
@@ -2025,7 +1810,7 @@ const budaya = [
     pakaian: [
       {
         nama: 'Pakaian Adat Sulawesi Utara',
-        gambar: 'Pakaian Adat Tradisional Kulavi.jpg',
+        gambar: 'pakaian-adat-tradisional-kulavi.jpg',
         description:
           'Kaum pria mamakai baju terusan. Di bagian lehernya berbentuk setengah lingkaran, berlengan panjang, dan pakaiannya sampai tumit kaki. Wanita memakai baju terusan, di bagian lehernya terdapat lipatan berbentuk segitiga atau huruf V sebesar ukuran kepala agar mudah memakainya.',
       },
@@ -2033,7 +1818,7 @@ const budaya = [
     rumah: [
       {
         nama: 'Rumah Pewaris',
-        gambar: 'Rumah Pewaris.jpg',
+        gambar: 'rumah-pewaris.jpg',
         description:
           'Rumah ini merupakan rumah panggung yang dibangun di atas tiang dan balok-balok yang diantaranya terdapat balok-balok yang tidak boleh disambung. Rumah pewaris memiliki dua buah tangga, letaknya di sisi kiri dan kanan bagian depan rumah.',
       },
@@ -2041,7 +1826,7 @@ const budaya = [
     senjata: [
       {
         nama: 'Keris',
-        gambar: 'keris sulut.jpg',
+        gambar: 'keris-sulut.jpeg',
         description:
           'Keris khas Sulawesi Utara berbentuk lurus, tidak ada lekukannya. Senjata ini termasuk kategori senjata tikam.',
       },
@@ -2051,23 +1836,14 @@ const budaya = [
     id: 32,
     provinsi: 'Sulawesi Selatan',
     makanan: [
-      {
-        nama: 'Sup Konro',
-        gambar: 'sup konro.jpg',
-      },
-      {
-        nama: 'Es Pisang Ijo',
-        gambar: 'pisang ijo.jpg',
-      },
-      {
-        nama: 'Kapurung',
-        gambar: 'kapurung.jpg',
-      },
+      { nama: 'Sup Konro', gambar: 'sup-konro.jpg' },
+      { nama: 'Es Pisang Ijo', gambar: 'pisang-ijo.jpg' },
+      { nama: 'Kapurung', gambar: 'kapurung.jpg' },
     ],
     tarian: [
       {
         nama: 'Tari Kipas',
-        gambar: 'Tari-Kipas.jpg',
+        gambar: 'tari-kipas.jpg',
         description:
           'tari yang mempertunjukkan kemahiran para gadis dalam memainkan kipas samhil mengikuti alunan lagu.',
       },
@@ -2075,7 +1851,7 @@ const budaya = [
     upacara: [
       {
         nama: 'Rambu Solo',
-        gambar: 'rambu solo.jpg',
+        gambar: 'rambu-solo.jpg',
         description:
           'Rambu Solo merupakan ritual pemakaman adat suku Toraja, Sulawesi Selatan. Upacara ini sebagai bentuk penghormatan terhadap orang yang telah meninggal. Tujuan upacara adat Rambu Solo adalah mengantarkan orang yang telah meninggal ke alam roh.',
       },
@@ -2083,7 +1859,7 @@ const budaya = [
     pakaian: [
       {
         nama: 'Baju Bodo',
-        gambar: 'baju bodo.jpg',
+        gambar: 'baju-bodo.jpg',
         description:
           'Baju bodo  adalah pakaian adat tradisional perempuan Bugis,  Sulawesi Selatan,  Indonesia. Baju bodo berbentuk segi empat, biasanya berlengan pendek, yaitu setengah atas bagian siku lengan. Baju bodo juga dikenali sebagai salah satu busana tertua di dunia.',
       },
@@ -2091,7 +1867,7 @@ const budaya = [
     rumah: [
       {
         nama: 'Rumah Tongkonan',
-        gambar: 'Tongkonan.jpg',
+        gambar: 'tongkonan.jpg',
         description:
           'ongkonan adalah rumah adat dengan ciri rumah panggung dari kayu, di mana kolong di bawah rumah biasanya dipakai sebagai kandang kerbau. Atap rumah tongkonan dilapisi ijuk hitam dan bentuknya melengkung, persis seperti perahu telungkup dengan buritan. ',
       },
@@ -2099,7 +1875,7 @@ const budaya = [
     senjata: [
       {
         nama: 'Badik',
-        gambar: 'Badik.JPG',
+        gambar: 'badik.jpg',
         description:
           'Badik adalah sejenis pisau bersisi tajam tunggal atau ganda. Bentuknya asimetris dan bilahnya kerap kali dihiasi. Senjata tradisional ini, dikenal di berbagai wilayah di Indonesia, seperti di Sumatera dan Sulawesi',
       },
@@ -2109,26 +1885,11 @@ const budaya = [
     id: 33,
     provinsi: 'Papua Barat',
     makanan: [
-      {
-        nama: 'Ikan Bakar Manokwari',
-        gambar: 'ikan-bakar-manokwari.jpg',
-      },
-      {
-        nama: 'Udang Selingkuh',
-        gambar: 'udang-selingkuh.jpg',
-      },
-      {
-        nama: 'Ikan Bungkus',
-        gambar: 'ikan-bungkus.jpg',
-      },
-      {
-        nama: 'Kue Lontar',
-        gambar: 'kue-lontar.jpg',
-      },
-      {
-        nama: 'Aunu Senebre',
-        gambar: 'aunu-senebre.jpg',
-      },
+      { nama: 'Ikan Bakar Manokwari', gambar: 'ikan-bakar-manokwari.jpg' },
+      { nama: 'Udang Selingkuh', gambar: 'udang-selingkuh.jpg' },
+      { nama: 'Ikan Bungkus', gambar: 'ikan-bungkus.jpg' },
+      { nama: 'Kue Lontar', gambar: 'kue-lontar.jpg' },
+      { nama: 'Aunu Senebre', gambar: 'aunu-senebre.jpg' },
     ],
     tarian: [
       {
@@ -2193,26 +1954,11 @@ const budaya = [
     id: 34,
     provinsi: 'Papua',
     makanan: [
-      {
-        nama: 'Papeda',
-        gambar: 'papeda.jpg',
-      },
-      {
-        nama: 'Sagu Lempeng',
-        gambar: 'sagu-lempeng.jpg',
-      },
-      {
-        nama: 'Kue Bagea Sagu',
-        gambar: 'kue-bagea-sagu.jpg',
-      },
-      {
-        nama: 'Sagu Bungkus Ulat Sagu',
-        gambar: 'sagu-bungkus-ulat-sagu.png',
-      },
-      {
-        nama: 'Cacing Laut',
-        gambar: 'cacing-laut.png',
-      },
+      { nama: 'Papeda', gambar: 'papeda.jpg' },
+      { nama: 'Sagu Lempeng', gambar: 'sagu-lempeng.jpg' },
+      { nama: 'Kue Bagea Sagu', gambar: 'kue-bagea-sagu.jpg' },
+      { nama: 'Sagu Bungkus Ulat Sagu', gambar: 'sagu-bungkus-ulat-sagu.png' },
+      { nama: 'Cacing Laut', gambar: 'cacing-laut.png' },
     ],
     tarian: [
       {
@@ -2340,5 +2086,3 @@ const budaya = [
     ],
   },
 ];
-
-module.exports = budaya;

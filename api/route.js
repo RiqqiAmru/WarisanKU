@@ -44,6 +44,27 @@ const route = [
       return { data: randomDataProvinsi };
     },
   },
+  {
+    // search
+    method: 'GET',
+    path: '/api/search/{keyword}',
+    handler: (request) => {
+      const { keyword } = request.params;
+      // can search data nama, makanan, tarian, upacara from budaya.js
+      const filteredData = budayaData.filter((item) => {
+        const {
+          provinsi, makanan, tarian, upacara,
+        } = item;
+        return (
+          provinsi.toLowerCase().includes(keyword.toLowerCase())
+          || makanan.toLowerCase().includes(keyword.toLowerCase())
+          || tarian.toLowerCase().includes(keyword.toLowerCase())
+          || upacara.toLowerCase().includes(keyword.toLowerCase())
+        );
+      });
+      return { data: filteredData };
+    },
+  },
 ];
 
 module.exports = route;

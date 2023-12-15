@@ -11,11 +11,10 @@ Endpoints:
 
 ## Debug
 
-data Budaya
+- buat offline capability,
+- quiz
 
-- Upacara Adat
-- Pakaian Adat
-- Rumah Adat
-- Senjata Tradisional
-- Tarian Tradisional
-- Makanan Khas
+- buat search api?
+- testing?
+
+- Deploy to vercel
