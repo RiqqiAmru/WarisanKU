@@ -68,10 +68,10 @@ class App {
     this._content.innerHTML = await page.render();
     await page.afterRender();
 
-    generateSlogan();
-    setInterval(generateSlogan, 5000);
-
     if (url === '/') {
+      generateSlogan();
+      setInterval(generateSlogan, 5000);
+
       const budayaLainnya = await BudayaApiSource.budayaLainnya();
 
       const swiperWraper = document.querySelector('.swiper-wrapper');
