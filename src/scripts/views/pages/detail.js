@@ -5,6 +5,7 @@ import UrlParser from '../../routes/url-parser';
 const Detail = {
   async render() {
     return `
+    <div id='slogan' style="display:none"></div>
     <div class="bg-fixed bg-center bg-cover bg-no-repeat bg-body h-full">
       <div class="container mx-auto py-20">
         <div class="bg-violet-950/70 px-3">

@@ -4,7 +4,7 @@
   "description": "This a Fullstack Web App for Warisanku Project",
   "main": "index.js",
   "scripts": {
-    "start-dev": "webpack-dev-server --config webpack.dev.js",
+    "start-dev": "webpack-dev-server --config webpack.dev.js && npm run start-api",
     "build": "webpack --config webpack.prod.js",
     "serve": "http-server dist",
     "test": "jest",
