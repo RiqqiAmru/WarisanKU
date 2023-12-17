@@ -1,0 +1,12 @@
+{
+  "name": "WarisanKU-API",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "@hapi/inert": "^7.1.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
