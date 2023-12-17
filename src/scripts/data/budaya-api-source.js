@@ -1,16 +1,24 @@
 import { endpoints } from '../globals/config';
 
+const budayaData = require('./budaya');
+const { pickRandomItemFromOneProvinsi } = require('./utils');
+
 class BudayaApiSource {
   static async budayaList() {
-    const response = await fetch(endpoints.BUDAYA);
+    const response = { data: budayaData };
     const responseJson = await response.json();
     return responseJson;
   }
 
   static async budayaDetail(id) {
-    const response = await fetch(endpoints.BUDAYA_DETAIL(id));
-    const responseJson = await response.json();
-    return responseJson;
+    const idInt = parseInt(id);
+    const budaya = budayaData.find((item) => item.id === idInt);
+
+    if (!budaya) {
+      return { error: 'Budaya not found' };
+    }
+
+    return { data: budaya };
   }
 
   static async budayaImage(imageName) {
@@ -20,9 +28,13 @@ class BudayaApiSource {
   }
 
   static async budayaLainnya() {
-    const response = await fetch(endpoints.BUDAYA_LAINNYA);
-    const responseJson = await response.json();
-    return responseJson;
+    const dataProvinsi = budayaData.map((item) => ({
+      id: item.id,
+      provinsi: item.provinsi,
+      item: pickRandomItemFromOneProvinsi(item),
+    }));
+    const randomDataProvinsi = dataProvinsi.sort(() => 0.5 - Math.random()).slice(0, 9);
+    return { data: randomDataProvinsi };
   }
 }
 

@@ -1,6 +1,6 @@
 const path = require('path');
-const budayaData = require('./budaya.js');
-const { pickRandomItemFromOneProvinsi } = require('./utils.js');
+const budayaData = require('../src/scripts/data/budaya.js');
+const { pickRandomItemFromOneProvinsi } = require('../src/scripts/data/utils.js');
 
 const route = [
   {

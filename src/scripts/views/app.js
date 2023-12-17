@@ -3,8 +3,6 @@ import UrlParser from '../routes/url-parser';
 import routes from '../routes/routes';
 import './components/cardDetail';
 import './components/cardLainnya';
-import slogan from '../data/slogan';
-import BudayaApiSource from '../data/budaya-api-source';
 
 // Swiper JS
 // function initializeSwiper() {
