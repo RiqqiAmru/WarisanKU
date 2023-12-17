@@ -140,12 +140,8 @@ const Home = {
   </section>
   <!-- End About -->
 
-  <section class="list__budaya">
-    <h2 class="font-bold">Pelajari Budaya<span class="sorotan-terang"> Sekarang</span></h2>
-    <div class="search-container">
-      <input type="text" id="search-input" placeholder="Cari Budaya" />
-      <button id="search-button">Cari</button>
-    </div>
+  <section class="list__budaya" id="explore-budaya">
+    <h2 class="font-bold">Eksplor Budaya<span class="sorotan-terang">Sekarang</span></h2>
     <div class="items__budaya">
       <!-- Swiper JS -->
       <div class="swiper mySwiper">
@@ -221,15 +217,13 @@ const Home = {
     }
 
     function generateSlogan() {
-      // hanya jalan di route /home
-      if (window.location.hash === '#/home') {
+      if (window.location.hash === '#/' || window.location.hash === '') {
         const randomIndex = Math.floor(Math.random() * slogan.length);
         const randomSlogan = slogan[randomIndex];
         document.getElementById('slogan').innerText = randomSlogan;
       }
-      // hentikan interval ketika berpindah route
-      // eslint-disable-next-line no-undef
     }
+    generateSlogan();
     const budayaLainnya = await BudayaApiSource.budayaLainnya();
 
     const swiperWraper = document.querySelector('.swiper-wrapper');
@@ -240,9 +234,8 @@ const Home = {
       const swiperSlide = document.createElement('div');
       const namaDaerah = document.createElement('h4');
 
-      imgElement.src = `http://localhost:3000/api/images/${provinsi.item.gambar}`;
+      imgElement.src = `/images/img-budaya/${provinsi.item.gambar}`;
       namaDaerah.innerHTML = `${provinsi.item.nama}`;
-      // linkLainnya.href(`http://localhost:3000/detail/${provinsi.id}`);
 
       swiperWraper.appendChild(swiperSlide);
       swiperSlide.classList.add('swiper-slide');
@@ -253,7 +246,7 @@ const Home = {
       swiperSlide.appendChild(namaDaerah);
     });
     initializeSwiper();
-    const interval = setInterval(generateSlogan, 5000);
+    setInterval(generateSlogan, 5000);
   },
 };
 

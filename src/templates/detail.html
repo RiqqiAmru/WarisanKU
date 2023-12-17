@@ -1,115 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aceh</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      /* font inter */
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-      * {
-        font-family: 'Inter', sans-serif;
-      }
-      .bg-body {
-        background-image: url('../public/images/heros/hero__header.png');
-      }
-    </style>
-  </head>
-  <body class="bg-fixed bg-center bg-cover bg-no-repeat bg-body">
-    <main>
-      <div class="container mx-auto my-10">
+<table border="1">
+  <tr>
+    <td>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+        <img src="https://cdn.svgporn.com/logos/html-5.svg" width="30" />
+      </a>
+    </td>
+    <td>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+        <img src="https://cdn.svgporn.com/logos/css-3.svg" width="30" />
+      </a>
+    </td>
+    <td>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+        <img src="https://cdn.svgporn.com/logos/javascript.svg" width="30" />
+      </a>
+    </td>
+    <!-- webpack 5 -->
+    <td>
+      <a href="https://webpack.js.org/">
+        <img src="https://cdn.svgporn.com/logos/webpack.svg" width="30" />
+      </a>
+    </td>
+    <!-- babel 7 -->
+    <td>
+      <a href="https://babeljs.io/">
+        <img src="https://cdn.svgporn.com/logos/babel.svg" width="30" />
+      </a>
+    </td>
+    <!-- pwa -->
+    <td>
+      <a href="https://web.dev/progressive-web-apps/">
+        <img src="https://cdn.svgporn.com/logos/pwa.svg" width="30" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <!-- swiper -->
+    <td>
+      <a href="https://swiperjs.com/">
+        <img src="https://cdn.svgporn.com/logos/swiper.svg" width="30" />
+      </a>
+    </td>
+    <!-- tailwind -->
+    <td>
+      <a href="https://tailwindcss.com/">
         <img
-          src="../public/images/Logo_warisanKU.png"
-          alt="title"
-          class="w-1/6"
+          src="https://cdn.svgporn.com/logos/tailwindcss-icon.svg"
+          width="30"
         />
-        <div class="bg-violet-950/70 px-3">
-          <h1 class="text-4xl text-white text-center font-bold pt-10">Aceh</h1>
-          <h2 class="text-3xl text-white pt-5 font-bold">Makanan Khas</h2>
-          <hr />
-          <!-- tampilkan skeleton menampilkan gambar dan nama makanan (deskripsi jika ada) -->
-          <div
-            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-3"
-          >
-            <div
-              class="bg-transparent rounded-md shadow-lg border-white border-2"
-            >
-              <img
-                src="../../api/img/aesan-gede.jpg"
-                alt="food"
-                class="h-60 min-h-0 max-h-70 mx-auto rounded-t-lg"
-              />
-              <div class="p-5">
-                <h3 class="text-xl font-bold text-violet-300">Mie Aceh</h3>
-                <p class="text-white text-sm">
-                  Mie Aceh adalah masakan mie pedas yang berasal dari Aceh,
-                  Indonesia. Mie Aceh terbuat dari mie kuning yang disajikan
-                  dengan irisan daging sapi atau kambing, udang, kerang, dan
-                  sayuran hijau.
-                </p>
-              </div>
-            </div>
-            <div
-              class="bg-transparent rounded-md shadow-lg border-white border-2"
-            >
-              <img
-                src="../../api/img/alat-tusuk-dari-tulang-kuskus.webp"
-                alt="food"
-                class="h-60 min-h-0 max-h-70 mx-auto rounded-t-lg"
-              />
-              <div class="p-5">
-                <h3 class="text-xl font-bold text-violet-300">Mie Aceh</h3>
-                <p class="text-white text-sm">
-                  Mie Aceh adalah masakan mie pedas yang berasal dari Aceh,
-                  Indonesia. Mie Aceh terbuat dari mie kuning yang disajikan
-                  dengan irisan daging sapi atau kambing, udang, kerang, dan
-                  sayuran hijau. Mie Aceh adalah masakan mie pedas yang berasal
-                  dari Aceh, Indonesia. Mie Aceh terbuat dari mie kuning yang
-                  disajikan dengan irisan daging sapi atau kambing, udang,
-                  kerang, dan sayuran hijau.
-                </p>
-              </div>
-            </div>
-            <div
-              class="bg-transparent rounded-md shadow-lg border-white border-2"
-            >
-              <img
-                src="../../api/img/amplang.jpg"
-                alt="food"
-                class="h-60 min-h-0 max-h-70 mx-auto rounded-t-lg"
-              />
-              <div class="p-5">
-                <h3 class="text-xl font-bold text-violet-300">Mie Aceh</h3>
-                <p class="text-white text-sm">
-                  Mie Aceh adalah masakan mie pedas yang berasal dari Aceh,
-                  Indonesia. Mie Aceh terbuat dari mie kuning yang disajikan
-                  dengan irisan daging sapi atau kambing, udang, kerang, dan
-                  sayuran hijau.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="bg-violet-950 px-3">
-          <h2 class="text-white font-bold text-xl p-2">Budaya Lainnya</h2>
-          <div
-            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-3"
-          >
-            <a href="#">
-              <div
-                class="bg-[url('../../api/img/amplang.jpg')] bg-cover shadow-lg border-white rounded-sm border w-full h-80 flex flex-col justify-end"
-              >
-                <div class="bg-gradient-to-t from-black to-transparent p-5">
-                  <h3 class="text-xl font-bold text-violet-300">Amplang</h3>
-                  <p class="text-white">Sumatera Barat</p>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </main>
-    <!-- gambar title kecil kiri  -->
-  </body>
-</html>
+      </a>
+    </td>
+    <!-- eslint -->
+    <td>
+      <a href="https://eslint.org/">
+        <img src="https://cdn.svgporn.com/logos/eslint.svg" width="30" />
+      </a>
+    </td>
+    <!-- prettier -->
+    <td>
+      <a href="https://prettier.io/">
+        <img src="https://cdn.svgporn.com/logos/prettier.svg" width="30" />
+      </a>
+    </td>
+    <!-- postcss -->
+    <td>
+      <a href="https://postcss.org/">
+        <img src="https://cdn.svgporn.com/logos/postcss.svg" width="30" />
+      </a>
+    </td>
+    <!-- workbox -->
+    <td>
+      <a href="https://developers.google.com/web/tools/workbox">
+        <img src="https://cdn.svgporn.com/logos/workbox.svg" width="30" />
+      </a>
+    </td>
+  </tr>
+</table>
