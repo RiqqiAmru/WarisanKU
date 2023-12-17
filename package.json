@@ -28,7 +28,6 @@
     "eslint": "^8.54.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.29.0",
-    "fake-indexeddb": "^4.0.2",
     "html-webpack-plugin": "^5.5.3",
     "http-server": "^14.1.1",
     "postcss": "^8.4.32",

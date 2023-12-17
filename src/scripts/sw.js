@@ -34,8 +34,6 @@ self.addEventListener('activate', () => {
 });
 
 self.addEventListener('fetch', (event) => {
-  console.log(event.request.method);
-  console.log(event.request);
   // lewati request method post
   event.respondWith(
     caches.match(event.request, { ignoreSearch: true })

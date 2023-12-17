@@ -1,9 +1,5 @@
 import BudayaApiSource from '../../data/budaya-api-source';
 import slogan from '../../data/slogan';
-// import '../../../styles/tailwind.css';
-
-// import Swiper styles
-// import 'swiper/swiper-bundle.css';
 
 const Home = {
   async render() {
@@ -144,12 +140,8 @@ const Home = {
   </section>
   <!-- End About -->
 
-  <section class="list__budaya">
-    <h2 class="font-bold">Pelajari Budaya<span class="sorotan-terang"> Sekarang</span></h2>
-    <!--  <div class="search-container">
-      <input type="text" id="search-input" placeholder="Cari Budaya" />
-      <button id="search-button">Cari</button>
-    </div>-->
+  <section class="list__budaya" id="explore-budaya">
+    <h2 class="font-bold">Eksplor Budaya<span class="sorotan-terang">Sekarang</span></h2>
     <div class="items__budaya">
       <!-- Swiper JS -->
       <div class="swiper mySwiper">
@@ -225,14 +217,14 @@ const Home = {
     }
 
     function generateSlogan() {
-      if (window.location.hash === '#/home') {
+      if (window.location.hash === '#/' || window.location.hash === '') {
         const randomIndex = Math.floor(Math.random() * slogan.length);
         const randomSlogan = slogan[randomIndex];
         document.getElementById('slogan').innerText = randomSlogan;
       }
     }
+    generateSlogan();
     const budayaLainnya = await BudayaApiSource.budayaLainnya();
-    console.log(budayaLainnya);
 
     const swiperWraper = document.querySelector('.swiper-wrapper');
     // eslint-disable-next-line no-shadow
@@ -254,7 +246,7 @@ const Home = {
       swiperSlide.appendChild(namaDaerah);
     });
     initializeSwiper();
-    const interval = setInterval(generateSlogan, 5000);
+    setInterval(generateSlogan, 5000);
   },
 };
 
