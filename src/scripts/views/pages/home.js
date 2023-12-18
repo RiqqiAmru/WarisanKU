@@ -9,7 +9,7 @@ const Home = {
     <div class="hero-header">
       <h1 class="font-bold"><span class="sorotan">Warisan</span>KU</h1>
       <p id="slogan"></p>
-      <a href="#" class="ctn">Learn Now</a>
+      <a href="#/learn-now" class="ctn">Learn Now</a>
     </div>
   </section>
   <!-- End Hero -->
