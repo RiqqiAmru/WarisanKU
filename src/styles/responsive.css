@@ -36,4 +36,16 @@ section.about article{
 section.about article .cards__about .card__point{
   width: 290px
 }
+
+main section.hero2{
+  padding: 6rem 0rem;  
+}
+main section .hero-header2 h1{
+  font-size: 1.5rem;
+}
+main section .hero-header2 p{
+  padding: 0rem 3rem;
+  font-weight: 300;
+  font-size : 0.9rem
+}
 }
