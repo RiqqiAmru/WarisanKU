@@ -28,13 +28,14 @@ const LearnNow = {
 
       data.forEach((budaya) => {
         const budayaDiv = document.createElement('div');
+        const firstImage = budaya.rumah[0];
         budayaDiv.innerHTML = `
         <a href="/#/detail/${budaya.id}">
         <div class="card__provinsi">
-          ${budaya.rumah.map((item) => `<img src="/images/img-budaya/${item.gambar}" alt="${item.nama}">`).join('')}
-           <h3>${budaya.provinsi}</h3>
+          <img src="/images/img-budaya/${firstImage.gambar}" alt="${firstImage.nama}">
+          <h3>${budaya.provinsi}</h3>
         </div>
-        </a>
+      </a>
         `;
 
         cardsProvinsi.appendChild(budayaDiv);
