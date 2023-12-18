@@ -10,6 +10,10 @@ class BudayaApiSource {
     return responseJson;
   }
 
+  static async daftarBudaya() {
+    return budayaData;
+  }
+
   static async budayaDetail(id) {
     const idInt = parseInt(id);
     const budaya = budayaData.find((item) => item.id === idInt);
